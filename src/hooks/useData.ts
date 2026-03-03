@@ -69,10 +69,21 @@ export function useData() {
     const q = search.toLowerCase()
     const filtered = seasons.filter(s => s.year >= yearStart && s.year <= yearEnd)
 
-    const byCoachSchool = new Map<string, CoachRecord>()
+    // First aggregate by coach+school stints
+    const byCoachSchool = new Map<string, { school: string; espnId: number; startYear: number; endYear: number }>()
+    const byCoach = new Map<string, CoachRecord>()
+
     for (const s of filtered) {
-      const key = `${s.coach}|||${s.school}`
-      const existing = byCoachSchool.get(key)
+      const stintKey = `${s.coach}|||${s.school}`
+      const stint = byCoachSchool.get(stintKey)
+      if (stint) {
+        stint.startYear = Math.min(stint.startYear, s.year)
+        stint.endYear = Math.max(stint.endYear, s.year)
+      } else {
+        byCoachSchool.set(stintKey, { school: s.school, espnId: s.espnId, startYear: s.year, endYear: s.year })
+      }
+
+      const existing = byCoach.get(s.coach)
       if (existing) {
         existing.wins += s.wins
         existing.losses += s.losses
@@ -87,10 +98,11 @@ export function useData() {
         existing.startYear = Math.min(existing.startYear, s.year)
         existing.endYear = Math.max(existing.endYear, s.year)
       } else {
-        byCoachSchool.set(key, {
+        byCoach.set(s.coach, {
           coach: s.coach,
-          school: s.school,
+          school: '',
           espnId: s.espnId,
+          schoolLogos: [],
           years: '',
           startYear: s.year,
           endYear: s.year,
@@ -108,13 +120,24 @@ export function useData() {
         })
       }
     }
-    for (const c of byCoachSchool.values()) {
+
+    // Build school display string and pick espnId from latest stint
+    for (const c of byCoach.values()) {
       const total = c.wins + c.losses
       c.winPct = total > 0 ? Math.round((c.wins / total) * 1000) / 1000 : 0
+
+      const stints = [...byCoachSchool.entries()]
+        .filter(([k]) => k.startsWith(c.coach + '|||'))
+        .map(([, v]) => v)
+        .sort((a, b) => a.startYear - b.startYear)
+
+      c.schoolLogos = stints.map(s => ({ school: s.school, espnId: s.espnId }))
+      c.school = stints.map(s => s.school).join(', ')
+      c.espnId = stints[stints.length - 1]?.espnId ?? 0
       c.years = `${c.startYear}-${c.endYear}`
     }
 
-    return [...byCoachSchool.values()].filter(c =>
+    return [...byCoach.values()].filter(c =>
       c.coach.toLowerCase().includes(q) || c.school.toLowerCase().includes(q)
     )
   }, [seasons])

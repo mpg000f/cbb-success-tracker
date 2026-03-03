@@ -20,7 +20,27 @@ const columns = [
   }),
   col.accessor('school', {
     header: 'School',
-    cell: info => <LogoCell espnId={info.row.original.espnId} name={info.getValue()} />,
+    cell: info => {
+      const logos = info.row.original.schoolLogos
+      if (logos.length <= 1) {
+        return <LogoCell espnId={info.row.original.espnId} name={info.getValue()} />
+      }
+      return (
+        <div className="flex items-center gap-1">
+          {logos.map((l, i) => (
+            <img
+              key={i}
+              src={`https://a.espncdn.com/i/teamlogos/ncaa/500/${l.espnId}.png`}
+              alt={l.school}
+              title={l.school}
+              className="w-6 h-6 object-contain"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
+            />
+          ))}
+          <span className="font-medium text-xs ml-1">{logos.map(l => l.school).join(', ')}</span>
+        </div>
+      )
+    },
   }),
   col.accessor('years', { header: 'Years' }),
   col.accessor('wins', { header: 'W' }),

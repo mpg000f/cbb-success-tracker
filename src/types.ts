@@ -19,6 +19,7 @@ export interface CoachRecord {
   coach: string
   school: string
   espnId: number
+  schoolLogos: { school: string; espnId: number }[]
   years: string
   startYear: number
   endYear: number
