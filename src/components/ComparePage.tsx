@@ -30,10 +30,55 @@ export function ComparePage({ schools, coaches }: Props) {
   const [selectedA, setSelectedA] = useState<string | null>(null)
   const [selectedB, setSelectedB] = useState<string | null>(null)
   const [focusedInput, setFocusedInput] = useState<'a' | 'b' | null>(null)
+  const [yearStart, setYearStart] = useState(1985)
+  const [yearEnd, setYearEnd] = useState(2025)
+
+  const filteredCoaches = useMemo(() =>
+    coaches.filter(c => c.startYear <= yearEnd && c.endYear >= yearStart),
+    [coaches, yearStart, yearEnd]
+  )
+
+  const filteredSchools = useMemo(() => {
+    const fullRange = yearStart <= 1985 && yearEnd >= 2025
+    if (fullRange) return schools
+
+    const bySchool = new Map<string, SchoolRecord>()
+    for (const c of filteredCoaches) {
+      const existing = bySchool.get(c.school)
+      if (existing) {
+        existing.wins += c.wins
+        existing.losses += c.losses
+        existing.tournamentApps += c.tournamentApps
+        existing.sweet16 += c.sweet16
+        existing.elite8 += c.elite8
+        existing.finalFour += c.finalFour
+        existing.champGame += c.champGame
+        existing.titles += c.titles
+        existing.confRegularSeason += c.confRegularSeason
+        existing.confTournament += c.confTournament
+      } else {
+        const schoolRecord = schools.find(s => s.school === c.school)
+        bySchool.set(c.school, {
+          school: c.school,
+          espnId: c.espnId,
+          conference: schoolRecord?.conference ?? '',
+          wins: c.wins, losses: c.losses, winPct: 0,
+          tournamentApps: c.tournamentApps, sweet16: c.sweet16, elite8: c.elite8,
+          finalFour: c.finalFour, champGame: c.champGame, titles: c.titles,
+          confRegularSeason: c.confRegularSeason, confTournament: c.confTournament,
+        })
+      }
+    }
+    for (const s of bySchool.values()) {
+      const total = s.wins + s.losses
+      s.winPct = total > 0 ? Math.round((s.wins / total) * 1000) / 1000 : 0
+    }
+    return [...bySchool.values()]
+  }, [schools, filteredCoaches, yearStart, yearEnd])
 
   const items = mode === 'schools'
-    ? schools.map(s => ({ ...s, id: `${s.school}`, label: s.school }))
-    : coaches.map(c => ({ ...c, id: `${c.coach}-${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
+    ? filteredSchools.map(s => ({ ...s, id: `${s.school}`, label: s.school }))
+    : filteredCoaches.map(c => ({ ...c, id: `${c.coach}-${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
 
   const suggestionsA = useMemo(() => {
     if (!searchA || selectedA) return []
@@ -66,6 +111,31 @@ export function ComparePage({ schools, coaches }: Props) {
         >
           Coaches
         </button>
+      </div>
+
+      <div className="flex gap-4 items-end">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">From</label>
+          <input
+            type="number"
+            min={1985}
+            max={2025}
+            value={yearStart}
+            onChange={e => { setYearStart(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
+            className="w-24 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
+          <input
+            type="number"
+            min={1985}
+            max={2025}
+            value={yearEnd}
+            onChange={e => { setYearEnd(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
+            className="w-24 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

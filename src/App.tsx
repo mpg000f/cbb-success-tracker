@@ -18,8 +18,57 @@ function App() {
 
   const filteredSchools = useMemo(() => {
     const q = filters.search.toLowerCase()
-    return schools.filter(s => s.school.toLowerCase().includes(q))
-  }, [schools, filters.search])
+    const fullRange = filters.yearStart <= 1985 && filters.yearEnd >= 2025
+
+    if (fullRange) {
+      return schools.filter(s => s.school.toLowerCase().includes(q))
+    }
+
+    // When year range is narrowed, aggregate from coach data
+    const coachesInRange = coaches.filter(c =>
+      c.startYear <= filters.yearEnd && c.endYear >= filters.yearStart
+    )
+    const bySchool = new Map<string, typeof schools[number]>()
+    for (const c of coachesInRange) {
+      const existing = bySchool.get(c.school)
+      if (existing) {
+        existing.wins += c.wins
+        existing.losses += c.losses
+        existing.tournamentApps += c.tournamentApps
+        existing.sweet16 += c.sweet16
+        existing.elite8 += c.elite8
+        existing.finalFour += c.finalFour
+        existing.champGame += c.champGame
+        existing.titles += c.titles
+        existing.confRegularSeason += c.confRegularSeason
+        existing.confTournament += c.confTournament
+      } else {
+        const schoolRecord = schools.find(s => s.school === c.school)
+        bySchool.set(c.school, {
+          school: c.school,
+          espnId: c.espnId,
+          conference: schoolRecord?.conference ?? '',
+          wins: c.wins,
+          losses: c.losses,
+          winPct: 0,
+          tournamentApps: c.tournamentApps,
+          sweet16: c.sweet16,
+          elite8: c.elite8,
+          finalFour: c.finalFour,
+          champGame: c.champGame,
+          titles: c.titles,
+          confRegularSeason: c.confRegularSeason,
+          confTournament: c.confTournament,
+        })
+      }
+    }
+    for (const s of bySchool.values()) {
+      const total = s.wins + s.losses
+      s.winPct = total > 0 ? Math.round((s.wins / total) * 1000) / 1000 : 0
+    }
+
+    return [...bySchool.values()].filter(s => s.school.toLowerCase().includes(q))
+  }, [schools, coaches, filters])
 
   const filteredCoaches = useMemo(() => {
     const q = filters.search.toLowerCase()
