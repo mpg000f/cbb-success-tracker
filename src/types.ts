@@ -35,6 +35,23 @@ export interface CoachRecord {
   confTournament: number
 }
 
+export interface SeasonRecord {
+  coach: string
+  school: string
+  espnId: number
+  year: number
+  wins: number
+  losses: number
+  tournamentApp: number
+  sweet16: number
+  elite8: number
+  finalFour: number
+  champGame: number
+  title: number
+  confRegSeason: number
+  confTourney: number
+}
+
 export type ViewMode = 'schools' | 'coaches' | 'compare'
 
 export interface Filters {

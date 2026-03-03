@@ -7,6 +7,8 @@ type CompareMode = 'schools' | 'coaches'
 interface Props {
   schools: SchoolRecord[]
   coaches: CoachRecord[]
+  getFilteredSchools: (yearStart: number, yearEnd: number, search: string) => SchoolRecord[]
+  getFilteredCoaches: (yearStart: number, yearEnd: number, search: string) => CoachRecord[]
 }
 
 const years = Array.from({ length: 2025 - 1985 + 1 }, (_, i) => 1985 + i)
@@ -25,7 +27,7 @@ const statLabels: { key: string; label: string }[] = [
   { key: 'confTournament', label: 'Conf Tournament' },
 ]
 
-export function ComparePage({ schools, coaches }: Props) {
+export function ComparePage({ schools, coaches, getFilteredSchools, getFilteredCoaches }: Props) {
   const [mode, setMode] = useState<CompareMode>('schools')
   const [searchA, setSearchA] = useState('')
   const [searchB, setSearchB] = useState('')
@@ -35,67 +37,40 @@ export function ComparePage({ schools, coaches }: Props) {
   const [yearStart, setYearStart] = useState(1985)
   const [yearEnd, setYearEnd] = useState(2025)
 
-  const filteredCoaches = useMemo(() =>
-    coaches.filter(c => c.startYear <= yearEnd && c.endYear >= yearStart),
-    [coaches, yearStart, yearEnd]
+  // Filtered data based on year range
+  const filteredSchools = useMemo(
+    () => getFilteredSchools(yearStart, yearEnd, ''),
+    [getFilteredSchools, yearStart, yearEnd]
+  )
+  const filteredCoaches = useMemo(
+    () => getFilteredCoaches(yearStart, yearEnd, ''),
+    [getFilteredCoaches, yearStart, yearEnd]
   )
 
-  const filteredSchools = useMemo(() => {
-    const fullRange = yearStart <= 1985 && yearEnd >= 2025
-    if (fullRange) return schools
+  // Items for search dropdowns (use unfiltered for selection, filtered for comparison)
+  const searchItems = mode === 'schools'
+    ? schools.map(s => ({ id: s.school, label: s.school }))
+    : coaches.map(c => ({ id: `${c.coach}|||${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
 
-    const bySchool = new Map<string, SchoolRecord>()
-    for (const c of filteredCoaches) {
-      const existing = bySchool.get(c.school)
-      if (existing) {
-        existing.wins += c.wins
-        existing.losses += c.losses
-        existing.tournamentApps += c.tournamentApps
-        existing.sweet16 += c.sweet16
-        existing.elite8 += c.elite8
-        existing.finalFour += c.finalFour
-        existing.champGame += c.champGame
-        existing.titles += c.titles
-        existing.confRegularSeason += c.confRegularSeason
-        existing.confTournament += c.confTournament
-      } else {
-        const schoolRecord = schools.find(s => s.school === c.school)
-        bySchool.set(c.school, {
-          school: c.school,
-          espnId: c.espnId,
-          conference: schoolRecord?.conference ?? '',
-          wins: c.wins, losses: c.losses, winPct: 0,
-          tournamentApps: c.tournamentApps, sweet16: c.sweet16, elite8: c.elite8,
-          finalFour: c.finalFour, champGame: c.champGame, titles: c.titles,
-          confRegularSeason: c.confRegularSeason, confTournament: c.confTournament,
-        })
-      }
-    }
-    for (const s of bySchool.values()) {
-      const total = s.wins + s.losses
-      s.winPct = total > 0 ? Math.round((s.wins / total) * 1000) / 1000 : 0
-    }
-    return [...bySchool.values()]
-  }, [schools, filteredCoaches, yearStart, yearEnd])
-
-  const items = mode === 'schools'
-    ? filteredSchools.map(s => ({ ...s, id: `${s.school}`, label: s.school }))
-    : filteredCoaches.map(c => ({ ...c, id: `${c.coach}-${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
+  // Items for stat comparison (year-filtered)
+  const compareItems = mode === 'schools'
+    ? filteredSchools.map(s => ({ ...s, id: s.school, label: s.school }))
+    : filteredCoaches.map(c => ({ ...c, id: `${c.coach}|||${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
 
   const suggestionsA = useMemo(() => {
     if (!searchA || selectedA) return []
     const q = searchA.toLowerCase()
-    return items.filter(i => i.label.toLowerCase().includes(q)).slice(0, 8)
-  }, [searchA, selectedA, items])
+    return searchItems.filter(i => i.label.toLowerCase().includes(q)).slice(0, 8)
+  }, [searchA, selectedA, searchItems])
 
   const suggestionsB = useMemo(() => {
     if (!searchB || selectedB) return []
     const q = searchB.toLowerCase()
-    return items.filter(i => i.label.toLowerCase().includes(q)).slice(0, 8)
-  }, [searchB, selectedB, items])
+    return searchItems.filter(i => i.label.toLowerCase().includes(q)).slice(0, 8)
+  }, [searchB, selectedB, searchItems])
 
-  const itemA = items.find(i => i.id === selectedA)
-  const itemB = items.find(i => i.id === selectedB)
+  const itemA = compareItems.find(i => i.id === selectedA)
+  const itemB = compareItems.find(i => i.id === selectedB)
 
   return (
     <div className="space-y-6">
@@ -120,7 +95,7 @@ export function ComparePage({ schools, coaches }: Props) {
           <label className="block text-sm font-medium text-gray-700 mb-1">From</label>
           <select
             value={yearStart}
-            onChange={e => { setYearStart(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
+            onChange={e => setYearStart(Number(e.target.value))}
             className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             {years.map(y => <option key={y} value={y}>{y}</option>)}
@@ -130,7 +105,7 @@ export function ComparePage({ schools, coaches }: Props) {
           <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
           <select
             value={yearEnd}
-            onChange={e => { setYearEnd(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
+            onChange={e => setYearEnd(Number(e.target.value))}
             className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             {years.map(y => <option key={y} value={y}>{y}</option>)}
@@ -201,15 +176,23 @@ export function ComparePage({ schools, coaches }: Props) {
             <thead>
               <tr className="bg-gray-100">
                 <th className="px-4 py-3 text-left text-gray-700 w-1/3">
-                  <LogoCell espnId={itemA.espnId} name={mode === 'coaches' ? `${(itemA as CoachRecord & {id: string; label: string}).coach}` : itemA.label} />
-                  {mode === 'coaches' && <div className="text-xs text-gray-500 mt-1 ml-10">{(itemA as CoachRecord & {id: string; label: string}).school} ({(itemA as CoachRecord & {id: string; label: string}).years})</div>}
+                  <LogoCell espnId={itemA.espnId} name={mode === 'coaches' ? (itemA as CoachRecord & { id: string; label: string }).coach : itemA.label} />
+                  {mode === 'coaches' && (
+                    <div className="text-xs text-gray-500 mt-1 ml-10">
+                      {(itemA as CoachRecord & { id: string; label: string }).school} ({(itemA as CoachRecord & { id: string; label: string }).years})
+                    </div>
+                  )}
                 </th>
                 <th className="px-4 py-3 text-center text-gray-500 w-1/3">Stat</th>
                 <th className="px-4 py-3 text-right text-gray-700 w-1/3">
                   <div className="flex items-center justify-end">
-                    <LogoCell espnId={itemB.espnId} name={mode === 'coaches' ? `${(itemB as CoachRecord & {id: string; label: string}).coach}` : itemB.label} />
+                    <LogoCell espnId={itemB.espnId} name={mode === 'coaches' ? (itemB as CoachRecord & { id: string; label: string }).coach : itemB.label} />
                   </div>
-                  {mode === 'coaches' && <div className="text-xs text-gray-500 mt-1 text-right">{(itemB as CoachRecord & {id: string; label: string}).school} ({(itemB as CoachRecord & {id: string; label: string}).years})</div>}
+                  {mode === 'coaches' && (
+                    <div className="text-xs text-gray-500 mt-1 text-right">
+                      {(itemB as CoachRecord & { id: string; label: string }).school} ({(itemB as CoachRecord & { id: string; label: string }).years})
+                    </div>
+                  )}
                 </th>
               </tr>
             </thead>
