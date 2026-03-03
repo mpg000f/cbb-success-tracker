@@ -9,6 +9,8 @@ interface Props {
   coaches: CoachRecord[]
 }
 
+const years = Array.from({ length: 2025 - 1985 + 1 }, (_, i) => 1985 + i)
+
 const statLabels: { key: string; label: string }[] = [
   { key: 'wins', label: 'Wins' },
   { key: 'losses', label: 'Losses' },
@@ -116,25 +118,23 @@ export function ComparePage({ schools, coaches }: Props) {
       <div className="flex gap-4 items-end">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">From</label>
-          <input
-            type="number"
-            min={1985}
-            max={2025}
+          <select
             value={yearStart}
             onChange={e => { setYearStart(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
-            className="w-24 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+            className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            {years.map(y => <option key={y} value={y}>{y}</option>)}
+          </select>
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
-          <input
-            type="number"
-            min={1985}
-            max={2025}
+          <select
             value={yearEnd}
             onChange={e => { setYearEnd(Number(e.target.value)); setSelectedA(null); setSelectedB(null); setSearchA(''); setSearchB('') }}
-            className="w-24 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+            className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            {years.map(y => <option key={y} value={y}>{y}</option>)}
+          </select>
         </div>
       </div>
 
