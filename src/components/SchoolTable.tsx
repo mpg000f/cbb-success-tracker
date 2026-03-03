@@ -1,0 +1,122 @@
+import {
+  useReactTable,
+  getCoreRowModel,
+  getSortedRowModel,
+  getPaginationRowModel,
+  flexRender,
+  createColumnHelper,
+  type SortingState,
+} from '@tanstack/react-table'
+import { useState } from 'react'
+import type { SchoolRecord } from '../types'
+import { LogoCell } from './LogoCell'
+
+const col = createColumnHelper<SchoolRecord>()
+
+const columns = [
+  col.accessor('school', {
+    header: 'School',
+    cell: info => <LogoCell espnId={info.row.original.espnId} name={info.getValue()} />,
+    sortingFn: 'alphanumeric',
+  }),
+  col.accessor('conference', { header: 'Conf' }),
+  col.accessor('wins', { header: 'W' }),
+  col.accessor('losses', { header: 'L' }),
+  col.accessor('winPct', {
+    header: 'Win%',
+    cell: info => info.getValue().toFixed(3),
+  }),
+  col.accessor('tournamentApps', { header: 'Tourney' }),
+  col.accessor('sweet16', { header: 'S16' }),
+  col.accessor('elite8', { header: 'E8' }),
+  col.accessor('finalFour', { header: 'F4' }),
+  col.accessor('champGame', { header: 'CG' }),
+  col.accessor('titles', { header: 'Titles' }),
+  col.accessor('confRegularSeason', { header: 'Reg Szn' }),
+  col.accessor('confTournament', { header: 'Conf T' }),
+]
+
+interface Props {
+  data: SchoolRecord[]
+}
+
+export function SchoolTable({ data }: Props) {
+  const [sorting, setSorting] = useState<SortingState>([{ id: 'wins', desc: true }])
+
+  const table = useReactTable({
+    data,
+    columns,
+    state: { sorting },
+    onSortingChange: setSorting,
+    getCoreRowModel: getCoreRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    initialState: { pagination: { pageSize: 50 } },
+  })
+
+  return (
+    <div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm text-left">
+          <thead className="bg-gray-100 text-gray-700 uppercase text-xs">
+            {table.getHeaderGroups().map(hg => (
+              <tr key={hg.id}>
+                {hg.headers.map(h => (
+                  <th
+                    key={h.id}
+                    className="px-3 py-2 cursor-pointer select-none whitespace-nowrap hover:bg-gray-200"
+                    onClick={h.column.getToggleSortingHandler()}
+                  >
+                    <div className="flex items-center gap-1">
+                      {flexRender(h.column.columnDef.header, h.getContext())}
+                      {{ asc: ' \u25B2', desc: ' \u25BC' }[h.column.getIsSorted() as string] ?? ''}
+                    </div>
+                  </th>
+                ))}
+              </tr>
+            ))}
+          </thead>
+          <tbody>
+            {table.getRowModel().rows.map(row => (
+              <tr key={row.id} className="border-b border-gray-100 hover:bg-blue-50 even:bg-gray-50">
+                {row.getVisibleCells().map(cell => (
+                  <td key={cell.id} className="px-3 py-2 whitespace-nowrap">
+                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <Pagination table={table} />
+    </div>
+  )
+}
+
+function Pagination({ table }: { table: ReturnType<typeof useReactTable<SchoolRecord>> }) {
+  return (
+    <div className="flex items-center justify-between px-3 py-3 text-sm text-gray-600">
+      <span>
+        Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+        {' '}({table.getRowCount()} rows)
+      </span>
+      <div className="flex gap-2">
+        <button
+          onClick={() => table.previousPage()}
+          disabled={!table.getCanPreviousPage()}
+          className="px-3 py-1 border rounded disabled:opacity-30 hover:bg-gray-100 cursor-pointer"
+        >
+          Prev
+        </button>
+        <button
+          onClick={() => table.nextPage()}
+          disabled={!table.getCanNextPage()}
+          className="px-3 py-1 border rounded disabled:opacity-30 hover:bg-gray-100 cursor-pointer"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  )
+}
