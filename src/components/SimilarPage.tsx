@@ -5,7 +5,7 @@ import { LogoCell } from './LogoCell'
 interface Props {
   schools: SchoolRecord[]
   coaches: CoachRecord[]
-  findSimilar: (query: string, yearStart: number, yearEnd: number, mode: SimilarMode, singleSeason: boolean, useEfficiency: boolean) => SimilarResult[]
+  findSimilar: (query: string, yearStart: number, yearEnd: number, mode: SimilarMode, singleSeason: boolean, useSRS: boolean) => SimilarResult[]
   getFilteredSchools: (yearStart: number, yearEnd: number, search: string) => SchoolRecord[]
   getFilteredCoaches: (yearStart: number, yearEnd: number, search: string) => CoachRecord[]
   powerRatings: PowerRatings
@@ -15,18 +15,18 @@ const currentYear = new Date().getFullYear()
 const maxYear = new Date().getMonth() >= 9 ? currentYear + 1 : currentYear
 const years = Array.from({ length: maxYear - 1985 + 1 }, (_, i) => 1985 + i)
 
-const statLabels: { key: keyof SchoolRecord; label: string; shortLabel: string }[] = [
-  { key: 'wins', label: 'Wins', shortLabel: 'W' },
-  { key: 'losses', label: 'Losses', shortLabel: 'L' },
-  { key: 'winPct', label: 'Win %', shortLabel: 'Win%' },
-  { key: 'tournamentApps', label: 'Tourney Apps', shortLabel: 'T.Apps' },
-  { key: 'sweet16', label: 'Sweet 16', shortLabel: 'S16' },
-  { key: 'elite8', label: 'Elite 8', shortLabel: 'E8' },
-  { key: 'finalFour', label: 'Final Four', shortLabel: 'F4' },
-  { key: 'champGame', label: 'Champ Game', shortLabel: 'CG' },
-  { key: 'titles', label: 'Titles', shortLabel: 'Titles' },
-  { key: 'confRegularSeason', label: 'Conf Reg Season', shortLabel: 'CRS' },
-  { key: 'confTournament', label: 'Conf Tourney', shortLabel: 'CT' },
+const statLabels: { key: keyof SchoolRecord; label: string }[] = [
+  { key: 'wins', label: 'Wins' },
+  { key: 'losses', label: 'Losses' },
+  { key: 'winPct', label: 'Win %' },
+  { key: 'tournamentApps', label: 'Tourney Apps' },
+  { key: 'sweet16', label: 'Sweet 16' },
+  { key: 'elite8', label: 'Elite 8' },
+  { key: 'finalFour', label: 'Final Four' },
+  { key: 'champGame', label: 'Champ Game' },
+  { key: 'titles', label: 'Titles' },
+  { key: 'confRegularSeason', label: 'Conf Reg Season' },
+  { key: 'confTournament', label: 'Conf Tourney' },
 ]
 
 export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools, getFilteredCoaches, powerRatings }: Props) {
@@ -37,13 +37,7 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
   const [yearStart, setYearStart] = useState(2000)
   const [yearEnd, setYearEnd] = useState(2020)
   const [singleSeason, setSingleSeason] = useState(false)
-  const [useEfficiency, setUseEfficiency] = useState(true)
-
-  const efficiencyAvailable = useMemo(() => {
-    const start = yearStart
-    const end = singleSeason ? yearStart : yearEnd
-    return start <= 2026 && end >= 2005
-  }, [yearStart, yearEnd, singleSeason])
+  const [useSRS, setUseSRS] = useState(true)
 
   const searchItems = useMemo(() => {
     if (mode === 'schools') {
@@ -60,8 +54,8 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
 
   const results = useMemo(() => {
     if (!selectedQuery) return null
-    return findSimilar(selectedQuery, yearStart, yearEnd, mode, singleSeason, useEfficiency && efficiencyAvailable)
-  }, [selectedQuery, yearStart, yearEnd, mode, singleSeason, useEfficiency, efficiencyAvailable, findSimilar])
+    return findSimilar(selectedQuery, yearStart, yearEnd, mode, singleSeason, useSRS)
+  }, [selectedQuery, yearStart, yearEnd, mode, singleSeason, useSRS, findSimilar])
 
   const bestMatch = results?.[0] ?? null
 
@@ -78,9 +72,8 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
   }, [selectedQuery, yearStart, yearEnd, singleSeason, mode, getFilteredSchools, getFilteredCoaches])
 
   const queryEspnId = queryStats?.espnId ?? 0
-  const showEff = useEfficiency && efficiencyAvailable
-  const queryEffMargin = useMemo(() => {
-    if (!queryEspnId || !showEff) return undefined
+  const querySRS = useMemo(() => {
+    if (!queryEspnId || !useSRS) return undefined
     const start = yearStart
     const end = singleSeason ? yearStart : yearEnd
     let sum = 0, count = 0
@@ -89,7 +82,7 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
       if (val !== undefined) { sum += val; count++ }
     }
     return count > 0 ? Math.round((sum / count) * 10) / 10 : undefined
-  }, [queryEspnId, yearStart, yearEnd, singleSeason, showEff, powerRatings])
+  }, [queryEspnId, yearStart, yearEnd, singleSeason, useSRS, powerRatings])
   const queryDisplayName = mode === 'coaches' && selectedQuery
     ? selectedQuery.split('|||')[0]
     : selectedQuery ?? ''
@@ -98,7 +91,7 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
     : ''
 
   const fmt = (key: string, v: number) => key === 'winPct' ? v.toFixed(3) : String(v)
-  const effFmt = (v?: number) => v !== undefined ? v.toFixed(1) : '—'
+  const srsFmt = (v?: number) => v !== undefined ? v.toFixed(1) : '—'
 
   return (
     <div className="space-y-6">
@@ -183,16 +176,14 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
           />
           Single season
         </label>
-        <label className={`flex items-center gap-2 text-sm cursor-pointer ${efficiencyAvailable ? 'text-gray-700' : 'text-gray-400'}`}>
+        <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
           <input
             type="checkbox"
-            checked={useEfficiency && efficiencyAvailable}
-            onChange={e => setUseEfficiency(e.target.checked)}
-            disabled={!efficiencyAvailable}
+            checked={useSRS}
+            onChange={e => setUseSRS(e.target.checked)}
             className="rounded"
           />
-          Include efficiency margin
-          {!efficiencyAvailable && <span className="text-xs">(available 2005–2026)</span>}
+          Include SRS
         </label>
       </div>
 
@@ -251,11 +242,11 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
                     </tr>
                   )
                 })}
-                {showEff && (
+                {useSRS && (
                   <tr className="border-b border-gray-100 even:bg-gray-50">
-                    <td className="px-4 py-2 text-left font-mono">{effFmt(queryEffMargin)}</td>
-                    <td className="px-4 py-2 text-center text-gray-500">Eff. Margin</td>
-                    <td className="px-4 py-2 text-right font-mono">{effFmt(bestMatch.effMargin)}</td>
+                    <td className="px-4 py-2 text-left font-mono">{srsFmt(querySRS)}</td>
+                    <td className="px-4 py-2 text-center text-gray-500">SRS</td>
+                    <td className="px-4 py-2 text-right font-mono">{srsFmt(bestMatch.effMargin)}</td>
                   </tr>
                 )}
               </tbody>
@@ -286,7 +277,7 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
                   <th className="px-3 py-2 text-gray-700 text-right">F4</th>
                   <th className="px-3 py-2 text-gray-700 text-right">CG</th>
                   <th className="px-3 py-2 text-gray-700 text-right">Titles</th>
-                  {showEff && <th className="px-3 py-2 text-gray-700 text-right">Eff.M</th>}
+                  {useSRS && <th className="px-3 py-2 text-gray-700 text-right">SRS</th>}
                 </tr>
               </thead>
               <tbody>
@@ -312,8 +303,8 @@ export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools,
                     <td className="px-3 py-2 text-right font-mono">{r.stats.finalFour}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.champGame}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.titles}</td>
-                    {showEff && (
-                      <td className="px-3 py-2 text-right font-mono">{effFmt(r.effMargin)}</td>
+                    {useSRS && (
+                      <td className="px-3 py-2 text-right font-mono">{srsFmt(r.effMargin)}</td>
                     )}
                   </tr>
                 ))}
