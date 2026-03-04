@@ -66,6 +66,26 @@ SR_TO_ESPN_NAME = {
     "College of Charleston": "Charleston",
     "California": "Cal",
     "Pennsylvania": "Penn",
+    "Appalachian State": "App State",
+    "Southern Mississippi": "Southern Miss",
+    "Illinois-Chicago": "UIC",
+    "McNeese State": "McNeese",
+    "Nicholls State": "Nicholls",
+    "Southeastern Louisiana": "SE Louisiana",
+    "Maryland-Baltimore County": "UMBC",
+    "Texas-Rio Grande Valley": "UT Rio Grande Valley",
+    "Central Connecticut State": "Central Connecticut",
+    "Virginia Military Institute": "VMI",
+    "San Jose State": "San José State",
+    "Tennessee-Martin": "UT Martin",
+    "Albany (NY)": "UAlbany",
+    "Seattle": "Seattle U",
+    "Southern Illinois-Edwardsville": "SIU Edwardsville",
+    "Massachusetts-Lowell": "UMass Lowell",
+    "Saint Francis (PA)": "Saint Francis",
+    "Southern Indiana": "Southern Indiana",
+    "Lindenwood": "Lindenwood",
+    "St. Francis (NY) Terriers": "St. Francis Brooklyn",
 }
 
 
@@ -88,8 +108,10 @@ def fetch_espn_ids() -> dict[str, int]:
             name = team.get("displayName", "")
             short = team.get("shortDisplayName", "")
             abbr = team.get("abbreviation", "")
+            location = team.get("location", "")
+            nickname = team.get("nickname", "")
             # Store all name variants
-            for n in [name, short]:
+            for n in [name, short, location, nickname]:
                 if n:
                     mapping[_normalize(n)] = espn_id
             if abbr:
