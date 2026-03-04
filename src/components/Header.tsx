@@ -9,6 +9,7 @@ const tabs: { key: ViewMode; label: string }[] = [
   { key: 'schools', label: 'Schools' },
   { key: 'coaches', label: 'Coaches' },
   { key: 'compare', label: 'Compare' },
+  { key: 'similar', label: 'Find Similar' },
 ]
 
 export function Header({ view, setView }: Props) {

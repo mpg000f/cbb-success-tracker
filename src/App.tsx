@@ -4,11 +4,12 @@ import { Filters } from './components/Filters'
 import { SchoolTable } from './components/SchoolTable'
 import { CoachTable } from './components/CoachTable'
 import { ComparePage } from './components/ComparePage'
+import { SimilarPage } from './components/SimilarPage'
 import { useData } from './hooks/useData'
 import type { ViewMode, Filters as FiltersType } from './types'
 
 function App() {
-  const { loading, schools, getFilteredSchools, getFilteredCoaches } = useData()
+  const { loading, schools, getFilteredSchools, getFilteredCoaches, findSimilar } = useData()
   const [view, setView] = useState<ViewMode>('schools')
   const [filters, setFilters] = useState<FiltersType>({
     search: '',
@@ -56,7 +57,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Header view={view} setView={setView} />
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-4">
-        {view !== 'compare' && (
+        {view !== 'compare' && view !== 'similar' && (
           <Filters filters={filters} setFilters={setFilters} conferences={conferences} view={view} />
         )}
         {view === 'schools' && <SchoolTable data={filteredSchools} />}
@@ -67,6 +68,13 @@ function App() {
             coaches={allCoaches}
             getFilteredSchools={getFilteredSchools}
             getFilteredCoaches={getFilteredCoaches}
+          />
+        )}
+        {view === 'similar' && (
+          <SimilarPage
+            schools={allSchools}
+            findSimilar={findSimilar}
+            getFilteredSchools={getFilteredSchools}
           />
         )}
       </main>

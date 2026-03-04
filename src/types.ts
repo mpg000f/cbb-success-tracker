@@ -53,7 +53,16 @@ export interface SeasonRecord {
   confTourney: number
 }
 
-export type ViewMode = 'schools' | 'coaches' | 'compare'
+export type ViewMode = 'schools' | 'coaches' | 'compare' | 'similar'
+
+export interface SimilarResult {
+  school: string
+  espnId: number
+  yearStart: number
+  yearEnd: number
+  distance: number
+  stats: SchoolRecord
+}
 
 export interface Filters {
   search: string
