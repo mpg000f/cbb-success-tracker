@@ -1,82 +1,148 @@
 import { useState, useMemo } from 'react'
-import type { SchoolRecord, SimilarResult } from '../types'
+import type { SchoolRecord, CoachRecord, SimilarResult, SimilarMode, PowerRatings } from '../types'
 import { LogoCell } from './LogoCell'
 
 interface Props {
   schools: SchoolRecord[]
-  findSimilar: (querySchool: string, yearStart: number, yearEnd: number) => SimilarResult[]
+  coaches: CoachRecord[]
+  findSimilar: (query: string, yearStart: number, yearEnd: number, mode: SimilarMode, singleSeason: boolean, useEfficiency: boolean) => SimilarResult[]
   getFilteredSchools: (yearStart: number, yearEnd: number, search: string) => SchoolRecord[]
+  getFilteredCoaches: (yearStart: number, yearEnd: number, search: string) => CoachRecord[]
+  powerRatings: PowerRatings
 }
 
 const currentYear = new Date().getFullYear()
 const maxYear = new Date().getMonth() >= 9 ? currentYear + 1 : currentYear
 const years = Array.from({ length: maxYear - 1985 + 1 }, (_, i) => 1985 + i)
 
-const statLabels: { key: keyof SchoolRecord; label: string }[] = [
-  { key: 'wins', label: 'Wins' },
-  { key: 'losses', label: 'Losses' },
-  { key: 'winPct', label: 'Win %' },
-  { key: 'tournamentApps', label: 'Tourney Apps' },
-  { key: 'sweet16', label: 'Sweet 16' },
-  { key: 'elite8', label: 'Elite 8' },
-  { key: 'finalFour', label: 'Final Four' },
-  { key: 'champGame', label: 'Champ Game' },
-  { key: 'titles', label: 'Titles' },
-  { key: 'confRegularSeason', label: 'Conf Reg Season' },
-  { key: 'confTournament', label: 'Conf Tourney' },
+const statLabels: { key: keyof SchoolRecord; label: string; shortLabel: string }[] = [
+  { key: 'wins', label: 'Wins', shortLabel: 'W' },
+  { key: 'losses', label: 'Losses', shortLabel: 'L' },
+  { key: 'winPct', label: 'Win %', shortLabel: 'Win%' },
+  { key: 'tournamentApps', label: 'Tourney Apps', shortLabel: 'T.Apps' },
+  { key: 'sweet16', label: 'Sweet 16', shortLabel: 'S16' },
+  { key: 'elite8', label: 'Elite 8', shortLabel: 'E8' },
+  { key: 'finalFour', label: 'Final Four', shortLabel: 'F4' },
+  { key: 'champGame', label: 'Champ Game', shortLabel: 'CG' },
+  { key: 'titles', label: 'Titles', shortLabel: 'Titles' },
+  { key: 'confRegularSeason', label: 'Conf Reg Season', shortLabel: 'CRS' },
+  { key: 'confTournament', label: 'Conf Tourney', shortLabel: 'CT' },
 ]
 
-export function SimilarPage({ schools, findSimilar, getFilteredSchools }: Props) {
+export function SimilarPage({ schools, coaches, findSimilar, getFilteredSchools, getFilteredCoaches, powerRatings }: Props) {
+  const [mode, setMode] = useState<SimilarMode>('schools')
   const [search, setSearch] = useState('')
-  const [selectedSchool, setSelectedSchool] = useState<string | null>(null)
+  const [selectedQuery, setSelectedQuery] = useState<string | null>(null)
   const [focusedInput, setFocusedInput] = useState(false)
   const [yearStart, setYearStart] = useState(2000)
   const [yearEnd, setYearEnd] = useState(2020)
+  const [singleSeason, setSingleSeason] = useState(false)
+  const [useEfficiency, setUseEfficiency] = useState(true)
+
+  const efficiencyAvailable = useMemo(() => {
+    const start = yearStart
+    const end = singleSeason ? yearStart : yearEnd
+    return start <= 2026 && end >= 2005
+  }, [yearStart, yearEnd, singleSeason])
+
+  const searchItems = useMemo(() => {
+    if (mode === 'schools') {
+      return schools.map(s => ({ id: s.school, label: s.school }))
+    }
+    return coaches.map(c => ({ id: `${c.coach}|||${c.school}`, label: `${c.coach} (${c.school}, ${c.years})` }))
+  }, [mode, schools, coaches])
 
   const suggestions = useMemo(() => {
-    if (!search || selectedSchool) return []
+    if (!search || selectedQuery) return []
     const q = search.toLowerCase()
-    return schools.filter(s => s.school.toLowerCase().includes(q)).slice(0, 8)
-  }, [search, selectedSchool, schools])
+    return searchItems.filter(i => i.label.toLowerCase().includes(q)).slice(0, 8)
+  }, [search, selectedQuery, searchItems])
 
   const results = useMemo(() => {
-    if (!selectedSchool) return null
-    return findSimilar(selectedSchool, yearStart, yearEnd)
-  }, [selectedSchool, yearStart, yearEnd, findSimilar])
+    if (!selectedQuery) return null
+    return findSimilar(selectedQuery, yearStart, yearEnd, mode, singleSeason, useEfficiency && efficiencyAvailable)
+  }, [selectedQuery, yearStart, yearEnd, mode, singleSeason, useEfficiency, efficiencyAvailable, findSimilar])
 
   const bestMatch = results?.[0] ?? null
 
-  const querySchoolStats = useMemo(() => {
-    if (!selectedSchool) return null
-    const filtered = getFilteredSchools(yearStart, yearEnd, '')
-    return filtered.find(s => s.school === selectedSchool) ?? null
-  }, [selectedSchool, yearStart, yearEnd, getFilteredSchools])
+  const queryStats = useMemo(() => {
+    if (!selectedQuery) return null
+    const effectiveEnd = singleSeason ? yearStart : yearEnd
+    if (mode === 'schools') {
+      const filtered = getFilteredSchools(yearStart, effectiveEnd, '')
+      return filtered.find(s => s.school === selectedQuery) ?? null
+    }
+    const [coach, school] = selectedQuery.split('|||')
+    const filtered = getFilteredCoaches(yearStart, effectiveEnd, '')
+    return filtered.find(c => c.coach === coach && c.school.includes(school)) ?? null
+  }, [selectedQuery, yearStart, yearEnd, singleSeason, mode, getFilteredSchools, getFilteredCoaches])
+
+  const queryEspnId = queryStats?.espnId ?? 0
+  const showEff = useEfficiency && efficiencyAvailable
+  const queryEffMargin = useMemo(() => {
+    if (!queryEspnId || !showEff) return undefined
+    const start = yearStart
+    const end = singleSeason ? yearStart : yearEnd
+    let sum = 0, count = 0
+    for (let y = start; y <= end; y++) {
+      const val = powerRatings[String(y)]?.[String(queryEspnId)]
+      if (val !== undefined) { sum += val; count++ }
+    }
+    return count > 0 ? Math.round((sum / count) * 10) / 10 : undefined
+  }, [queryEspnId, yearStart, yearEnd, singleSeason, showEff, powerRatings])
+  const queryDisplayName = mode === 'coaches' && selectedQuery
+    ? selectedQuery.split('|||')[0]
+    : selectedQuery ?? ''
+  const querySchoolName = mode === 'coaches' && selectedQuery
+    ? selectedQuery.split('|||')[1]
+    : ''
 
   const fmt = (key: string, v: number) => key === 'winPct' ? v.toFixed(3) : String(v)
+  const effFmt = (v?: number) => v !== undefined ? v.toFixed(1) : '—'
 
   return (
     <div className="space-y-6">
+      {/* Mode toggle */}
+      <div className="flex gap-2 items-center">
+        <span className="text-sm font-medium text-gray-700">Find similar:</span>
+        <button
+          onClick={() => { setMode('schools'); setSelectedQuery(null); setSearch('') }}
+          className={`px-3 py-1 text-sm rounded-md cursor-pointer ${mode === 'schools' ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
+        >
+          Schools
+        </button>
+        <button
+          onClick={() => { setMode('coaches'); setSelectedQuery(null); setSearch('') }}
+          className={`px-3 py-1 text-sm rounded-md cursor-pointer ${mode === 'coaches' ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
+        >
+          Coaches
+        </button>
+      </div>
+
+      {/* Controls row */}
       <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
         <div className="relative flex-1 min-w-[200px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">School</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            {mode === 'schools' ? 'School' : 'Coach'}
+          </label>
           <input
             type="text"
             value={search}
-            onChange={e => { setSearch(e.target.value); setSelectedSchool(null) }}
+            onChange={e => { setSearch(e.target.value); setSelectedQuery(null) }}
             onFocus={() => setFocusedInput(true)}
             onBlur={() => setTimeout(() => setFocusedInput(false), 200)}
-            placeholder="Search schools..."
+            placeholder={`Search ${mode}...`}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {suggestions.length > 0 && focusedInput && (
             <ul className="absolute z-10 w-full bg-white border border-gray-200 rounded-lg mt-1 shadow-lg max-h-48 overflow-y-auto">
               {suggestions.map(s => (
                 <li
-                  key={s.school}
+                  key={s.id}
                   className="px-3 py-2 hover:bg-blue-50 cursor-pointer text-sm"
-                  onMouseDown={() => { setSelectedSchool(s.school); setSearch(s.school) }}
+                  onMouseDown={() => { setSelectedQuery(s.id); setSearch(s.label) }}
                 >
-                  {s.school}
+                  {s.label}
                 </li>
               ))}
             </ul>
@@ -92,57 +158,90 @@ export function SimilarPage({ schools, findSimilar, getFilteredSchools }: Props)
             {years.map(y => <option key={y} value={y}>{y}</option>)}
           </select>
         </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
-          <select
-            value={yearEnd}
-            onChange={e => setYearEnd(Number(e.target.value))}
-            className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            {years.map(y => <option key={y} value={y}>{y}</option>)}
-          </select>
-        </div>
+        {!singleSeason && (
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
+            <select
+              value={yearEnd}
+              onChange={e => setYearEnd(Number(e.target.value))}
+              className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              {years.map(y => <option key={y} value={y}>{y}</option>)}
+            </select>
+          </div>
+        )}
       </div>
 
-      {!selectedSchool && (
+      {/* Checkboxes */}
+      <div className="flex flex-wrap gap-6">
+        <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={singleSeason}
+            onChange={e => setSingleSeason(e.target.checked)}
+            className="rounded"
+          />
+          Single season
+        </label>
+        <label className={`flex items-center gap-2 text-sm cursor-pointer ${efficiencyAvailable ? 'text-gray-700' : 'text-gray-400'}`}>
+          <input
+            type="checkbox"
+            checked={useEfficiency && efficiencyAvailable}
+            onChange={e => setUseEfficiency(e.target.checked)}
+            disabled={!efficiencyAvailable}
+            className="rounded"
+          />
+          Include efficiency margin
+          {!efficiencyAvailable && <span className="text-xs">(available 2005–2026)</span>}
+        </label>
+      </div>
+
+      {!selectedQuery && (
         <div className="text-center py-12 text-gray-400">
-          Select a school and year range to find programs with the most similar statistical profile.
+          Select a {mode === 'schools' ? 'school' : 'coach'} and year range to find the most similar statistical profile.
         </div>
       )}
 
-      {selectedSchool && results && results.length === 0 && (
+      {selectedQuery && results && results.length === 0 && (
         <div className="text-center py-12 text-gray-400">
-          No results found. Try a different school or year range.
+          No results found. Try a different {mode === 'schools' ? 'school' : 'coach'} or year range.
         </div>
       )}
 
-      {bestMatch && (
+      {/* Best match table */}
+      {bestMatch && queryStats && (
         <>
-          <h2 className="text-lg font-semibold text-gray-800">
-            Best Match
-          </h2>
+          <h2 className="text-lg font-semibold text-gray-800">Best Match</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left text-gray-700 w-1/3">
-                    <LogoCell espnId={querySchoolStats?.espnId ?? 0} name={selectedSchool ?? ''} />
-                    <div className="text-xs text-gray-500 mt-1 ml-10">{yearStart}-{yearEnd}</div>
+                    <LogoCell espnId={queryEspnId} name={queryDisplayName} />
+                    {mode === 'coaches' && (
+                      <div className="text-xs text-gray-500 mt-1 ml-10">{querySchoolName}</div>
+                    )}
+                    <div className="text-xs text-gray-500 mt-1 ml-10">
+                      {yearStart}{!singleSeason && `-${yearEnd}`}
+                    </div>
                   </th>
                   <th className="px-4 py-3 text-center text-gray-500 w-1/3">Stat</th>
                   <th className="px-4 py-3 text-right text-gray-700 w-1/3">
                     <div className="flex items-center justify-end">
-                      <LogoCell espnId={bestMatch.espnId} name={bestMatch.school} />
+                      <LogoCell espnId={bestMatch.espnId} name={mode === 'coaches' ? (bestMatch.coach ?? bestMatch.school) : bestMatch.school} />
                     </div>
+                    {mode === 'coaches' && bestMatch.school && (
+                      <div className="text-xs text-gray-500 mt-1 text-right">{bestMatch.school}</div>
+                    )}
                     <div className="text-xs text-gray-500 mt-1 text-right">
-                      {bestMatch.yearStart}-{bestMatch.yearEnd}
+                      {bestMatch.yearStart}{bestMatch.yearStart !== bestMatch.yearEnd && `-${bestMatch.yearEnd}`}
                     </div>
                   </th>
                 </tr>
               </thead>
               <tbody>
                 {statLabels.map(({ key, label }) => {
-                  const valQuery = querySchoolStats ? (querySchoolStats[key] as number) : 0
+                  const valQuery = queryStats[key as keyof typeof queryStats] as number
                   const valMatch = bestMatch.stats[key] as number
                   return (
                     <tr key={key} className="border-b border-gray-100 even:bg-gray-50">
@@ -152,20 +251,29 @@ export function SimilarPage({ schools, findSimilar, getFilteredSchools }: Props)
                     </tr>
                   )
                 })}
+                {showEff && (
+                  <tr className="border-b border-gray-100 even:bg-gray-50">
+                    <td className="px-4 py-2 text-left font-mono">{effFmt(queryEffMargin)}</td>
+                    <td className="px-4 py-2 text-center text-gray-500">Eff. Margin</td>
+                    <td className="px-4 py-2 text-right font-mono">{effFmt(bestMatch.effMargin)}</td>
+                  </tr>
+                )}
               </tbody>
             </table>
           </div>
         </>
       )}
 
+      {/* Top 15 table */}
       {results && results.length > 0 && (
         <>
-          <h2 className="text-lg font-semibold text-gray-800">Top 15 Similar Programs</h2>
+          <h2 className="text-lg font-semibold text-gray-800">Top 15 Similar {mode === 'schools' ? 'Programs' : 'Coaching Stints'}</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-100 text-left">
                   <th className="px-3 py-2 text-gray-700">#</th>
+                  {mode === 'coaches' && <th className="px-3 py-2 text-gray-700">Coach</th>}
                   <th className="px-3 py-2 text-gray-700">School</th>
                   <th className="px-3 py-2 text-gray-700">Era</th>
                   <th className="px-3 py-2 text-gray-700 text-right">Distance</th>
@@ -178,16 +286,22 @@ export function SimilarPage({ schools, findSimilar, getFilteredSchools }: Props)
                   <th className="px-3 py-2 text-gray-700 text-right">F4</th>
                   <th className="px-3 py-2 text-gray-700 text-right">CG</th>
                   <th className="px-3 py-2 text-gray-700 text-right">Titles</th>
+                  {showEff && <th className="px-3 py-2 text-gray-700 text-right">Eff.M</th>}
                 </tr>
               </thead>
               <tbody>
                 {results.map((r, i) => (
-                  <tr key={`${r.school}-${r.yearStart}`} className="border-b border-gray-100 even:bg-gray-50 hover:bg-blue-50">
+                  <tr key={`${r.coach ?? r.school}-${r.yearStart}`} className="border-b border-gray-100 even:bg-gray-50 hover:bg-blue-50">
                     <td className="px-3 py-2 text-gray-500">{i + 1}</td>
+                    {mode === 'coaches' && (
+                      <td className="px-3 py-2 whitespace-nowrap">{r.coach}</td>
+                    )}
                     <td className="px-3 py-2">
                       <LogoCell espnId={r.espnId} name={r.school} />
                     </td>
-                    <td className="px-3 py-2 text-gray-600">{r.yearStart}-{r.yearEnd}</td>
+                    <td className="px-3 py-2 text-gray-600">
+                      {r.yearStart}{r.yearStart !== r.yearEnd && `-${r.yearEnd}`}
+                    </td>
                     <td className="px-3 py-2 text-right font-mono text-gray-500">{r.distance.toFixed(3)}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.wins}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.losses}</td>
@@ -198,6 +312,9 @@ export function SimilarPage({ schools, findSimilar, getFilteredSchools }: Props)
                     <td className="px-3 py-2 text-right font-mono">{r.stats.finalFour}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.champGame}</td>
                     <td className="px-3 py-2 text-right font-mono">{r.stats.titles}</td>
+                    {showEff && (
+                      <td className="px-3 py-2 text-right font-mono">{effFmt(r.effMargin)}</td>
+                    )}
                   </tr>
                 ))}
               </tbody>

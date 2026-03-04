@@ -9,7 +9,7 @@ import { useData } from './hooks/useData'
 import type { ViewMode, Filters as FiltersType } from './types'
 
 function App() {
-  const { loading, schools, getFilteredSchools, getFilteredCoaches, findSimilar } = useData()
+  const { loading, schools, getFilteredSchools, getFilteredCoaches, findSimilar, powerRatings } = useData()
   const [view, setView] = useState<ViewMode>('schools')
   const [filters, setFilters] = useState<FiltersType>({
     search: '',
@@ -73,8 +73,11 @@ function App() {
         {view === 'similar' && (
           <SimilarPage
             schools={allSchools}
+            coaches={allCoaches}
             findSimilar={findSimilar}
             getFilteredSchools={getFilteredSchools}
+            getFilteredCoaches={getFilteredCoaches}
+            powerRatings={powerRatings}
           />
         )}
       </main>

@@ -55,6 +55,10 @@ export interface SeasonRecord {
 
 export type ViewMode = 'schools' | 'coaches' | 'compare' | 'similar'
 
+export type SimilarMode = 'schools' | 'coaches'
+
+export type PowerRatings = Record<string, Record<string, number>>
+
 export interface SimilarResult {
   school: string
   espnId: number
@@ -62,6 +66,9 @@ export interface SimilarResult {
   yearEnd: number
   distance: number
   stats: SchoolRecord
+  coach?: string
+  schoolLogos?: { school: string; espnId: number }[]
+  effMargin?: number
 }
 
 export interface Filters {
