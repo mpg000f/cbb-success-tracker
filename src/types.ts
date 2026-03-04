@@ -59,4 +59,5 @@ export interface Filters {
   search: string
   yearStart: number
   yearEnd: number
+  conference: string
 }

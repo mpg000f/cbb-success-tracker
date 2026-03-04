@@ -19,7 +19,7 @@ export function useData() {
     })
   }, [])
 
-  const getFilteredSchools = useCallback((yearStart: number, yearEnd: number, search: string): SchoolRecord[] => {
+  const getFilteredSchools = useCallback((yearStart: number, yearEnd: number, search: string, conference = ''): SchoolRecord[] => {
     const q = search.toLowerCase()
     const filtered = seasons.filter(s => s.year >= yearStart && s.year <= yearEnd)
 
@@ -62,7 +62,9 @@ export function useData() {
       s.winPct = total > 0 ? Math.round((s.wins / total) * 1000) / 1000 : 0
     }
 
-    return [...bySchool.values()].filter(s => s.school.toLowerCase().includes(q))
+    return [...bySchool.values()]
+      .filter(s => s.school.toLowerCase().includes(q))
+      .filter(s => !conference || s.conference === conference)
   }, [seasons, schools])
 
   const getFilteredCoaches = useCallback((yearStart: number, yearEnd: number, search: string): CoachRecord[] => {

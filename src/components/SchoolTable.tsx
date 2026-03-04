@@ -26,14 +26,14 @@ const columns = [
     header: 'Win%',
     cell: info => info.getValue().toFixed(3),
   }),
-  col.accessor('tournamentApps', { header: 'Tourney' }),
-  col.accessor('sweet16', { header: 'S16' }),
-  col.accessor('elite8', { header: 'E8' }),
-  col.accessor('finalFour', { header: 'F4' }),
-  col.accessor('champGame', { header: 'CG' }),
-  col.accessor('titles', { header: 'Titles' }),
-  col.accessor('confRegularSeason', { header: 'Reg Szn' }),
-  col.accessor('confTournament', { header: 'Conf T' }),
+  col.accessor('tournamentApps', { header: 'NCAA Apps' }),
+  col.accessor('sweet16', { header: 'Sweet 16' }),
+  col.accessor('elite8', { header: 'Elite 8' }),
+  col.accessor('finalFour', { header: 'Final 4' }),
+  col.accessor('champGame', { header: 'Title Game' }),
+  col.accessor('titles', { header: 'Champs' }),
+  col.accessor('confRegularSeason', { header: 'Conf Reg' }),
+  col.accessor('confTournament', { header: 'Conf Tourn' }),
 ]
 
 interface Props {

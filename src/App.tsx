@@ -8,16 +8,22 @@ import { useData } from './hooks/useData'
 import type { ViewMode, Filters as FiltersType } from './types'
 
 function App() {
-  const { loading, getFilteredSchools, getFilteredCoaches } = useData()
+  const { loading, schools, getFilteredSchools, getFilteredCoaches } = useData()
   const [view, setView] = useState<ViewMode>('schools')
   const [filters, setFilters] = useState<FiltersType>({
     search: '',
     yearStart: 1985,
     yearEnd: new Date().getMonth() >= 9 ? new Date().getFullYear() + 1 : new Date().getFullYear(),
+    conference: '',
   })
 
+  const conferences = useMemo(
+    () => [...new Set(schools.map(s => s.conference))].filter(Boolean).sort(),
+    [schools]
+  )
+
   const filteredSchools = useMemo(
-    () => getFilteredSchools(filters.yearStart, filters.yearEnd, filters.search),
+    () => getFilteredSchools(filters.yearStart, filters.yearEnd, filters.search, filters.conference),
     [getFilteredSchools, filters]
   )
 
@@ -51,7 +57,7 @@ function App() {
       <Header view={view} setView={setView} />
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-4">
         {view !== 'compare' && (
-          <Filters filters={filters} setFilters={setFilters} />
+          <Filters filters={filters} setFilters={setFilters} conferences={conferences} view={view} />
         )}
         {view === 'schools' && <SchoolTable data={filteredSchools} />}
         {view === 'coaches' && <CoachTable data={filteredCoaches} />}

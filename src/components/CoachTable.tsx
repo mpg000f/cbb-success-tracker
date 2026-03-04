@@ -26,7 +26,7 @@ const columns = [
         return <LogoCell espnId={info.row.original.espnId} name={info.getValue()} />
       }
       return (
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 flex-wrap">
           {logos.map((l, i) => (
             <img
               key={i}
@@ -49,14 +49,14 @@ const columns = [
     header: 'Win%',
     cell: info => info.getValue().toFixed(3),
   }),
-  col.accessor('tournamentApps', { header: 'Tourney' }),
-  col.accessor('sweet16', { header: 'S16' }),
-  col.accessor('elite8', { header: 'E8' }),
-  col.accessor('finalFour', { header: 'F4' }),
-  col.accessor('champGame', { header: 'CG' }),
-  col.accessor('titles', { header: 'Titles' }),
-  col.accessor('confRegularSeason', { header: 'Reg Szn' }),
-  col.accessor('confTournament', { header: 'Conf T' }),
+  col.accessor('tournamentApps', { header: 'NCAA Apps' }),
+  col.accessor('sweet16', { header: 'Sweet 16' }),
+  col.accessor('elite8', { header: 'Elite 8' }),
+  col.accessor('finalFour', { header: 'Final 4' }),
+  col.accessor('champGame', { header: 'Title Game' }),
+  col.accessor('titles', { header: 'Champs' }),
+  col.accessor('confRegularSeason', { header: 'Conf Reg' }),
+  col.accessor('confTournament', { header: 'Conf Tourn' }),
 ]
 
 interface Props {
@@ -103,7 +103,7 @@ export function CoachTable({ data }: Props) {
             {table.getRowModel().rows.map(row => (
               <tr key={row.id} className="border-b border-gray-100 hover:bg-blue-50 even:bg-gray-50">
                 {row.getVisibleCells().map(cell => (
-                  <td key={cell.id} className="px-3 py-2 whitespace-nowrap">
+                  <td key={cell.id} className="px-3 py-2">
                     {flexRender(cell.column.columnDef.cell, cell.getContext())}
                   </td>
                 ))}
