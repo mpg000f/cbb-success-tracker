@@ -81,7 +81,7 @@
   },
   {
     "school": "Michigan State",
-    "espnId": 0,
+    "espnId": 127,
     "conference": "Big Ten",
     "wins": 968,
     "losses": 431,
@@ -305,7 +305,7 @@
   },
   {
     "school": "Murray State",
-    "espnId": 0,
+    "espnId": 93,
     "conference": "MVC",
     "wins": 865,
     "losses": 416,
@@ -609,7 +609,7 @@
   },
   {
     "school": "Western Kentucky",
-    "espnId": 0,
+    "espnId": 98,
     "conference": "CUSA",
     "wins": 814,
     "losses": 512,
@@ -705,7 +705,7 @@
   },
   {
     "school": "Oklahoma State",
-    "espnId": 0,
+    "espnId": 197,
     "conference": "Big 12",
     "wins": 801,
     "losses": 520,
@@ -833,7 +833,7 @@
   },
   {
     "school": "Boise State",
-    "espnId": 0,
+    "espnId": 68,
     "conference": "MWC",
     "wins": 783,
     "losses": 513,
@@ -849,7 +849,7 @@
   },
   {
     "school": "Wichita State",
-    "espnId": 0,
+    "espnId": 2724,
     "conference": "American",
     "wins": 781,
     "losses": 536,
@@ -993,7 +993,7 @@
   },
   {
     "school": "Missouri State",
-    "espnId": 0,
+    "espnId": 2623,
     "conference": "CUSA",
     "wins": 769,
     "losses": 556,
@@ -1025,7 +1025,7 @@
   },
   {
     "school": "San Diego State",
-    "espnId": 0,
+    "espnId": 21,
     "conference": "MWC",
     "wins": 768,
     "losses": 552,
@@ -1105,7 +1105,7 @@
   },
   {
     "school": "East Tennessee State",
-    "espnId": 0,
+    "espnId": 2193,
     "conference": "Southern",
     "wins": 756,
     "losses": 547,
@@ -1217,7 +1217,7 @@
   },
   {
     "school": "Weber State",
-    "espnId": 0,
+    "espnId": 2692,
     "conference": "Big Sky",
     "wins": 746,
     "losses": 532,
@@ -1233,7 +1233,7 @@
   },
   {
     "school": "Florida State",
-    "espnId": 0,
+    "espnId": 52,
     "conference": "ACC",
     "wins": 745,
     "losses": 547,
@@ -1265,7 +1265,7 @@
   },
   {
     "school": "Southern Illinois",
-    "espnId": 0,
+    "espnId": 79,
     "conference": "MVC",
     "wins": 744,
     "losses": 578,
@@ -1297,7 +1297,7 @@
   },
   {
     "school": "Colorado State",
-    "espnId": 0,
+    "espnId": 36,
     "conference": "MWC",
     "wins": 739,
     "losses": 571,
@@ -1345,7 +1345,7 @@
   },
   {
     "school": "Middle Tennessee",
-    "espnId": 0,
+    "espnId": 2393,
     "conference": "CUSA",
     "wins": 738,
     "losses": 558,
@@ -1377,7 +1377,7 @@
   },
   {
     "school": "Kansas State",
-    "espnId": 0,
+    "espnId": 2306,
     "conference": "Big 12",
     "wins": 733,
     "losses": 562,
@@ -1425,7 +1425,7 @@
   },
   {
     "school": "Mississippi State",
-    "espnId": 0,
+    "espnId": 344,
     "conference": "SEC",
     "wins": 729,
     "losses": 569,
@@ -1505,7 +1505,7 @@
   },
   {
     "school": "New Mexico State",
-    "espnId": 0,
+    "espnId": 166,
     "conference": "CUSA",
     "wins": 721,
     "losses": 439,
@@ -1521,7 +1521,7 @@
   },
   {
     "school": "Illinois State",
-    "espnId": 0,
+    "espnId": 2287,
     "conference": "MVC",
     "wins": 718,
     "losses": 598,
@@ -1569,7 +1569,7 @@
   },
   {
     "school": "UC Santa Barbara",
-    "espnId": 0,
+    "espnId": 2540,
     "conference": "Big West",
     "wins": 712,
     "losses": 538,
@@ -1777,7 +1777,7 @@
   },
   {
     "school": "Boston University",
-    "espnId": 0,
+    "espnId": 104,
     "conference": "Patriot",
     "wins": 692,
     "losses": 587,
@@ -2145,7 +2145,7 @@
   },
   {
     "school": "George Washington",
-    "espnId": 0,
+    "espnId": 45,
     "conference": "A-10",
     "wins": 669,
     "losses": 605,
@@ -2209,7 +2209,7 @@
   },
   {
     "school": "Wright State",
-    "espnId": 0,
+    "espnId": 2750,
     "conference": "Horizon",
     "wins": 666,
     "losses": 526,
@@ -2241,7 +2241,7 @@
   },
   {
     "school": "Cleveland State",
-    "espnId": 0,
+    "espnId": 325,
     "conference": "Horizon",
     "wins": 662,
     "losses": 633,
@@ -2305,7 +2305,7 @@
   },
   {
     "school": "Appalachian State",
-    "espnId": 0,
+    "espnId": 2026,
     "conference": "Sun Belt",
     "wins": 652,
     "losses": 621,
@@ -2401,7 +2401,7 @@
   },
   {
     "school": "Montana State",
-    "espnId": 0,
+    "espnId": 147,
     "conference": "Big Sky",
     "wins": 645,
     "losses": 611,
@@ -2433,7 +2433,7 @@
   },
   {
     "school": "Arizona State",
-    "espnId": 0,
+    "espnId": 9,
     "conference": "Big 12",
     "wins": 638,
     "losses": 598,
@@ -2481,7 +2481,7 @@
   },
   {
     "school": "Arkansas State",
-    "espnId": 0,
+    "espnId": 2032,
     "conference": "Sun Belt",
     "wins": 636,
     "losses": 576,
@@ -2513,7 +2513,7 @@
   },
   {
     "school": "Georgia Southern",
-    "espnId": 0,
+    "espnId": 290,
     "conference": "Sun Belt",
     "wins": 633,
     "losses": 571,
@@ -2625,7 +2625,7 @@
   },
   {
     "school": "Georgia State",
-    "espnId": 0,
+    "espnId": 2247,
     "conference": "Sun Belt",
     "wins": 622,
     "losses": 641,
@@ -2705,7 +2705,7 @@
   },
   {
     "school": "Eastern Kentucky",
-    "espnId": 0,
+    "espnId": 2198,
     "conference": "A-Sun",
     "wins": 618,
     "losses": 645,
@@ -2753,7 +2753,7 @@
   },
   {
     "school": "Fresno State",
-    "espnId": 0,
+    "espnId": 278,
     "conference": "MWC",
     "wins": 617,
     "losses": 600,
@@ -2785,7 +2785,7 @@
   },
   {
     "school": "Morehead State",
-    "espnId": 0,
+    "espnId": 2413,
     "conference": "OVC",
     "wins": 616,
     "losses": 655,
@@ -2817,7 +2817,7 @@
   },
   {
     "school": "Coastal Carolina",
-    "espnId": 0,
+    "espnId": 324,
     "conference": "Sun Belt",
     "wins": 616,
     "losses": 619,
@@ -2881,7 +2881,7 @@
   },
   {
     "school": "Stephen F. Austin",
-    "espnId": 0,
+    "espnId": 2617,
     "conference": "Southland",
     "wins": 614,
     "losses": 456,
@@ -2929,7 +2929,7 @@
   },
   {
     "school": "Long Beach State",
-    "espnId": 0,
+    "espnId": 299,
     "conference": "Big West",
     "wins": 608,
     "losses": 644,
@@ -3073,7 +3073,7 @@
   },
   {
     "school": "Southern Mississippi",
-    "espnId": 0,
+    "espnId": 2572,
     "conference": "Sun Belt",
     "wins": 594,
     "losses": 592,
@@ -3121,7 +3121,7 @@
   },
   {
     "school": "Texas State",
-    "espnId": 0,
+    "espnId": 326,
     "conference": "Sun Belt",
     "wins": 593,
     "losses": 655,
@@ -3137,7 +3137,7 @@
   },
   {
     "school": "Illinois-Chicago",
-    "espnId": 0,
+    "espnId": 82,
     "conference": "MVC",
     "wins": 591,
     "losses": 666,
@@ -3153,7 +3153,7 @@
   },
   {
     "school": "Washington State",
-    "espnId": 0,
+    "espnId": 265,
     "conference": "WCC",
     "wins": 591,
     "losses": 669,
@@ -3201,7 +3201,7 @@
   },
   {
     "school": "McNeese State",
-    "espnId": 0,
+    "espnId": 2377,
     "conference": "Southland",
     "wins": 589,
     "losses": 654,
@@ -3217,7 +3217,7 @@
   },
   {
     "school": "Eastern Michigan",
-    "espnId": 0,
+    "espnId": 2199,
     "conference": "MAC",
     "wins": 588,
     "losses": 660,
@@ -3265,7 +3265,7 @@
   },
   {
     "school": "South Carolina State",
-    "espnId": 0,
+    "espnId": 2569,
     "conference": "MEAC",
     "wins": 587,
     "losses": 682,
@@ -3281,7 +3281,7 @@
   },
   {
     "school": "Jackson State",
-    "espnId": 0,
+    "espnId": 2296,
     "conference": "SWAC",
     "wins": 586,
     "losses": 689,
@@ -3297,7 +3297,7 @@
   },
   {
     "school": "Western Michigan",
-    "espnId": 0,
+    "espnId": 2711,
     "conference": "MAC",
     "wins": 586,
     "losses": 652,
@@ -3329,7 +3329,7 @@
   },
   {
     "school": "Oregon State",
-    "espnId": 0,
+    "espnId": 204,
     "conference": "WCC",
     "wins": 584,
     "losses": 668,
@@ -3505,7 +3505,7 @@
   },
   {
     "school": "Indiana State",
-    "espnId": 0,
+    "espnId": 282,
     "conference": "MVC",
     "wins": 573,
     "losses": 694,
@@ -3537,7 +3537,7 @@
   },
   {
     "school": "Eastern Washington",
-    "espnId": 0,
+    "espnId": 331,
     "conference": "Big Sky",
     "wins": 569,
     "losses": 675,
@@ -3569,7 +3569,7 @@
   },
   {
     "school": "Cal State Fullerton",
-    "espnId": 0,
+    "espnId": 2239,
     "conference": "Big West",
     "wins": 564,
     "losses": 676,
@@ -3601,7 +3601,7 @@
   },
   {
     "school": "Alabama State",
-    "espnId": 0,
+    "espnId": 2011,
     "conference": "SWAC",
     "wins": 561,
     "losses": 688,
@@ -3665,7 +3665,7 @@
   },
   {
     "school": "Northwestern State",
-    "espnId": 0,
+    "espnId": 2466,
     "conference": "Southland",
     "wins": 555,
     "losses": 691,
@@ -3697,7 +3697,7 @@
   },
   {
     "school": "Eastern Illinois",
-    "espnId": 0,
+    "espnId": 2197,
     "conference": "OVC",
     "wins": 548,
     "losses": 696,
@@ -3713,7 +3713,7 @@
   },
   {
     "school": "Loyola Marymount",
-    "espnId": 0,
+    "espnId": 2351,
     "conference": "WCC",
     "wins": 548,
     "losses": 711,
@@ -3745,7 +3745,7 @@
   },
   {
     "school": "Long Island University",
-    "espnId": 0,
+    "espnId": 112358,
     "conference": "NEC",
     "wins": 544,
     "losses": 685,
@@ -3761,7 +3761,7 @@
   },
   {
     "school": "North Carolina A&T",
-    "espnId": 0,
+    "espnId": 2448,
     "conference": "CAA",
     "wins": 544,
     "losses": 715,
@@ -3825,7 +3825,7 @@
   },
   {
     "school": "Western Carolina",
-    "espnId": 0,
+    "espnId": 2717,
     "conference": "Southern",
     "wins": 538,
     "losses": 724,
@@ -3889,7 +3889,7 @@
   },
   {
     "school": "Coppin State",
-    "espnId": 0,
+    "espnId": 2154,
     "conference": "MEAC",
     "wins": 530,
     "losses": 708,
@@ -3905,7 +3905,7 @@
   },
   {
     "school": "Nicholls State",
-    "espnId": 0,
+    "espnId": 2447,
     "conference": "Southland",
     "wins": 529,
     "losses": 688,
@@ -3937,7 +3937,7 @@
   },
   {
     "school": "Northern Arizona",
-    "espnId": 0,
+    "espnId": 2464,
     "conference": "Big Sky",
     "wins": 523,
     "losses": 665,
@@ -3985,7 +3985,7 @@
   },
   {
     "school": "Southeastern Louisiana",
-    "espnId": 0,
+    "espnId": 2545,
     "conference": "Southland",
     "wins": 518,
     "losses": 690,
@@ -4001,7 +4001,7 @@
   },
   {
     "school": "Tennessee State",
-    "espnId": 0,
+    "espnId": 2634,
     "conference": "OVC",
     "wins": 518,
     "losses": 722,
@@ -4017,7 +4017,7 @@
   },
   {
     "school": "Youngstown State",
-    "espnId": 0,
+    "espnId": 2754,
     "conference": "Horizon",
     "wins": 515,
     "losses": 736,
@@ -4081,7 +4081,7 @@
   },
   {
     "school": "Central Michigan",
-    "espnId": 0,
+    "espnId": 2117,
     "conference": "MAC",
     "wins": 500,
     "losses": 712,
@@ -4097,7 +4097,7 @@
   },
   {
     "school": "Northern Illinois",
-    "espnId": 0,
+    "espnId": 2459,
     "conference": "MAC",
     "wins": 500,
     "losses": 723,
@@ -4113,7 +4113,7 @@
   },
   {
     "school": "Maryland-Baltimore County",
-    "espnId": 0,
+    "espnId": 2378,
     "conference": "AmEast",
     "wins": 498,
     "losses": 686,
@@ -4257,7 +4257,7 @@
   },
   {
     "school": "Texas-Rio Grande Valley",
-    "espnId": 0,
+    "espnId": 292,
     "conference": "Southland",
     "wins": 486,
     "losses": 748,
@@ -4273,7 +4273,7 @@
   },
   {
     "school": "Western Illinois",
-    "espnId": 0,
+    "espnId": 2710,
     "conference": "OVC",
     "wins": 485,
     "losses": 722,
@@ -4305,7 +4305,7 @@
   },
   {
     "school": "Saint Francis (PA)",
-    "espnId": 0,
+    "espnId": 2598,
     "conference": "NEC",
     "wins": 484,
     "losses": 734,
@@ -4321,7 +4321,7 @@
   },
   {
     "school": "Central Connecticut State",
-    "espnId": 0,
+    "espnId": 2115,
     "conference": "NEC",
     "wins": 481,
     "losses": 688,
@@ -4353,7 +4353,7 @@
   },
   {
     "school": "Virginia Military Institute",
-    "espnId": 0,
+    "espnId": 2678,
     "conference": "Southern",
     "wins": 478,
     "losses": 764,
@@ -4369,7 +4369,7 @@
   },
   {
     "school": "Charleston Southern",
-    "espnId": 0,
+    "espnId": 2127,
     "conference": "Big South",
     "wins": 477,
     "losses": 668,
@@ -4385,7 +4385,7 @@
   },
   {
     "school": "Idaho State",
-    "espnId": 0,
+    "espnId": 304,
     "conference": "Big Sky",
     "wins": 473,
     "losses": 746,
@@ -4401,7 +4401,7 @@
   },
   {
     "school": "Bethune-Cookman",
-    "espnId": 0,
+    "espnId": 2065,
     "conference": "SWAC",
     "wins": 471,
     "losses": 763,
@@ -4449,7 +4449,7 @@
   },
   {
     "school": "Norfolk State",
-    "espnId": 0,
+    "espnId": 2450,
     "conference": "MEAC",
     "wins": 468,
     "losses": 436,
@@ -4513,7 +4513,7 @@
   },
   {
     "school": "Delaware State",
-    "espnId": 0,
+    "espnId": 2169,
     "conference": "MEAC",
     "wins": 459,
     "losses": 780,
@@ -4593,7 +4593,7 @@
   },
   {
     "school": "Mississippi Valley State",
-    "espnId": 0,
+    "espnId": 2400,
     "conference": "SWAC",
     "wins": 449,
     "losses": 801,
@@ -4641,7 +4641,7 @@
   },
   {
     "school": "Portland State",
-    "espnId": 0,
+    "espnId": 2502,
     "conference": "Big Sky",
     "wins": 445,
     "losses": 448,
@@ -4673,7 +4673,7 @@
   },
   {
     "school": "Florida International",
-    "espnId": 0,
+    "espnId": 2229,
     "conference": "CUSA",
     "wins": 437,
     "losses": 618,
@@ -4689,7 +4689,7 @@
   },
   {
     "school": "Southeast Missouri State",
-    "espnId": 0,
+    "espnId": 2546,
     "conference": "OVC",
     "wins": 435,
     "losses": 583,
@@ -4705,7 +4705,7 @@
   },
   {
     "school": "Alcorn State",
-    "espnId": 0,
+    "espnId": 2016,
     "conference": "SWAC",
     "wins": 433,
     "losses": 712,
@@ -4721,7 +4721,7 @@
   },
   {
     "school": "Florida Atlantic",
-    "espnId": 0,
+    "espnId": 2226,
     "conference": "American",
     "wins": 424,
     "losses": 574,
@@ -4737,7 +4737,7 @@
   },
   {
     "school": "Jacksonville State",
-    "espnId": 0,
+    "espnId": 55,
     "conference": "CUSA",
     "wins": 424,
     "losses": 507,
@@ -4785,7 +4785,7 @@
   },
   {
     "school": "Morgan State",
-    "espnId": 0,
+    "espnId": 2415,
     "conference": "MEAC",
     "wins": 417,
     "losses": 698,
@@ -4865,7 +4865,7 @@
   },
   {
     "school": "San Jose State",
-    "espnId": 0,
+    "espnId": 23,
     "conference": "MWC",
     "wins": 408,
     "losses": 828,
@@ -4881,7 +4881,7 @@
   },
   {
     "school": "Tennessee-Martin",
-    "espnId": 0,
+    "espnId": 2630,
     "conference": "OVC",
     "wins": 405,
     "losses": 607,
@@ -4897,7 +4897,7 @@
   },
   {
     "school": "North Dakota State",
-    "espnId": 0,
+    "espnId": 2449,
     "conference": "Summit",
     "wins": 405,
     "losses": 253,
@@ -4929,7 +4929,7 @@
   },
   {
     "school": "South Dakota State",
-    "espnId": 0,
+    "espnId": 2571,
     "conference": "Summit",
     "wins": 403,
     "losses": 273,
@@ -4945,7 +4945,7 @@
   },
   {
     "school": "Texas A&M-Corpus Christi",
-    "espnId": 0,
+    "espnId": 357,
     "conference": "Southland",
     "wins": 397,
     "losses": 353,
@@ -4961,7 +4961,7 @@
   },
   {
     "school": "Albany (NY)",
-    "espnId": 0,
+    "espnId": 399,
     "conference": "AmEast",
     "wins": 395,
     "losses": 436,
@@ -5009,7 +5009,7 @@
   },
   {
     "school": "Purdue Fort Wayne",
-    "espnId": 0,
+    "espnId": 2870,
     "conference": "Horizon",
     "wins": 368,
     "losses": 381,
@@ -5073,7 +5073,7 @@
   },
   {
     "school": "Maryland-Eastern Shore",
-    "espnId": 0,
+    "espnId": 2379,
     "conference": "MEAC",
     "wins": 340,
     "losses": 857,
@@ -5121,7 +5121,7 @@
   },
   {
     "school": "Sacramento State",
-    "espnId": 0,
+    "espnId": 16,
     "conference": "Big Sky",
     "wins": 318,
     "losses": 662,
@@ -5137,7 +5137,7 @@
   },
   {
     "school": "Chicago State",
-    "espnId": 0,
+    "espnId": 2130,
     "conference": "NEC",
     "wins": 315,
     "losses": 904,
@@ -5153,7 +5153,7 @@
   },
   {
     "school": "Florida Gulf Coast",
-    "espnId": 0,
+    "espnId": 526,
     "conference": "A-Sun",
     "wins": 314,
     "losses": 293,
@@ -5217,7 +5217,7 @@
   },
   {
     "school": "North Carolina Central",
-    "espnId": 0,
+    "espnId": 2428,
     "conference": "MEAC",
     "wins": 276,
     "losses": 276,
@@ -5313,7 +5313,7 @@
   },
   {
     "school": "Seattle",
-    "espnId": 0,
+    "espnId": 2547,
     "conference": "WCC",
     "wins": 270,
     "losses": 258,
@@ -5345,7 +5345,7 @@
   },
   {
     "school": "Northern Colorado",
-    "espnId": 0,
+    "espnId": 2458,
     "conference": "Big Sky",
     "wins": 268,
     "losses": 264,
@@ -5361,7 +5361,7 @@
   },
   {
     "school": "Cal State Bakersfield",
-    "espnId": 0,
+    "espnId": 2934,
     "conference": "Big West",
     "wins": 265,
     "losses": 350,
@@ -5377,7 +5377,7 @@
   },
   {
     "school": "Arkansas-Pine Bluff",
-    "espnId": 0,
+    "espnId": 2029,
     "conference": "SWAC",
     "wins": 255,
     "losses": 617,
@@ -5393,7 +5393,7 @@
   },
   {
     "school": "Houston Christian",
-    "espnId": 0,
+    "espnId": 2277,
     "conference": "Southland",
     "wins": 248,
     "losses": 441,
@@ -5409,7 +5409,7 @@
   },
   {
     "school": "Northern Kentucky",
-    "espnId": 0,
+    "espnId": 94,
     "conference": "Horizon",
     "wins": 246,
     "losses": 194,
@@ -5473,7 +5473,7 @@
   },
   {
     "school": "South Carolina Upstate",
-    "espnId": 0,
+    "espnId": 2908,
     "conference": "Big South",
     "wins": 225,
     "losses": 373,
@@ -5489,7 +5489,7 @@
   },
   {
     "school": "Kennesaw State",
-    "espnId": 0,
+    "espnId": 338,
     "conference": "CUSA",
     "wins": 223,
     "losses": 421,
@@ -5505,7 +5505,7 @@
   },
   {
     "school": "Abilene Christian",
-    "espnId": 0,
+    "espnId": 2000,
     "conference": "WAC",
     "wins": 217,
     "losses": 192,
@@ -5521,7 +5521,7 @@
   },
   {
     "school": "Southern Illinois-Edwardsville",
-    "espnId": 0,
+    "espnId": 2565,
     "conference": "OVC",
     "wins": 201,
     "losses": 338,
@@ -5537,7 +5537,7 @@
   },
   {
     "school": "Central Arkansas",
-    "espnId": 0,
+    "espnId": 2110,
     "conference": "A-Sun",
     "wins": 199,
     "losses": 407,
@@ -5585,7 +5585,7 @@
   },
   {
     "school": "Massachusetts-Lowell",
-    "espnId": 0,
+    "espnId": 2349,
     "conference": "AmEast",
     "wins": 188,
     "losses": 205,
@@ -5633,7 +5633,7 @@
   },
   {
     "school": "California Baptist",
-    "espnId": 0,
+    "espnId": 2856,
     "conference": "WAC",
     "wins": 139,
     "losses": 107,
@@ -5713,7 +5713,7 @@
   },
   {
     "school": "Tarleton State",
-    "espnId": 0,
+    "espnId": 2627,
     "conference": "WAC",
     "wins": 92,
     "losses": 90,
@@ -5905,7 +5905,7 @@
   },
   {
     "school": "East Texas A&M",
-    "espnId": 0,
+    "espnId": 2837,
     "conference": "Southland",
     "wins": 42,
     "losses": 87,
