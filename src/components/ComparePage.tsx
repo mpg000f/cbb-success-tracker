@@ -11,7 +11,9 @@ interface Props {
   getFilteredCoaches: (yearStart: number, yearEnd: number, search: string) => CoachRecord[]
 }
 
-const years = Array.from({ length: 2025 - 1985 + 1 }, (_, i) => 1985 + i)
+const currentYear = new Date().getFullYear()
+const maxYear = new Date().getMonth() >= 9 ? currentYear + 1 : currentYear
+const years = Array.from({ length: maxYear - 1985 + 1 }, (_, i) => 1985 + i)
 
 const statLabels: { key: string; label: string }[] = [
   { key: 'wins', label: 'Wins' },
@@ -35,7 +37,7 @@ export function ComparePage({ schools, coaches, getFilteredSchools, getFilteredC
   const [selectedB, setSelectedB] = useState<string | null>(null)
   const [focusedInput, setFocusedInput] = useState<'a' | 'b' | null>(null)
   const [yearStart, setYearStart] = useState(1985)
-  const [yearEnd, setYearEnd] = useState(2025)
+  const [yearEnd, setYearEnd] = useState(maxYear)
 
   // Filtered data based on year range
   const filteredSchools = useMemo(

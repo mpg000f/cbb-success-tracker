@@ -13,7 +13,7 @@ function App() {
   const [filters, setFilters] = useState<FiltersType>({
     search: '',
     yearStart: 1985,
-    yearEnd: 2025,
+    yearEnd: new Date().getMonth() >= 9 ? new Date().getFullYear() + 1 : new Date().getFullYear(),
   })
 
   const filteredSchools = useMemo(
@@ -27,14 +27,15 @@ function App() {
   )
 
   // Unfiltered for compare page (it has its own year filters)
+  const maxYear = new Date().getMonth() >= 9 ? new Date().getFullYear() + 1 : new Date().getFullYear()
   const allSchools = useMemo(
-    () => getFilteredSchools(1985, 2025, ''),
-    [getFilteredSchools]
+    () => getFilteredSchools(1985, maxYear, ''),
+    [getFilteredSchools, maxYear]
   )
 
   const allCoaches = useMemo(
-    () => getFilteredCoaches(1985, 2025, ''),
-    [getFilteredCoaches]
+    () => getFilteredCoaches(1985, maxYear, ''),
+    [getFilteredCoaches, maxYear]
   )
 
   if (loading) {

@@ -5,7 +5,11 @@ interface Props {
   setFilters: (f: FiltersType) => void
 }
 
-const years = Array.from({ length: 2025 - 1985 + 1 }, (_, i) => 1985 + i)
+const currentYear = new Date().getFullYear()
+// Season spans two calendar years (e.g. 2025-26 season = year 2026)
+// During a season (Oct-Apr), include the upcoming ending year
+const maxYear = new Date().getMonth() >= 9 ? currentYear + 1 : currentYear
+const years = Array.from({ length: maxYear - 1985 + 1 }, (_, i) => 1985 + i)
 
 export function Filters({ filters, setFilters }: Props) {
   return (
