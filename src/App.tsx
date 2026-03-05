@@ -15,16 +15,16 @@ function App() {
     search: '',
     yearStart: 1985,
     yearEnd: new Date().getMonth() >= 9 ? new Date().getFullYear() + 1 : new Date().getFullYear(),
-    conference: '',
+    conferences: [],
   })
 
-  const conferences = useMemo(
+  const allConferences = useMemo(
     () => [...new Set(schools.map(s => s.conference))].filter(Boolean).sort(),
     [schools]
   )
 
   const filteredSchools = useMemo(
-    () => getFilteredSchools(filters.yearStart, filters.yearEnd, filters.search, filters.conference),
+    () => getFilteredSchools(filters.yearStart, filters.yearEnd, filters.search, filters.conferences),
     [getFilteredSchools, filters]
   )
 
@@ -58,7 +58,7 @@ function App() {
       <Header view={view} setView={setView} />
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-4">
         {view !== 'compare' && view !== 'similar' && (
-          <Filters filters={filters} setFilters={setFilters} conferences={conferences} view={view} />
+          <Filters filters={filters} setFilters={setFilters} conferences={allConferences} view={view} />
         )}
         {view === 'schools' && <SchoolTable data={filteredSchools} />}
         {view === 'coaches' && <CoachTable data={filteredCoaches} />}
