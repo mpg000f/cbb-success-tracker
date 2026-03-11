@@ -215117,7 +215117,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 0,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "Jeremy Luther",
@@ -215373,7 +215373,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 1,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "Speedy Claxton",
@@ -217005,7 +217005,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 1,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "Bobby Kennen",
@@ -217565,7 +217565,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 0,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "Tom Pecora",
@@ -218461,7 +218461,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 1,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "John Pelphrey",
@@ -218669,7 +218669,7 @@
     "champGame": 0,
     "title": 0,
     "confRegSeason": 1,
-    "confTourney": 0
+    "confTourney": 1
   },
   {
     "coach": "Ron Hunter",

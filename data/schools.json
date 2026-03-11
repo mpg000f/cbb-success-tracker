@@ -2413,7 +2413,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 3,
-    "confTournament": 1
+    "confTournament": 2
   },
   {
     "school": "Montana State",
@@ -3997,7 +3997,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 3,
-    "confTournament": 2
+    "confTournament": 3
   },
   {
     "school": "Southeastern Louisiana",
@@ -4141,7 +4141,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 8,
-    "confTournament": 3
+    "confTournament": 4
   },
   {
     "school": "Wofford",
@@ -4733,7 +4733,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 7,
-    "confTournament": 1
+    "confTournament": 2
   },
   {
     "school": "Jacksonville State",
@@ -4893,7 +4893,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 5,
-    "confTournament": 5
+    "confTournament": 6
   },
   {
     "school": "Tennessee-Martin",
@@ -5805,7 +5805,7 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 0,
-    "confTournament": 0
+    "confTournament": 1
   },
   {
     "school": "Brooklyn Bulldogs",
