@@ -1,7 +1,7 @@
 [
   {
     "coach": "Mike Krzyzewski",
-    "school": "Duke",
+    "school": "Duke Blue Devils",
     "espnId": 150,
     "startYear": 1985,
     "endYear": 2022,
@@ -20,7 +20,7 @@
   },
   {
     "coach": "Jim Boeheim",
-    "school": "Syracuse",
+    "school": "Syracuse Orange",
     "espnId": 183,
     "startYear": 1985,
     "endYear": 2023,
@@ -39,7 +39,7 @@
   },
   {
     "coach": "Mark Few",
-    "school": "Gonzaga",
+    "school": "Gonzaga Bulldogs",
     "espnId": 2250,
     "startYear": 2000,
     "endYear": 2026,
@@ -58,7 +58,7 @@
   },
   {
     "coach": "Tom Izzo",
-    "school": "Michigan State",
+    "school": "Michigan State Spartans",
     "espnId": 127,
     "startYear": 1996,
     "endYear": 2026,
@@ -77,7 +77,7 @@
   },
   {
     "coach": "Bob McKillop",
-    "school": "Davidson",
+    "school": "Davidson Wildcats",
     "espnId": 2166,
     "startYear": 1990,
     "endYear": 2022,
@@ -96,7 +96,7 @@
   },
   {
     "coach": "Bill Self",
-    "school": "Kansas",
+    "school": "Kansas Jayhawks",
     "espnId": 2305,
     "startYear": 2004,
     "endYear": 2026,
@@ -115,7 +115,7 @@
   },
   {
     "coach": "John Thompson",
-    "school": "Georgetown",
+    "school": "Georgetown Hoyas",
     "espnId": 46,
     "startYear": 1985,
     "endYear": 2017,
@@ -134,8 +134,8 @@
   },
   {
     "coach": "Jim Calhoun",
-    "school": "Connecticut",
-    "espnId": 41,
+    "school": "Connecticut Huskies",
+    "espnId": 0,
     "startYear": 1987,
     "endYear": 2012,
     "wins": 597,
@@ -153,7 +153,7 @@
   },
   {
     "coach": "Randy Bennett",
-    "school": "Saint Mary's",
+    "school": "Saint Mary's Gaels",
     "espnId": 2608,
     "startYear": 2002,
     "endYear": 2026,
@@ -172,7 +172,7 @@
   },
   {
     "coach": "Jay Wright",
-    "school": "Villanova",
+    "school": "Villanova Wildcats",
     "espnId": 222,
     "startYear": 2002,
     "endYear": 2022,
@@ -191,7 +191,7 @@
   },
   {
     "coach": "Lute Olson",
-    "school": "Arizona",
+    "school": "Arizona Wildcats",
     "espnId": 12,
     "startYear": 1985,
     "endYear": 2007,
@@ -210,7 +210,7 @@
   },
   {
     "coach": "Matt Painter",
-    "school": "Purdue",
+    "school": "Purdue Boilermakers",
     "espnId": 2509,
     "startYear": 2006,
     "endYear": 2026,
@@ -229,7 +229,7 @@
   },
   {
     "coach": "Roy Williams",
-    "school": "North Carolina",
+    "school": "North Carolina Tar Heels",
     "espnId": 153,
     "startYear": 2004,
     "endYear": 2021,
@@ -248,7 +248,7 @@
   },
   {
     "coach": "Mike Brey",
-    "school": "Notre Dame",
+    "school": "Notre Dame Fighting Irish",
     "espnId": 87,
     "startYear": 2001,
     "endYear": 2023,
@@ -267,7 +267,7 @@
   },
   {
     "coach": "Scott Drew",
-    "school": "Baylor",
+    "school": "Baylor Bears",
     "espnId": 239,
     "startYear": 2004,
     "endYear": 2026,
@@ -286,7 +286,7 @@
   },
   {
     "coach": "John Chaney",
-    "school": "Temple",
+    "school": "Temple Owls",
     "espnId": 218,
     "startYear": 1985,
     "endYear": 2006,
@@ -305,7 +305,7 @@
   },
   {
     "coach": "Greg Kampe",
-    "school": "Oakland",
+    "school": "Oakland Golden Grizzlies",
     "espnId": 2473,
     "startYear": 2000,
     "endYear": 2026,
@@ -324,7 +324,7 @@
   },
   {
     "coach": "Billy Donovan",
-    "school": "Florida",
+    "school": "Florida Gators",
     "espnId": 57,
     "startYear": 1997,
     "endYear": 2015,
@@ -343,7 +343,7 @@
   },
   {
     "coach": "Gary Williams",
-    "school": "Maryland",
+    "school": "Maryland Terrapins",
     "espnId": 120,
     "startYear": 1990,
     "endYear": 2011,
@@ -362,7 +362,7 @@
   },
   {
     "coach": "Phil Martelli",
-    "school": "Saint Joseph's",
+    "school": "Saint Joseph's Hawks",
     "espnId": 2603,
     "startYear": 1996,
     "endYear": 2019,
@@ -381,12 +381,12 @@
   },
   {
     "coach": "James Jones",
-    "school": "Yale",
+    "school": "Yale Bulldogs",
     "espnId": 43,
     "startYear": 2000,
     "endYear": 2026,
     "wins": 442,
-    "losses": 325,
+    "losses": 326,
     "winPct": 0.576,
     "tournamentApps": 5,
     "sweet16": 0,
@@ -400,7 +400,7 @@
   },
   {
     "coach": "Leonard Hamilton",
-    "school": "Florida State",
+    "school": "Florida State Seminoles",
     "espnId": 52,
     "startYear": 2003,
     "endYear": 2025,
@@ -419,7 +419,7 @@
   },
   {
     "coach": "Fang Mitchell",
-    "school": "Coppin State",
+    "school": "Coppin State Eagles",
     "espnId": 2154,
     "startYear": 1987,
     "endYear": 2014,
@@ -438,7 +438,7 @@
   },
   {
     "coach": "Dave Loos",
-    "school": "Austin Peay",
+    "school": "Austin Peay Governors",
     "espnId": 2046,
     "startYear": 1991,
     "endYear": 2017,
@@ -457,7 +457,7 @@
   },
   {
     "coach": "Roy Williams",
-    "school": "Kansas",
+    "school": "Kansas Jayhawks",
     "espnId": 2305,
     "startYear": 1989,
     "endYear": 2003,
@@ -476,7 +476,7 @@
   },
   {
     "coach": "Rick Byrd",
-    "school": "Belmont",
+    "school": "Belmont Bruins",
     "espnId": 2057,
     "startYear": 2000,
     "endYear": 2019,
@@ -495,7 +495,7 @@
   },
   {
     "coach": "John Calipari",
-    "school": "Kentucky",
+    "school": "Kentucky Wildcats",
     "espnId": 96,
     "startYear": 2010,
     "endYear": 2024,
@@ -514,7 +514,7 @@
   },
   {
     "coach": "Gene Keady",
-    "school": "Purdue",
+    "school": "Purdue Boilermakers",
     "espnId": 2509,
     "startYear": 1985,
     "endYear": 2005,
@@ -533,7 +533,7 @@
   },
   {
     "coach": "Rick Barnes",
-    "school": "Texas",
+    "school": "Texas Longhorns",
     "espnId": 251,
     "startYear": 1999,
     "endYear": 2015,
@@ -552,7 +552,7 @@
   },
   {
     "coach": "Stew Morrill",
-    "school": "Utah State",
+    "school": "Utah State Aggies",
     "espnId": 328,
     "startYear": 1999,
     "endYear": 2015,
@@ -571,7 +571,7 @@
   },
   {
     "coach": "Ben Jacobson",
-    "school": "Northern Iowa",
+    "school": "Northern Iowa Panthers",
     "espnId": 2460,
     "startYear": 2007,
     "endYear": 2026,
@@ -590,8 +590,8 @@
   },
   {
     "coach": "Tom Green",
-    "school": "FDU",
-    "espnId": 161,
+    "school": "FDU Knights",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 2009,
     "wins": 390,
@@ -609,7 +609,7 @@
   },
   {
     "coach": "Nolan Richardson",
-    "school": "Arkansas",
+    "school": "Arkansas Razorbacks",
     "espnId": 8,
     "startYear": 1986,
     "endYear": 2002,
@@ -628,7 +628,7 @@
   },
   {
     "coach": "Bob Thomason",
-    "school": "Pacific",
+    "school": "Pacific Tigers",
     "espnId": 279,
     "startYear": 1989,
     "endYear": 2011,
@@ -647,7 +647,7 @@
   },
   {
     "coach": "Steve Fisher",
-    "school": "San Diego State",
+    "school": "San Diego State Aztecs",
     "espnId": 21,
     "startYear": 2000,
     "endYear": 2017,
@@ -666,7 +666,7 @@
   },
   {
     "coach": "Dana Altman",
-    "school": "Oregon",
+    "school": "Oregon Ducks",
     "espnId": 2483,
     "startYear": 2011,
     "endYear": 2026,
@@ -685,7 +685,7 @@
   },
   {
     "coach": "Bob Huggins",
-    "school": "Cincinnati",
+    "school": "Cincinnati Bearcats",
     "espnId": 2132,
     "startYear": 1990,
     "endYear": 2005,
@@ -704,7 +704,7 @@
   },
   {
     "coach": "Chris Mooney",
-    "school": "Richmond",
+    "school": "Richmond Spiders",
     "espnId": 257,
     "startYear": 2006,
     "endYear": 2026,
@@ -723,7 +723,7 @@
   },
   {
     "coach": "Mike Montgomery",
-    "school": "Stanford",
+    "school": "Stanford Cardinal",
     "espnId": 24,
     "startYear": 1987,
     "endYear": 2004,
@@ -742,7 +742,7 @@
   },
   {
     "coach": "Greg McDermott",
-    "school": "Creighton",
+    "school": "Creighton Bluejays",
     "espnId": 156,
     "startYear": 2011,
     "endYear": 2026,
@@ -761,7 +761,7 @@
   },
   {
     "coach": "Bo Ryan",
-    "school": "Wisconsin",
+    "school": "Wisconsin Badgers",
     "espnId": 275,
     "startYear": 2002,
     "endYear": 2016,
@@ -780,7 +780,7 @@
   },
   {
     "coach": "Tony Bennett",
-    "school": "Virginia",
+    "school": "Virginia Cavaliers",
     "espnId": 258,
     "startYear": 2010,
     "endYear": 2024,
@@ -799,7 +799,7 @@
   },
   {
     "coach": "Fran O'Hanlon",
-    "school": "Lafayette",
+    "school": "Lafayette Leopards",
     "espnId": 322,
     "startYear": 1996,
     "endYear": 2022,
@@ -818,7 +818,7 @@
   },
   {
     "coach": "Denny Crum",
-    "school": "Louisville",
+    "school": "Louisville Cardinals",
     "espnId": 97,
     "startYear": 1985,
     "endYear": 2001,
@@ -837,7 +837,7 @@
   },
   {
     "coach": "Dean Smith",
-    "school": "North Carolina",
+    "school": "North Carolina Tar Heels",
     "espnId": 153,
     "startYear": 1985,
     "endYear": 1997,
@@ -856,8 +856,8 @@
   },
   {
     "coach": "Mike Vining",
-    "school": "Louisiana-Monroe",
-    "espnId": 2433,
+    "school": "Louisiana-Monroe Warhawks",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 2005,
     "wins": 351,
@@ -875,7 +875,7 @@
   },
   {
     "coach": "Eddie Sutton",
-    "school": "Oklahoma State",
+    "school": "Oklahoma State Cowboys",
     "espnId": 197,
     "startYear": 1991,
     "endYear": 2006,
@@ -894,7 +894,7 @@
   },
   {
     "coach": "John Becker",
-    "school": "Vermont",
+    "school": "Vermont Catamounts",
     "espnId": 261,
     "startYear": 2012,
     "endYear": 2026,
@@ -913,7 +913,7 @@
   },
   {
     "coach": "Homer Drew",
-    "school": "Valparaiso",
+    "school": "Valparaiso Beacons",
     "espnId": 2674,
     "startYear": 1989,
     "endYear": 2011,
@@ -932,7 +932,7 @@
   },
   {
     "coach": "Bob Knight",
-    "school": "Indiana",
+    "school": "Indiana Hoosiers",
     "espnId": 84,
     "startYear": 1985,
     "endYear": 2000,
@@ -951,7 +951,7 @@
   },
   {
     "coach": "Bob Huggins",
-    "school": "West Virginia",
+    "school": "West Virginia Mountaineers",
     "espnId": 277,
     "startYear": 2008,
     "endYear": 2023,
@@ -970,13 +970,13 @@
   },
   {
     "coach": "Russ Turner",
-    "school": "UC Irvine",
+    "school": "UC Irvine Anteaters",
     "espnId": 300,
     "startYear": 2011,
     "endYear": 2026,
     "wins": 344,
-    "losses": 198,
-    "winPct": 0.635,
+    "losses": 199,
+    "winPct": 0.634,
     "tournamentApps": 2,
     "sweet16": 0,
     "elite8": 0,
@@ -989,7 +989,7 @@
   },
   {
     "coach": "Mark Schmidt",
-    "school": "St. Bonaventure",
+    "school": "St. Bonaventure Bonnies",
     "espnId": 179,
     "startYear": 2008,
     "endYear": 2026,
@@ -1008,7 +1008,7 @@
   },
   {
     "coach": "Thad Matta",
-    "school": "Ohio State",
+    "school": "Ohio State Buckeyes",
     "espnId": 194,
     "startYear": 2005,
     "endYear": 2017,
@@ -1027,7 +1027,7 @@
   },
   {
     "coach": "Leon Rice",
-    "school": "Boise State",
+    "school": "Boise State Broncos",
     "espnId": 68,
     "startYear": 2011,
     "endYear": 2026,
@@ -1046,7 +1046,7 @@
   },
   {
     "coach": "Riley Wallace",
-    "school": "Hawaii",
+    "school": "Hawaii Rainbow Warriors",
     "espnId": 62,
     "startYear": 1988,
     "endYear": 2007,
@@ -1065,7 +1065,7 @@
   },
   {
     "coach": "Kevin Stallings",
-    "school": "Vanderbilt",
+    "school": "Vanderbilt Commodores",
     "espnId": 238,
     "startYear": 2000,
     "endYear": 2016,
@@ -1084,7 +1084,7 @@
   },
   {
     "coach": "Kermit Davis",
-    "school": "Middle Tennessee",
+    "school": "Middle Tennessee Blue Raiders",
     "espnId": 2393,
     "startYear": 2003,
     "endYear": 2018,
@@ -1103,7 +1103,7 @@
   },
   {
     "coach": "Gregg Marshall",
-    "school": "Wichita State",
+    "school": "Wichita State Shockers",
     "espnId": 2724,
     "startYear": 2008,
     "endYear": 2020,
@@ -1122,7 +1122,7 @@
   },
   {
     "coach": "Mike McConathy",
-    "school": "Northwestern State",
+    "school": "Northwestern State Demons",
     "espnId": 2466,
     "startYear": 2000,
     "endYear": 2022,
@@ -1141,7 +1141,7 @@
   },
   {
     "coach": "Tad Boyle",
-    "school": "Colorado",
+    "school": "Colorado Buffaloes",
     "espnId": 38,
     "startYear": 2011,
     "endYear": 2026,
@@ -1160,7 +1160,7 @@
   },
   {
     "coach": "Scott Sutton",
-    "school": "Oral Roberts",
+    "school": "Oral Roberts Golden Eagles",
     "espnId": 198,
     "startYear": 2000,
     "endYear": 2017,
@@ -1179,7 +1179,7 @@
   },
   {
     "coach": "Jamie Dixon",
-    "school": "Pittsburgh",
+    "school": "Pittsburgh Panthers",
     "espnId": 221,
     "startYear": 2004,
     "endYear": 2016,
@@ -1198,7 +1198,7 @@
   },
   {
     "coach": "Dana Altman",
-    "school": "Creighton",
+    "school": "Creighton Bluejays",
     "espnId": 156,
     "startYear": 1995,
     "endYear": 2010,
@@ -1217,7 +1217,7 @@
   },
   {
     "coach": "Kelvin Sampson",
-    "school": "Houston",
+    "school": "Houston Cougars",
     "espnId": 248,
     "startYear": 2015,
     "endYear": 2026,
@@ -1236,7 +1236,7 @@
   },
   {
     "coach": "Rick Majerus",
-    "school": "Utah",
+    "school": "Utah Utes",
     "espnId": 254,
     "startYear": 1990,
     "endYear": 2004,
@@ -1255,7 +1255,7 @@
   },
   {
     "coach": "Tommy Amaker",
-    "school": "Harvard",
+    "school": "Harvard Crimson",
     "espnId": 108,
     "startYear": 2008,
     "endYear": 2026,
@@ -1274,7 +1274,7 @@
   },
   {
     "coach": "Randy Rahe",
-    "school": "Weber State",
+    "school": "Weber State Wildcats",
     "espnId": 2692,
     "startYear": 2007,
     "endYear": 2022,
@@ -1293,7 +1293,7 @@
   },
   {
     "coach": "Brad Brownell",
-    "school": "Clemson",
+    "school": "Clemson Tigers",
     "espnId": 228,
     "startYear": 2011,
     "endYear": 2026,
@@ -1312,7 +1312,7 @@
   },
   {
     "coach": "Gale Catlett",
-    "school": "West Virginia",
+    "school": "West Virginia Mountaineers",
     "espnId": 277,
     "startYear": 1985,
     "endYear": 2002,
@@ -1331,8 +1331,8 @@
   },
   {
     "coach": "Will Brown",
-    "school": "Albany (NY)",
-    "espnId": 399,
+    "school": "Albany (NY) Great Danes",
+    "espnId": 0,
     "startYear": 2002,
     "endYear": 2021,
     "wins": 315,
@@ -1350,7 +1350,7 @@
   },
   {
     "coach": "Tod Kowalczyk",
-    "school": "Toledo",
+    "school": "Toledo Rockets",
     "espnId": 2649,
     "startYear": 2011,
     "endYear": 2026,
@@ -1369,7 +1369,7 @@
   },
   {
     "coach": "Bobby Cremins",
-    "school": "Georgia Tech",
+    "school": "Georgia Tech Yellow Jackets",
     "espnId": 59,
     "startYear": 1985,
     "endYear": 2000,
@@ -1388,7 +1388,7 @@
   },
   {
     "coach": "Bob Williams",
-    "school": "UC Santa Barbara",
+    "school": "UC Santa Barbara Gauchos",
     "espnId": 2540,
     "startYear": 1999,
     "endYear": 2017,
@@ -1407,7 +1407,7 @@
   },
   {
     "coach": "Rob Senderoff",
-    "school": "Kent State",
+    "school": "Kent State Golden Flashes",
     "espnId": 2309,
     "startYear": 2012,
     "endYear": 2026,
@@ -1426,7 +1426,7 @@
   },
   {
     "coach": "Fran Dunphy",
-    "school": "Pennsylvania",
+    "school": "Pennsylvania Quakers",
     "espnId": 219,
     "startYear": 1990,
     "endYear": 2006,
@@ -1445,7 +1445,7 @@
   },
   {
     "coach": "Bill Coen",
-    "school": "Northeastern",
+    "school": "Northeastern Huskies",
     "espnId": 111,
     "startYear": 2007,
     "endYear": 2026,
@@ -1464,7 +1464,7 @@
   },
   {
     "coach": "Keith Dambrot",
-    "school": "Akron",
+    "school": "Akron Zips",
     "espnId": 2006,
     "startYear": 2005,
     "endYear": 2017,
@@ -1483,7 +1483,7 @@
   },
   {
     "coach": "Brett Reed",
-    "school": "Lehigh",
+    "school": "Lehigh Mountain Hawks",
     "espnId": 2329,
     "startYear": 2008,
     "endYear": 2026,
@@ -1502,7 +1502,7 @@
   },
   {
     "coach": "Rick Samuels",
-    "school": "Eastern Illinois",
+    "school": "Eastern Illinois Panthers",
     "espnId": 2197,
     "startYear": 1985,
     "endYear": 2005,
@@ -1521,7 +1521,7 @@
   },
   {
     "coach": "Don Haskins",
-    "school": "UTEP",
+    "school": "UTEP Miners",
     "espnId": 2638,
     "startYear": 1985,
     "endYear": 1999,
@@ -1540,8 +1540,8 @@
   },
   {
     "coach": "Dave Rose",
-    "school": "Brigham Young",
-    "espnId": 252,
+    "school": "Brigham Young Cougars",
+    "espnId": 0,
     "startYear": 2006,
     "endYear": 2019,
     "wins": 300,
@@ -1559,7 +1559,7 @@
   },
   {
     "coach": "Mike Young",
-    "school": "Wofford",
+    "school": "Wofford Terriers",
     "espnId": 2747,
     "startYear": 2003,
     "endYear": 2019,
@@ -1578,7 +1578,7 @@
   },
   {
     "coach": "Lorenzo Romar",
-    "school": "Washington",
+    "school": "Washington Huskies",
     "espnId": 264,
     "startYear": 2003,
     "endYear": 2017,
@@ -1596,8 +1596,27 @@
     "years": "2003-2017"
   },
   {
+    "coach": "Ritchie McKay",
+    "school": "Liberty Flames",
+    "espnId": 2335,
+    "startYear": 2008,
+    "endYear": 2026,
+    "wins": 298,
+    "losses": 141,
+    "winPct": 0.679,
+    "tournamentApps": 3,
+    "sweet16": 0,
+    "elite8": 0,
+    "finalFour": 0,
+    "champGame": 0,
+    "titles": 0,
+    "confRegularSeason": 7,
+    "confTournament": 4,
+    "years": "2008-2026"
+  },
+  {
     "coach": "Cliff Ellis",
-    "school": "Coastal Carolina",
+    "school": "Coastal Carolina Chanticleers",
     "espnId": 324,
     "startYear": 2008,
     "endYear": 2024,
@@ -1615,27 +1634,8 @@
     "years": "2008-2024"
   },
   {
-    "coach": "Ritchie McKay",
-    "school": "Liberty",
-    "espnId": 2335,
-    "startYear": 2008,
-    "endYear": 2026,
-    "wins": 297,
-    "losses": 141,
-    "winPct": 0.678,
-    "tournamentApps": 3,
-    "sweet16": 0,
-    "elite8": 0,
-    "finalFour": 0,
-    "champGame": 0,
-    "titles": 0,
-    "confRegularSeason": 7,
-    "confTournament": 4,
-    "years": "2008-2026"
-  },
-  {
     "coach": "Fran McCaffery",
-    "school": "Iowa",
+    "school": "Iowa Hawkeyes",
     "espnId": 2294,
     "startYear": 2011,
     "endYear": 2025,
@@ -1654,7 +1654,7 @@
   },
   {
     "coach": "Mick Cronin",
-    "school": "Cincinnati",
+    "school": "Cincinnati Bearcats",
     "espnId": 2132,
     "startYear": 2007,
     "endYear": 2019,
@@ -1673,7 +1673,7 @@
   },
   {
     "coach": "Jim Crews",
-    "school": "Evansville",
+    "school": "Evansville Purple Aces",
     "espnId": 339,
     "startYear": 1986,
     "endYear": 2002,
@@ -1692,7 +1692,7 @@
   },
   {
     "coach": "Rick Stansbury",
-    "school": "Mississippi State",
+    "school": "Mississippi State Bulldogs",
     "espnId": 344,
     "startYear": 1999,
     "endYear": 2012,
@@ -1711,7 +1711,7 @@
   },
   {
     "coach": "Rick Pitino",
-    "school": "Louisville",
+    "school": "Louisville Cardinals",
     "espnId": 97,
     "startYear": 2002,
     "endYear": 2017,
@@ -1730,7 +1730,7 @@
   },
   {
     "coach": "Lafayette Stribling",
-    "school": "Mississippi Valley State",
+    "school": "Mississippi Valley State Delta Devils",
     "espnId": 2400,
     "startYear": 1985,
     "endYear": 2005,
@@ -1749,7 +1749,7 @@
   },
   {
     "coach": "Don Maestri",
-    "school": "Troy",
+    "school": "Troy Trojans",
     "espnId": 2653,
     "startYear": 1994,
     "endYear": 2013,
@@ -1768,7 +1768,7 @@
   },
   {
     "coach": "Steve Hawkins",
-    "school": "Western Michigan",
+    "school": "Western Michigan Broncos",
     "espnId": 2711,
     "startYear": 2004,
     "endYear": 2020,
@@ -1787,8 +1787,8 @@
   },
   {
     "coach": "Howie Dickenman",
-    "school": "Central Connecticut State",
-    "espnId": 2115,
+    "school": "Central Connecticut State Blue Devils",
+    "espnId": 0,
     "startYear": 1997,
     "endYear": 2016,
     "wins": 282,
@@ -1806,7 +1806,7 @@
   },
   {
     "coach": "John Beilein",
-    "school": "Michigan",
+    "school": "Michigan Wolverines",
     "espnId": 130,
     "startYear": 2008,
     "endYear": 2019,
@@ -1825,7 +1825,7 @@
   },
   {
     "coach": "Cy Alexander",
-    "school": "South Carolina State",
+    "school": "South Carolina State Bulldogs",
     "espnId": 2569,
     "startYear": 1988,
     "endYear": 2003,
@@ -1844,7 +1844,7 @@
   },
   {
     "coach": "Dan Monson",
-    "school": "Long Beach State",
+    "school": "Long Beach State Beach",
     "espnId": 299,
     "startYear": 2008,
     "endYear": 2024,
@@ -1863,7 +1863,7 @@
   },
   {
     "coach": "Andrew Toole",
-    "school": "Robert Morris",
+    "school": "Robert Morris Colonials",
     "espnId": 2523,
     "startYear": 2011,
     "endYear": 2026,
@@ -1882,8 +1882,8 @@
   },
   {
     "coach": "Jim Larranaga",
-    "school": "Miami (FL)",
-    "espnId": 2390,
+    "school": "Miami (FL) Hurricanes",
+    "espnId": 0,
     "startYear": 2012,
     "endYear": 2025,
     "wins": 274,
@@ -1901,7 +1901,7 @@
   },
   {
     "coach": "Jim Larranaga",
-    "school": "George Mason",
+    "school": "George Mason Patriots",
     "espnId": 2244,
     "startYear": 1998,
     "endYear": 2011,
@@ -1920,7 +1920,7 @@
   },
   {
     "coach": "Norm Stewart",
-    "school": "Missouri",
+    "school": "Missouri Tigers",
     "espnId": 142,
     "startYear": 1985,
     "endYear": 1999,
@@ -1939,7 +1939,7 @@
   },
   {
     "coach": "Fran Dunphy",
-    "school": "Temple",
+    "school": "Temple Owls",
     "espnId": 218,
     "startYear": 2007,
     "endYear": 2019,
@@ -1958,7 +1958,7 @@
   },
   {
     "coach": "LeVelle Moton",
-    "school": "North Carolina Central",
+    "school": "North Carolina Central Eagles",
     "espnId": 2428,
     "startYear": 2010,
     "endYear": 2026,
@@ -1977,7 +1977,7 @@
   },
   {
     "coach": "Bob Marlin",
-    "school": "Louisiana",
+    "school": "Louisiana Ragin' Cajuns",
     "espnId": 309,
     "startYear": 2011,
     "endYear": 2025,
@@ -1996,7 +1996,7 @@
   },
   {
     "coach": "Charlie Coles",
-    "school": "Miami (OH)",
+    "school": "Miami (OH) RedHawks",
     "espnId": 193,
     "startYear": 1997,
     "endYear": 2012,
@@ -2015,7 +2015,7 @@
   },
   {
     "coach": "Joe Mihalich",
-    "school": "Niagara",
+    "school": "Niagara Purple Eagles",
     "espnId": 315,
     "startYear": 1999,
     "endYear": 2013,
@@ -2034,7 +2034,7 @@
   },
   {
     "coach": "Tom Brennan",
-    "school": "Vermont",
+    "school": "Vermont Catamounts",
     "espnId": 261,
     "startYear": 1987,
     "endYear": 2005,
@@ -2053,7 +2053,7 @@
   },
   {
     "coach": "Tubby Smith",
-    "school": "Kentucky",
+    "school": "Kentucky Wildcats",
     "espnId": 96,
     "startYear": 1998,
     "endYear": 2007,
@@ -2072,7 +2072,7 @@
   },
   {
     "coach": "Jason Hooten",
-    "school": "Sam Houston",
+    "school": "Sam Houston Bearkats",
     "espnId": 2534,
     "startYear": 2011,
     "endYear": 2023,
@@ -2091,7 +2091,7 @@
   },
   {
     "coach": "Mitch Henderson",
-    "school": "Princeton",
+    "school": "Princeton Tigers",
     "espnId": 163,
     "startYear": 2012,
     "endYear": 2026,
@@ -2110,7 +2110,7 @@
   },
   {
     "coach": "Matt Langel",
-    "school": "Colgate",
+    "school": "Colgate Raiders",
     "espnId": 2142,
     "startYear": 2012,
     "endYear": 2026,
@@ -2129,8 +2129,8 @@
   },
   {
     "coach": "John Kresse",
-    "school": "College of Charleston",
-    "espnId": 232,
+    "school": "College of Charleston Cougars",
+    "espnId": 0,
     "startYear": 1992,
     "endYear": 2002,
     "wins": 258,
@@ -2148,7 +2148,7 @@
   },
   {
     "coach": "Perry Watson",
-    "school": "Detroit Mercy",
+    "school": "Detroit Mercy Titans",
     "espnId": 2174,
     "startYear": 1994,
     "endYear": 2008,
@@ -2167,7 +2167,7 @@
   },
   {
     "coach": "Eddie Biedenbach",
-    "school": "UNC Asheville",
+    "school": "UNC Asheville Bulldogs",
     "espnId": 2427,
     "startYear": 1997,
     "endYear": 2013,
@@ -2186,7 +2186,7 @@
   },
   {
     "coach": "Pat Skerry",
-    "school": "Towson",
+    "school": "Towson Tigers",
     "espnId": 119,
     "startYear": 2012,
     "endYear": 2026,
@@ -2205,7 +2205,7 @@
   },
   {
     "coach": "Rick Barnes",
-    "school": "Tennessee",
+    "school": "Tennessee Volunteers",
     "espnId": 2633,
     "startYear": 2016,
     "endYear": 2026,
@@ -2224,7 +2224,7 @@
   },
   {
     "coach": "Lou Henson",
-    "school": "Illinois",
+    "school": "Illinois Fighting Illini",
     "espnId": 356,
     "startYear": 1985,
     "endYear": 1996,
@@ -2243,7 +2243,7 @@
   },
   {
     "coach": "Dave Magarity",
-    "school": "Marist",
+    "school": "Marist Red Foxes",
     "espnId": 2368,
     "startYear": 1987,
     "endYear": 2004,
@@ -2262,7 +2262,7 @@
   },
   {
     "coach": "Dick Davey",
-    "school": "Santa Clara",
+    "school": "Santa Clara Broncos",
     "espnId": 2541,
     "startYear": 1993,
     "endYear": 2007,
@@ -2281,7 +2281,7 @@
   },
   {
     "coach": "Bobby Braswell",
-    "school": "Cal State Northridge",
+    "school": "Cal State Northridge Matadors",
     "espnId": 2463,
     "startYear": 1997,
     "endYear": 2013,
@@ -2300,7 +2300,7 @@
   },
   {
     "coach": "Joe Jones",
-    "school": "Boston University",
+    "school": "Boston University Terriers",
     "espnId": 104,
     "startYear": 2012,
     "endYear": 2026,
@@ -2319,7 +2319,7 @@
   },
   {
     "coach": "Robert Jones",
-    "school": "Norfolk State",
+    "school": "Norfolk State Spartans",
     "espnId": 2450,
     "startYear": 2014,
     "endYear": 2026,
@@ -2338,8 +2338,8 @@
   },
   {
     "coach": "Jerry Tarkanian",
-    "school": "Nevada-Las Vegas",
-    "espnId": 2439,
+    "school": "Nevada-Las Vegas Rebels",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 1992,
     "wins": 250,
@@ -2357,7 +2357,7 @@
   },
   {
     "coach": "Billy Tubbs",
-    "school": "Oklahoma",
+    "school": "Oklahoma Sooners",
     "espnId": 201,
     "startYear": 1985,
     "endYear": 1994,
@@ -2376,7 +2376,7 @@
   },
   {
     "coach": "Matthew Driscoll",
-    "school": "North Florida",
+    "school": "North Florida Ospreys",
     "espnId": 2454,
     "startYear": 2010,
     "endYear": 2025,
@@ -2395,7 +2395,7 @@
   },
   {
     "coach": "Kirk Speraw",
-    "school": "UCF",
+    "school": "UCF Knights",
     "espnId": 2116,
     "startYear": 1994,
     "endYear": 2008,
@@ -2414,7 +2414,7 @@
   },
   {
     "coach": "Dennis Wolff",
-    "school": "Boston University",
+    "school": "Boston University Terriers",
     "espnId": 104,
     "startYear": 1995,
     "endYear": 2009,
@@ -2433,7 +2433,7 @@
   },
   {
     "coach": "Al Skinner",
-    "school": "Boston College",
+    "school": "Boston College Eagles",
     "espnId": 103,
     "startYear": 1998,
     "endYear": 2010,
@@ -2452,7 +2452,7 @@
   },
   {
     "coach": "Tom Davis",
-    "school": "Iowa",
+    "school": "Iowa Hawkeyes",
     "espnId": 2294,
     "startYear": 1987,
     "endYear": 1999,
@@ -2471,7 +2471,7 @@
   },
   {
     "coach": "Dave Bliss",
-    "school": "New Mexico",
+    "school": "New Mexico Lobos",
     "espnId": 167,
     "startYear": 1989,
     "endYear": 1999,
@@ -2490,7 +2490,7 @@
   },
   {
     "coach": "Mick Durham",
-    "school": "Montana State",
+    "school": "Montana State Bobcats",
     "espnId": 147,
     "startYear": 1991,
     "endYear": 2006,
@@ -2509,7 +2509,7 @@
   },
   {
     "coach": "Danny Kaspar",
-    "school": "Stephen F. Austin",
+    "school": "Stephen F. Austin Lumberjacks",
     "espnId": 2617,
     "startYear": 2001,
     "endYear": 2013,
@@ -2528,7 +2528,7 @@
   },
   {
     "coach": "Bruiser Flint",
-    "school": "Drexel",
+    "school": "Drexel Dragons",
     "espnId": 2182,
     "startYear": 2002,
     "endYear": 2016,
@@ -2547,8 +2547,8 @@
   },
   {
     "coach": "Andy Kennedy",
-    "school": "Mississippi",
-    "espnId": 145,
+    "school": "Mississippi Rebels",
+    "espnId": 0,
     "startYear": 2007,
     "endYear": 2018,
     "wins": 245,
@@ -2566,7 +2566,7 @@
   },
   {
     "coach": "Travis DeCuire",
-    "school": "Montana",
+    "school": "Montana Grizzlies",
     "espnId": 149,
     "startYear": 2015,
     "endYear": 2026,
@@ -2585,7 +2585,7 @@
   },
   {
     "coach": "Mack McCarthy",
-    "school": "Chattanooga",
+    "school": "Chattanooga Mocs",
     "espnId": 236,
     "startYear": 1986,
     "endYear": 1997,
@@ -2604,7 +2604,7 @@
   },
   {
     "coach": "Kelvin Sampson",
-    "school": "Oklahoma",
+    "school": "Oklahoma Sooners",
     "espnId": 201,
     "startYear": 1995,
     "endYear": 2006,
@@ -2623,7 +2623,7 @@
   },
   {
     "coach": "Sean Miller",
-    "school": "Arizona",
+    "school": "Arizona Wildcats",
     "espnId": 12,
     "startYear": 2010,
     "endYear": 2021,
@@ -2642,7 +2642,7 @@
   },
   {
     "coach": "Gene Bartow",
-    "school": "UAB",
+    "school": "UAB Blazers",
     "espnId": 5,
     "startYear": 1985,
     "endYear": 1996,
@@ -2661,7 +2661,7 @@
   },
   {
     "coach": "Ed Cooley",
-    "school": "Providence",
+    "school": "Providence Friars",
     "espnId": 2507,
     "startYear": 2012,
     "endYear": 2023,
@@ -2680,7 +2680,7 @@
   },
   {
     "coach": "Dave Odom",
-    "school": "Wake Forest",
+    "school": "Wake Forest Demon Deacons",
     "espnId": 154,
     "startYear": 1990,
     "endYear": 2001,
@@ -2699,7 +2699,7 @@
   },
   {
     "coach": "Blaine Taylor",
-    "school": "Old Dominion",
+    "school": "Old Dominion Monarchs",
     "espnId": 295,
     "startYear": 2002,
     "endYear": 2013,
@@ -2718,7 +2718,7 @@
   },
   {
     "coach": "King Rice",
-    "school": "Monmouth",
+    "school": "Monmouth Hawks",
     "espnId": 2405,
     "startYear": 2012,
     "endYear": 2026,
@@ -2737,7 +2737,7 @@
   },
   {
     "coach": "Speedy Morris",
-    "school": "La Salle",
+    "school": "La Salle Explorers",
     "espnId": 2325,
     "startYear": 1987,
     "endYear": 2001,
@@ -2756,7 +2756,7 @@
   },
   {
     "coach": "David Richman",
-    "school": "North Dakota State",
+    "school": "North Dakota State Bison",
     "espnId": 2449,
     "startYear": 2015,
     "endYear": 2026,
@@ -2775,7 +2775,7 @@
   },
   {
     "coach": "Greg Gard",
-    "school": "Wisconsin",
+    "school": "Wisconsin Badgers",
     "espnId": 275,
     "startYear": 2016,
     "endYear": 2026,
@@ -2794,7 +2794,7 @@
   },
   {
     "coach": "Danny Nee",
-    "school": "Nebraska",
+    "school": "Nebraska Cornhuskers",
     "espnId": 158,
     "startYear": 1987,
     "endYear": 2000,
@@ -2813,7 +2813,7 @@
   },
   {
     "coach": "Ernie Kent",
-    "school": "Oregon",
+    "school": "Oregon Ducks",
     "espnId": 2483,
     "startYear": 1998,
     "endYear": 2010,
@@ -2832,7 +2832,7 @@
   },
   {
     "coach": "Pat Flannery",
-    "school": "Bucknell",
+    "school": "Bucknell Bison",
     "espnId": 2083,
     "startYear": 1995,
     "endYear": 2008,
@@ -2851,7 +2851,7 @@
   },
   {
     "coach": "Ben Howland",
-    "school": "UCLA",
+    "school": "UCLA Bruins",
     "espnId": 26,
     "startYear": 2004,
     "endYear": 2013,
@@ -2870,7 +2870,7 @@
   },
   {
     "coach": "Jimmy Tillette",
-    "school": "Samford",
+    "school": "Samford Bulldogs",
     "espnId": 2535,
     "startYear": 1998,
     "endYear": 2012,
@@ -2889,7 +2889,7 @@
   },
   {
     "coach": "Jim Les",
-    "school": "UC Davis",
+    "school": "UC Davis Aggies",
     "espnId": 302,
     "startYear": 2012,
     "endYear": 2026,
@@ -2908,7 +2908,7 @@
   },
   {
     "coach": "Bruce Pearl",
-    "school": "Auburn",
+    "school": "Auburn Tigers",
     "espnId": 2,
     "startYear": 2015,
     "endYear": 2025,
@@ -2927,7 +2927,7 @@
   },
   {
     "coach": "Bill Herrion",
-    "school": "New Hampshire",
+    "school": "New Hampshire Wildcats",
     "espnId": 160,
     "startYear": 2006,
     "endYear": 2023,
@@ -2946,8 +2946,8 @@
   },
   {
     "coach": "Dale Brown",
-    "school": "Louisiana State",
-    "espnId": 99,
+    "school": "Louisiana State Fighting Tigers",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 1996,
     "wins": 226,
@@ -2965,7 +2965,7 @@
   },
   {
     "coach": "Tony Shaver",
-    "school": "William & Mary",
+    "school": "William & Mary Tribe",
     "espnId": 2729,
     "startYear": 2004,
     "endYear": 2019,
@@ -2984,7 +2984,7 @@
   },
   {
     "coach": "Mark Turgeon",
-    "school": "Maryland",
+    "school": "Maryland Terrapins",
     "espnId": 120,
     "startYear": 2012,
     "endYear": 2022,
@@ -3003,7 +3003,7 @@
   },
   {
     "coach": "Rich Herrin",
-    "school": "Southern Illinois",
+    "school": "Southern Illinois Salukis",
     "espnId": 79,
     "startYear": 1986,
     "endYear": 1998,
@@ -3022,7 +3022,7 @@
   },
   {
     "coach": "Bob Marlin",
-    "school": "Sam Houston",
+    "school": "Sam Houston Bearkats",
     "espnId": 2534,
     "startYear": 1999,
     "endYear": 2010,
@@ -3041,7 +3041,7 @@
   },
   {
     "coach": "Scott Cross",
-    "school": "UT Arlington",
+    "school": "UT Arlington Mavericks",
     "espnId": 250,
     "startYear": 2007,
     "endYear": 2018,
@@ -3060,7 +3060,7 @@
   },
   {
     "coach": "Kevin Willard",
-    "school": "Seton Hall",
+    "school": "Seton Hall Pirates",
     "espnId": 2550,
     "startYear": 2011,
     "endYear": 2022,
@@ -3079,7 +3079,7 @@
   },
   {
     "coach": "Murry Bartow",
-    "school": "East Tennessee State",
+    "school": "East Tennessee State Buccaneers",
     "espnId": 2193,
     "startYear": 2004,
     "endYear": 2015,
@@ -3098,7 +3098,7 @@
   },
   {
     "coach": "Larry Finch",
-    "school": "Memphis",
+    "school": "Memphis Tigers",
     "espnId": 235,
     "startYear": 1987,
     "endYear": 1997,
@@ -3117,8 +3117,8 @@
   },
   {
     "coach": "Andy Enfield",
-    "school": "Southern California",
-    "espnId": 30,
+    "school": "Southern California Trojans",
+    "espnId": 0,
     "startYear": 2014,
     "endYear": 2024,
     "wins": 220,
@@ -3136,7 +3136,7 @@
   },
   {
     "coach": "Brian Dutcher",
-    "school": "San Diego State",
+    "school": "San Diego State Aztecs",
     "espnId": 21,
     "startYear": 2018,
     "endYear": 2026,
@@ -3155,7 +3155,7 @@
   },
   {
     "coach": "Rick Pitino",
-    "school": "Kentucky",
+    "school": "Kentucky Wildcats",
     "espnId": 96,
     "startYear": 1990,
     "endYear": 1997,
@@ -3174,7 +3174,7 @@
   },
   {
     "coach": "Ben Braun",
-    "school": "California",
+    "school": "California Golden Bears",
     "espnId": 25,
     "startYear": 1997,
     "endYear": 2008,
@@ -3193,7 +3193,7 @@
   },
   {
     "coach": "Willis Wilson",
-    "school": "Rice",
+    "school": "Rice Owls",
     "espnId": 242,
     "startYear": 1993,
     "endYear": 2008,
@@ -3212,8 +3212,8 @@
   },
   {
     "coach": "Jimmy Collins",
-    "school": "Illinois-Chicago",
-    "espnId": 82,
+    "school": "Illinois-Chicago Flames",
+    "espnId": 0,
     "startYear": 1997,
     "endYear": 2010,
     "wins": 218,
@@ -3231,7 +3231,7 @@
   },
   {
     "coach": "Bobby Lutz",
-    "school": "Charlotte",
+    "school": "Charlotte 49ers",
     "espnId": 2429,
     "startYear": 1999,
     "endYear": 2010,
@@ -3250,7 +3250,7 @@
   },
   {
     "coach": "Billy Lee",
-    "school": "Campbell",
+    "school": "Campbell Fighting Camels",
     "espnId": 2097,
     "startYear": 1986,
     "endYear": 2003,
@@ -3269,7 +3269,7 @@
   },
   {
     "coach": "Chris Mack",
-    "school": "Xavier",
+    "school": "Xavier Musketeers",
     "espnId": 2752,
     "startYear": 2010,
     "endYear": 2018,
@@ -3288,7 +3288,7 @@
   },
   {
     "coach": "Jon Coffman",
-    "school": "Purdue Fort Wayne",
+    "school": "Purdue Fort Wayne Mastodons",
     "espnId": 2870,
     "startYear": 2015,
     "endYear": 2026,
@@ -3307,7 +3307,7 @@
   },
   {
     "coach": "John Calipari",
-    "school": "Memphis",
+    "school": "Memphis Tigers",
     "espnId": 235,
     "startYear": 2001,
     "endYear": 2009,
@@ -3326,7 +3326,7 @@
   },
   {
     "coach": "Pete Carril",
-    "school": "Princeton",
+    "school": "Princeton Tigers",
     "espnId": 163,
     "startYear": 1985,
     "endYear": 1996,
@@ -3345,7 +3345,7 @@
   },
   {
     "coach": "Jerry Pimm",
-    "school": "UC Santa Barbara",
+    "school": "UC Santa Barbara Gauchos",
     "espnId": 2540,
     "startYear": 1985,
     "endYear": 1998,
@@ -3364,7 +3364,7 @@
   },
   {
     "coach": "John Giannini",
-    "school": "La Salle",
+    "school": "La Salle Explorers",
     "espnId": 2325,
     "startYear": 2005,
     "endYear": 2018,
@@ -3383,7 +3383,7 @@
   },
   {
     "coach": "Robert Moreland",
-    "school": "Texas Southern",
+    "school": "Texas Southern Tigers",
     "espnId": 2640,
     "startYear": 1985,
     "endYear": 2008,
@@ -3402,7 +3402,7 @@
   },
   {
     "coach": "Ronnie Arrow",
-    "school": "South Alabama",
+    "school": "South Alabama Jaguars",
     "espnId": 6,
     "startYear": 1988,
     "endYear": 2013,
@@ -3421,8 +3421,8 @@
   },
   {
     "coach": "Jeff Jones",
-    "school": "American",
-    "espnId": 44,
+    "school": "American Eagles",
+    "espnId": 0,
     "startYear": 2001,
     "endYear": 2013,
     "wins": 211,
@@ -3440,7 +3440,7 @@
   },
   {
     "coach": "Mark Gottfried",
-    "school": "Alabama",
+    "school": "Alabama Crimson Tide",
     "espnId": 333,
     "startYear": 1999,
     "endYear": 2009,
@@ -3459,7 +3459,7 @@
   },
   {
     "coach": "Bruce Weber",
-    "school": "Illinois",
+    "school": "Illinois Fighting Illini",
     "espnId": 356,
     "startYear": 2004,
     "endYear": 2012,
@@ -3478,7 +3478,7 @@
   },
   {
     "coach": "Rod Barnes",
-    "school": "Cal State Bakersfield",
+    "school": "Cal State Bakersfield Roadrunners",
     "espnId": 2934,
     "startYear": 2012,
     "endYear": 2025,
@@ -3497,7 +3497,7 @@
   },
   {
     "coach": "Kevin Baggett",
-    "school": "Rider",
+    "school": "Rider Broncs",
     "espnId": 2520,
     "startYear": 2013,
     "endYear": 2026,
@@ -3516,7 +3516,7 @@
   },
   {
     "coach": "Bob Hoffman",
-    "school": "Mercer",
+    "school": "Mercer Bears",
     "espnId": 2382,
     "startYear": 2009,
     "endYear": 2019,
@@ -3535,7 +3535,7 @@
   },
   {
     "coach": "Chris Collins",
-    "school": "Northwestern",
+    "school": "Northwestern Wildcats",
     "espnId": 77,
     "startYear": 2014,
     "endYear": 2026,
@@ -3554,7 +3554,7 @@
   },
   {
     "coach": "Ben Jobe",
-    "school": "Southern",
+    "school": "Southern Jaguars",
     "espnId": 2582,
     "startYear": 1987,
     "endYear": 2003,
@@ -3573,7 +3573,7 @@
   },
   {
     "coach": "Jud Heathcote",
-    "school": "Michigan State",
+    "school": "Michigan State Spartans",
     "espnId": 127,
     "startYear": 1985,
     "endYear": 1995,
@@ -3592,7 +3592,7 @@
   },
   {
     "coach": "Lewis Jackson",
-    "school": "Alabama State",
+    "school": "Alabama State Hornets",
     "espnId": 2011,
     "startYear": 2006,
     "endYear": 2020,
@@ -3611,7 +3611,7 @@
   },
   {
     "coach": "Brian Wardle",
-    "school": "Bradley",
+    "school": "Bradley Braves",
     "espnId": 71,
     "startYear": 2016,
     "endYear": 2026,
@@ -3630,7 +3630,7 @@
   },
   {
     "coach": "Edward Joyner",
-    "school": "Hampton",
+    "school": "Hampton Pirates",
     "espnId": 2261,
     "startYear": 2010,
     "endYear": 2024,
@@ -3649,7 +3649,7 @@
   },
   {
     "coach": "Larry Hunter",
-    "school": "Ohio",
+    "school": "Ohio Bobcats",
     "espnId": 195,
     "startYear": 1990,
     "endYear": 2001,
@@ -3668,7 +3668,7 @@
   },
   {
     "coach": "Dan Fitzgerald",
-    "school": "Gonzaga",
+    "school": "Gonzaga Bulldogs",
     "espnId": 2250,
     "startYear": 1986,
     "endYear": 1997,
@@ -3687,7 +3687,7 @@
   },
   {
     "coach": "Jeff Jones",
-    "school": "Old Dominion",
+    "school": "Old Dominion Monarchs",
     "espnId": 295,
     "startYear": 2014,
     "endYear": 2024,
@@ -3706,7 +3706,7 @@
   },
   {
     "coach": "Bob Richey",
-    "school": "Furman",
+    "school": "Furman Paladins",
     "espnId": 231,
     "startYear": 2018,
     "endYear": 2026,
@@ -3725,7 +3725,7 @@
   },
   {
     "coach": "Pete Gillen",
-    "school": "Xavier",
+    "school": "Xavier Musketeers",
     "espnId": 2752,
     "startYear": 1986,
     "endYear": 1994,
@@ -3744,7 +3744,7 @@
   },
   {
     "coach": "Pat Kennedy",
-    "school": "Florida State",
+    "school": "Florida State Seminoles",
     "espnId": 52,
     "startYear": 1987,
     "endYear": 1997,
@@ -3763,7 +3763,7 @@
   },
   {
     "coach": "Stan Joplin",
-    "school": "Toledo",
+    "school": "Toledo Rockets",
     "espnId": 2649,
     "startYear": 1997,
     "endYear": 2008,
@@ -3782,7 +3782,7 @@
   },
   {
     "coach": "Brad Holland",
-    "school": "San Diego",
+    "school": "San Diego Toreros",
     "espnId": 301,
     "startYear": 1995,
     "endYear": 2007,
@@ -3801,8 +3801,8 @@
   },
   {
     "coach": "Ron Hunter",
-    "school": "IU Indy",
-    "espnId": 85,
+    "school": "IU Indy Jaguars",
+    "espnId": 0,
     "startYear": 1999,
     "endYear": 2011,
     "wins": 200,
@@ -3820,7 +3820,7 @@
   },
   {
     "coach": "Greg Jackson",
-    "school": "Delaware State",
+    "school": "Delaware State Hornets",
     "espnId": 2169,
     "startYear": 2001,
     "endYear": 2014,
@@ -3839,7 +3839,7 @@
   },
   {
     "coach": "Tim Cluess",
-    "school": "Iona",
+    "school": "Iona Gaels",
     "espnId": 314,
     "startYear": 2011,
     "endYear": 2019,
@@ -3858,7 +3858,7 @@
   },
   {
     "coach": "Bobby Dye",
-    "school": "Boise State",
+    "school": "Boise State Broncos",
     "espnId": 68,
     "startYear": 1985,
     "endYear": 1995,
@@ -3877,7 +3877,7 @@
   },
   {
     "coach": "Reggie Witherspoon",
-    "school": "Buffalo",
+    "school": "Buffalo Bulls",
     "espnId": 2084,
     "startYear": 2000,
     "endYear": 2013,
@@ -3896,7 +3896,7 @@
   },
   {
     "coach": "Marvin Menzies",
-    "school": "New Mexico State",
+    "school": "New Mexico State Aggies",
     "espnId": 166,
     "startYear": 2008,
     "endYear": 2016,
@@ -3915,8 +3915,8 @@
   },
   {
     "coach": "Jamie Dixon",
-    "school": "Texas Christian",
-    "espnId": 2628,
+    "school": "Texas Christian Horned Frogs",
+    "espnId": 0,
     "startYear": 2017,
     "endYear": 2026,
     "wins": 198,
@@ -3934,7 +3934,7 @@
   },
   {
     "coach": "P.J. Carlesimo",
-    "school": "Seton Hall",
+    "school": "Seton Hall Pirates",
     "espnId": 2550,
     "startYear": 1985,
     "endYear": 1994,
@@ -3953,7 +3953,7 @@
   },
   {
     "coach": "Andy Stoglin",
-    "school": "Jackson State",
+    "school": "Jackson State Tigers",
     "espnId": 2296,
     "startYear": 1990,
     "endYear": 2003,
@@ -3972,7 +3972,7 @@
   },
   {
     "coach": "Pat Douglass",
-    "school": "UC Irvine",
+    "school": "UC Irvine Anteaters",
     "espnId": 300,
     "startYear": 1998,
     "endYear": 2010,
@@ -3991,7 +3991,7 @@
   },
   {
     "coach": "John Groce",
-    "school": "Akron",
+    "school": "Akron Zips",
     "espnId": 2006,
     "startYear": 2018,
     "endYear": 2026,
@@ -4010,7 +4010,7 @@
   },
   {
     "coach": "Frank Kerns",
-    "school": "Georgia Southern",
+    "school": "Georgia Southern Eagles",
     "espnId": 290,
     "startYear": 1985,
     "endYear": 1995,
@@ -4029,7 +4029,7 @@
   },
   {
     "coach": "Barry Collier",
-    "school": "Butler",
+    "school": "Butler Bulldogs",
     "espnId": 2086,
     "startYear": 1990,
     "endYear": 2000,
@@ -4048,7 +4048,7 @@
   },
   {
     "coach": "Ed DeChellis",
-    "school": "Navy",
+    "school": "Navy Midshipmen",
     "espnId": 2426,
     "startYear": 2012,
     "endYear": 2025,
@@ -4067,7 +4067,7 @@
   },
   {
     "coach": "Lon Kruger",
-    "school": "Oklahoma",
+    "school": "Oklahoma Sooners",
     "espnId": 201,
     "startYear": 2012,
     "endYear": 2021,
@@ -4086,7 +4086,7 @@
   },
   {
     "coach": "Eran Ganot",
-    "school": "Hawaii",
+    "school": "Hawaii Rainbow Warriors",
     "espnId": 62,
     "startYear": 2016,
     "endYear": 2026,
@@ -4105,7 +4105,7 @@
   },
   {
     "coach": "Anthony Grant",
-    "school": "Dayton",
+    "school": "Dayton Flyers",
     "espnId": 2168,
     "startYear": 2018,
     "endYear": 2026,
@@ -4124,7 +4124,7 @@
   },
   {
     "coach": "Gregg Marshall",
-    "school": "Winthrop",
+    "school": "Winthrop Eagles",
     "espnId": 2737,
     "startYear": 1999,
     "endYear": 2007,
@@ -4143,7 +4143,7 @@
   },
   {
     "coach": "Gary Waters",
-    "school": "Cleveland State",
+    "school": "Cleveland State Vikings",
     "espnId": 325,
     "startYear": 2007,
     "endYear": 2017,
@@ -4162,8 +4162,8 @@
   },
   {
     "coach": "Dan Hurley",
-    "school": "Connecticut",
-    "espnId": 41,
+    "school": "Connecticut Huskies",
+    "espnId": 0,
     "startYear": 2019,
     "endYear": 2026,
     "wins": 194,
@@ -4181,7 +4181,7 @@
   },
   {
     "coach": "Mike Adras",
-    "school": "Northern Arizona",
+    "school": "Northern Arizona Lumberjacks",
     "espnId": 2464,
     "startYear": 2000,
     "endYear": 2012,
@@ -4200,7 +4200,7 @@
   },
   {
     "coach": "Larry Hunter",
-    "school": "Western Carolina",
+    "school": "Western Carolina Catamounts",
     "espnId": 2717,
     "startYear": 2006,
     "endYear": 2018,
@@ -4219,7 +4219,7 @@
   },
   {
     "coach": "Terry Truax",
-    "school": "Towson",
+    "school": "Towson Tigers",
     "espnId": 119,
     "startYear": 1985,
     "endYear": 1997,
@@ -4238,7 +4238,7 @@
   },
   {
     "coach": "Ron Bradley",
-    "school": "Radford",
+    "school": "Radford Highlanders",
     "espnId": 2515,
     "startYear": 1992,
     "endYear": 2002,
@@ -4257,7 +4257,7 @@
   },
   {
     "coach": "Bill Evans",
-    "school": "Southern Utah",
+    "school": "Southern Utah Thunderbirds",
     "espnId": 253,
     "startYear": 1992,
     "endYear": 2007,
@@ -4276,8 +4276,8 @@
   },
   {
     "coach": "John Brady",
-    "school": "Louisiana State",
-    "espnId": 99,
+    "school": "Louisiana State Fighting Tigers",
+    "espnId": 0,
     "startYear": 1998,
     "endYear": 2008,
     "wins": 192,
@@ -4295,7 +4295,7 @@
   },
   {
     "coach": "Ralph Willard",
-    "school": "Holy Cross",
+    "school": "Holy Cross Crusaders",
     "espnId": 107,
     "startYear": 2000,
     "endYear": 2009,
@@ -4314,7 +4314,7 @@
   },
   {
     "coach": "Bill Carmody",
-    "school": "Northwestern",
+    "school": "Northwestern Wildcats",
     "espnId": 77,
     "startYear": 2001,
     "endYear": 2013,
@@ -4333,7 +4333,7 @@
   },
   {
     "coach": "Steve Shields",
-    "school": "Little Rock",
+    "school": "Little Rock Trojans",
     "espnId": 2031,
     "startYear": 2004,
     "endYear": 2015,
@@ -4352,7 +4352,7 @@
   },
   {
     "coach": "Steve Pikiell",
-    "school": "Stony Brook",
+    "school": "Stony Brook Seawolves",
     "espnId": 2619,
     "startYear": 2006,
     "endYear": 2016,
@@ -4371,7 +4371,7 @@
   },
   {
     "coach": "Richard Williams",
-    "school": "Mississippi State",
+    "school": "Mississippi State Bulldogs",
     "espnId": 344,
     "startYear": 1987,
     "endYear": 1998,
@@ -4390,7 +4390,7 @@
   },
   {
     "coach": "Herb Sendek",
-    "school": "NC State",
+    "school": "NC State Wolfpack",
     "espnId": 152,
     "startYear": 1997,
     "endYear": 2006,
@@ -4409,7 +4409,7 @@
   },
   {
     "coach": "Tommy Penders",
-    "school": "Texas",
+    "school": "Texas Longhorns",
     "espnId": 251,
     "startYear": 1989,
     "endYear": 1998,
@@ -4428,7 +4428,7 @@
   },
   {
     "coach": "Tom Crean",
-    "school": "Marquette",
+    "school": "Marquette Golden Eagles",
     "espnId": 269,
     "startYear": 2000,
     "endYear": 2008,
@@ -4447,7 +4447,7 @@
   },
   {
     "coach": "Paul Hewitt",
-    "school": "Georgia Tech",
+    "school": "Georgia Tech Yellow Jackets",
     "espnId": 59,
     "startYear": 2001,
     "endYear": 2011,
@@ -4466,7 +4466,7 @@
   },
   {
     "coach": "Johnny Jones",
-    "school": "North Texas",
+    "school": "North Texas Mean Green",
     "espnId": 249,
     "startYear": 2002,
     "endYear": 2012,
@@ -4485,7 +4485,7 @@
   },
   {
     "coach": "Scott Nagy",
-    "school": "South Dakota State",
+    "school": "South Dakota State Jackrabbits",
     "espnId": 2571,
     "startYear": 2006,
     "endYear": 2016,
@@ -4504,8 +4504,8 @@
   },
   {
     "coach": "Pat Duquette",
-    "school": "Massachusetts-Lowell",
-    "espnId": 2349,
+    "school": "Massachusetts-Lowell River Hawks",
+    "espnId": 0,
     "startYear": 2014,
     "endYear": 2026,
     "wins": 190,
@@ -4523,7 +4523,7 @@
   },
   {
     "coach": "Johnny Dawkins",
-    "school": "UCF",
+    "school": "UCF Knights",
     "espnId": 2116,
     "startYear": 2017,
     "endYear": 2026,
@@ -4542,7 +4542,7 @@
   },
   {
     "coach": "Brad Underwood",
-    "school": "Illinois",
+    "school": "Illinois Fighting Illini",
     "espnId": 356,
     "startYear": 2018,
     "endYear": 2026,
@@ -4561,7 +4561,7 @@
   },
   {
     "coach": "Nelson Catalina",
-    "school": "Arkansas State",
+    "school": "Arkansas State Red Wolves",
     "espnId": 2032,
     "startYear": 1985,
     "endYear": 1995,
@@ -4580,7 +4580,7 @@
   },
   {
     "coach": "Jeff Neubauer",
-    "school": "Eastern Kentucky",
+    "school": "Eastern Kentucky Colonels",
     "espnId": 2198,
     "startYear": 2006,
     "endYear": 2015,
@@ -4599,8 +4599,8 @@
   },
   {
     "coach": "Porter Moser",
-    "school": "Loyola (IL)",
-    "espnId": 2350,
+    "school": "Loyola (IL) Ramblers",
+    "espnId": 0,
     "startYear": 2012,
     "endYear": 2021,
     "wins": 188,
@@ -4618,7 +4618,7 @@
   },
   {
     "coach": "Tim Craft",
-    "school": "Gardner-Webb",
+    "school": "Gardner-Webb Runnin' Bulldogs",
     "espnId": 2241,
     "startYear": 2014,
     "endYear": 2024,
@@ -4637,7 +4637,7 @@
   },
   {
     "coach": "Dick Tarrant",
-    "school": "Richmond",
+    "school": "Richmond Spiders",
     "espnId": 257,
     "startYear": 1985,
     "endYear": 1993,
@@ -4656,7 +4656,7 @@
   },
   {
     "coach": "Dick Bennett",
-    "school": "Green Bay",
+    "school": "Green Bay Phoenix",
     "espnId": 2739,
     "startYear": 1986,
     "endYear": 1995,
@@ -4694,7 +4694,7 @@
   },
   {
     "coach": "Herb Sendek",
-    "school": "Santa Clara",
+    "school": "Santa Clara Broncos",
     "espnId": 2541,
     "startYear": 2017,
     "endYear": 2026,
@@ -4713,7 +4713,7 @@
   },
   {
     "coach": "Joe Pasternack",
-    "school": "UC Santa Barbara",
+    "school": "UC Santa Barbara Gauchos",
     "espnId": 2540,
     "startYear": 2018,
     "endYear": 2026,
@@ -4732,8 +4732,8 @@
   },
   {
     "coach": "Lou Carnesecca",
-    "school": "St. John's (NY)",
-    "espnId": 2599,
+    "school": "St. John's (NY) Red Storm",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 1992,
     "wins": 186,
@@ -4751,7 +4751,7 @@
   },
   {
     "coach": "Cliff Ellis",
-    "school": "Auburn",
+    "school": "Auburn Tigers",
     "espnId": 2,
     "startYear": 1995,
     "endYear": 2004,
@@ -4770,7 +4770,7 @@
   },
   {
     "coach": "Pat Kelsey",
-    "school": "Winthrop",
+    "school": "Winthrop Eagles",
     "espnId": 2737,
     "startYear": 2013,
     "endYear": 2021,
@@ -4789,7 +4789,7 @@
   },
   {
     "coach": "Perry Clark",
-    "school": "Tulane",
+    "school": "Tulane Green Wave",
     "espnId": 2655,
     "startYear": 1990,
     "endYear": 2000,
@@ -4808,7 +4808,7 @@
   },
   {
     "coach": "Sean Miller",
-    "school": "Xavier",
+    "school": "Xavier Musketeers",
     "espnId": 2752,
     "startYear": 2005,
     "endYear": 2025,
@@ -4827,7 +4827,7 @@
   },
   {
     "coach": "Wes Miller",
-    "school": "UNC Greensboro",
+    "school": "UNC Greensboro Spartans",
     "espnId": 2430,
     "startYear": 2012,
     "endYear": 2021,
@@ -4846,7 +4846,7 @@
   },
   {
     "coach": "Bobby Hurley",
-    "school": "Arizona State",
+    "school": "Arizona State Sun Devils",
     "espnId": 9,
     "startYear": 2016,
     "endYear": 2026,
@@ -4865,7 +4865,7 @@
   },
   {
     "coach": "Charles Woollum",
-    "school": "Bucknell",
+    "school": "Bucknell Bison",
     "espnId": 2083,
     "startYear": 1985,
     "endYear": 1994,
@@ -4884,8 +4884,8 @@
   },
   {
     "coach": "M.K. Turk",
-    "school": "Southern Mississippi",
-    "espnId": 2572,
+    "school": "Southern Mississippi Golden Eagles",
+    "espnId": 0,
     "startYear": 1985,
     "endYear": 1996,
     "wins": 184,
@@ -4903,7 +4903,7 @@
   },
   {
     "coach": "Don DeVoe",
-    "school": "Navy",
+    "school": "Navy Midshipmen",
     "espnId": 2426,
     "startYear": 1993,
     "endYear": 2004,
@@ -4922,7 +4922,7 @@
   },
   {
     "coach": "Ricardo Patton",
-    "school": "Colorado",
+    "school": "Colorado Buffaloes",
     "espnId": 38,
     "startYear": 1996,
     "endYear": 2007,
@@ -4941,7 +4941,7 @@
   },
   {
     "coach": "Rob Jeter",
-    "school": "Milwaukee",
+    "school": "Milwaukee Panthers",
     "espnId": 270,
     "startYear": 2006,
     "endYear": 2016,
@@ -4960,7 +4960,7 @@
   },
   {
     "coach": "Marty Simmons",
-    "school": "Evansville",
+    "school": "Evansville Purple Aces",
     "espnId": 339,
     "startYear": 2008,
     "endYear": 2018,
@@ -4979,7 +4979,7 @@
   },
   {
     "coach": "Bruce Weber",
-    "school": "Kansas State",
+    "school": "Kansas State Wildcats",
     "espnId": 2306,
     "startYear": 2013,
     "endYear": 2022,
@@ -4998,7 +4998,7 @@
   },
   {
     "coach": "Kevin McGeehan",
-    "school": "Campbell",
+    "school": "Campbell Fighting Camels",
     "espnId": 2097,
     "startYear": 2014,
     "endYear": 2025,
@@ -5017,7 +5017,7 @@
   },
   {
     "coach": "Ray Harper",
-    "school": "Jacksonville State",
+    "school": "Jacksonville State Gamecocks",
     "espnId": 55,
     "startYear": 2017,
     "endYear": 2026,
@@ -5036,7 +5036,7 @@
   },
   {
     "coach": "Jim Baron",
-    "school": "Rhode Island",
+    "school": "Rhode Island Rams",
     "espnId": 227,
     "startYear": 2002,
     "endYear": 2012,
@@ -5055,7 +5055,7 @@
   },
   {
     "coach": "Larry Krystkowiak",
-    "school": "Utah",
+    "school": "Utah Utes",
     "espnId": 254,
     "startYear": 2012,
     "endYear": 2021,
@@ -5074,7 +5074,7 @@
   },
   {
     "coach": "Dick Hunsaker",
-    "school": "Utah Valley",
+    "school": "Utah Valley Wolverines",
     "espnId": 3084,
     "startYear": 2005,
     "endYear": 2015,
@@ -5093,7 +5093,7 @@
   },
   {
     "coach": "Greg Lansing",
-    "school": "Indiana State",
+    "school": "Indiana State Sycamores",
     "espnId": 282,
     "startYear": 2011,
     "endYear": 2021,
@@ -5112,7 +5112,7 @@
   },
   {
     "coach": "Charles Spoonhour",
-    "school": "Missouri State",
+    "school": "Missouri State Bears",
     "espnId": 2623,
     "startYear": 1985,
     "endYear": 1992,
@@ -5131,7 +5131,7 @@
   },
   {
     "coach": "Jim Phelan",
-    "school": "Mount St. Mary's",
+    "school": "Mount St. Mary's Mountaineers",
     "espnId": 116,
     "startYear": 1989,
     "endYear": 2003,
@@ -5150,7 +5150,7 @@
   },
   {
     "coach": "Eddie McCarter",
-    "school": "UT Arlington",
+    "school": "UT Arlington Mavericks",
     "espnId": 250,
     "startYear": 1993,
     "endYear": 2006,
@@ -5169,7 +5169,7 @@
   },
   {
     "coach": "Dedrique Taylor",
-    "school": "Cal State Fullerton",
+    "school": "Cal State Fullerton Titans",
     "espnId": 2239,
     "startYear": 2014,
     "endYear": 2026,
@@ -5188,7 +5188,7 @@
   },
   {
     "coach": "Frank Sullivan",
-    "school": "Harvard",
+    "school": "Harvard Crimson",
     "espnId": 108,
     "startYear": 1992,
     "endYear": 2007,
@@ -5207,7 +5207,7 @@
   },
   {
     "coach": "Dave Calloway",
-    "school": "Monmouth",
+    "school": "Monmouth Hawks",
     "espnId": 2405,
     "startYear": 1998,
     "endYear": 2011,
@@ -5245,7 +5245,7 @@
   },
   {
     "coach": "Barclay Radebaugh",
-    "school": "Charleston Southern",
+    "school": "Charleston Southern Buccaneers",
     "espnId": 2127,
     "startYear": 2006,
     "endYear": 2024,
@@ -5264,7 +5264,7 @@
   },
   {
     "coach": "Don Verlin",
-    "school": "Idaho",
+    "school": "Idaho Vandals",
     "espnId": 70,
     "startYear": 2009,
     "endYear": 2019,
@@ -5283,7 +5283,7 @@
   },
   {
     "coach": "Dan D'Antoni",
-    "school": "Marshall",
+    "school": "Marshall Thundering Herd",
     "espnId": 276,
     "startYear": 2015,
     "endYear": 2024,
@@ -5302,7 +5302,7 @@
   },
   {
     "coach": "Wayne Tinkle",
-    "school": "Oregon State",
+    "school": "Oregon State Beavers",
     "espnId": 204,
     "startYear": 2015,
     "endYear": 2026,
@@ -5321,7 +5321,7 @@
   },
   {
     "coach": "Bruce Parkhill",
-    "school": "Penn State",
+    "school": "Penn State Nittany Lions",
     "espnId": 213,
     "startYear": 1985,
     "endYear": 1995,
@@ -5340,7 +5340,7 @@
   },
   {
     "coach": "Marty Fletcher",
-    "school": "Louisiana",
+    "school": "Louisiana Ragin' Cajuns",
     "espnId": 309,
     "startYear": 1987,
     "endYear": 1997,
@@ -5359,7 +5359,7 @@
   },
   {
     "coach": "Jim Molinari",
-    "school": "Bradley",
+    "school": "Bradley Braves",
     "espnId": 71,
     "startYear": 1992,
     "endYear": 2002,
@@ -5378,7 +5378,7 @@
   },
   {
     "coach": "Steve Lappas",
-    "school": "Villanova",
+    "school": "Villanova Wildcats",
     "espnId": 222,
     "startYear": 1993,
     "endYear": 2001,
@@ -5397,7 +5397,7 @@
   },
   {
     "coach": "Mike Jones",
-    "school": "Radford",
+    "school": "Radford Highlanders",
     "espnId": 2515,
     "startYear": 2012,
     "endYear": 2021,
@@ -5416,7 +5416,7 @@
   },
   {
     "coach": "Davey Whitney",
-    "school": "Alcorn State",
+    "school": "Alcorn State Braves",
     "espnId": 2016,
     "startYear": 1985,
     "endYear": 2003,
@@ -5435,7 +5435,7 @@
   },
   {
     "coach": "Vann Pettaway",
-    "school": "Alabama A&M",
+    "school": "Alabama A&M Bulldogs",
     "espnId": 2010,
     "startYear": 1999,
     "endYear": 2011,
@@ -5454,7 +5454,7 @@
   },
   {
     "coach": "Brian Gregory",
-    "school": "Dayton",
+    "school": "Dayton Flyers",
     "espnId": 2168,
     "startYear": 2004,
     "endYear": 2011,
@@ -5473,7 +5473,7 @@
   },
   {
     "coach": "Ron Hunter",
-    "school": "Georgia State",
+    "school": "Georgia State Panthers",
     "espnId": 2247,
     "startYear": 2012,
     "endYear": 2019,
@@ -5492,7 +5492,7 @@
   },
   {
     "coach": "Mike Martin",
-    "school": "Brown",
+    "school": "Brown Bears",
     "espnId": 225,
     "startYear": 2013,
     "endYear": 2026,
@@ -5511,8 +5511,8 @@
   },
   {
     "coach": "Rob Krimmel",
-    "school": "Saint Francis (PA)",
-    "espnId": 2598,
+    "school": "Saint Francis (PA) Red Flash",
+    "espnId": 0,
     "startYear": 2013,
     "endYear": 2025,
     "wins": 171,
@@ -5530,7 +5530,7 @@
   },
   {
     "coach": "Frank Martin",
-    "school": "South Carolina",
+    "school": "South Carolina Gamecocks",
     "espnId": 2579,
     "startYear": 2013,
     "endYear": 2022,
@@ -5549,7 +5549,7 @@
   },
   {
     "coach": "Johnny Orr",
-    "school": "Iowa State",
+    "school": "Iowa State Cyclones",
     "espnId": 66,
     "startYear": 1985,
     "endYear": 1994,
@@ -5568,7 +5568,7 @@
   },
   {
     "coach": "Seth Greenberg",
-    "school": "Virginia Tech",
+    "school": "Virginia Tech Hokies",
     "espnId": 259,
     "startYear": 2004,
     "endYear": 2012,
@@ -5587,8 +5587,8 @@
   },
   {
     "coach": "Keith Richard",
-    "school": "Louisiana-Monroe",
-    "espnId": 2433,
+    "school": "Louisiana-Monroe Warhawks",
+    "espnId": 0,
     "startYear": 2011,
     "endYear": 2025,
     "wins": 170,
@@ -5606,7 +5606,7 @@
   },
   {
     "coach": "Anthony Latina",
-    "school": "Sacred Heart",
+    "school": "Sacred Heart Pioneers",
     "espnId": 2529,
     "startYear": 2014,
     "endYear": 2026,
@@ -5625,7 +5625,7 @@
   },
   {
     "coach": "Hugh Durham",
-    "school": "Georgia",
+    "school": "Georgia Bulldogs",
     "espnId": 61,
     "startYear": 1986,
     "endYear": 1995,
@@ -5644,7 +5644,7 @@
   },
   {
     "coach": "Barry Hinson",
-    "school": "Missouri State",
+    "school": "Missouri State Bears",
     "espnId": 2623,
     "startYear": 2000,
     "endYear": 2008,
@@ -5682,7 +5682,7 @@
   },
   {
     "coach": "Mike Anderson",
-    "school": "Arkansas",
+    "school": "Arkansas Razorbacks",
     "espnId": 8,
     "startYear": 2012,
     "endYear": 2019,
@@ -5701,7 +5701,7 @@
   },
   {
     "coach": "Jeff Mullins",
-    "school": "Charlotte",
+    "school": "Charlotte 49ers",
     "espnId": 2429,
     "startYear": 1986,
     "endYear": 1995,
@@ -5720,7 +5720,7 @@
   },
   {
     "coach": "Ben Braun",
-    "school": "Eastern Michigan",
+    "school": "Eastern Michigan Eagles",
     "espnId": 2199,
     "startYear": 1986,
     "endYear": 1996,
@@ -5739,7 +5739,7 @@
   },
   {
     "coach": "Jim O'Brien",
-    "school": "Boston College",
+    "school": "Boston College Eagles",
     "espnId": 103,
     "startYear": 1987,
     "endYear": 1997,
@@ -5758,7 +5758,7 @@
   },
   {
     "coach": "Wayne Szoke",
-    "school": "Monmouth",
+    "school": "Monmouth Hawks",
     "espnId": 2405,
     "startYear": 1988,
     "endYear": 1998,
@@ -5777,7 +5777,7 @@
   },
   {
     "coach": "Nate Oats",
-    "school": "Alabama",
+    "school": "Alabama Crimson Tide",
     "espnId": 333,
     "startYear": 2020,
     "endYear": 2026,
@@ -5796,7 +5796,7 @@
   },
   {
     "coach": "Bill Herrion",
-    "school": "Drexel",
+    "school": "Drexel Dragons",
     "espnId": 2182,
     "startYear": 1992,
     "endYear": 1999,
@@ -5815,7 +5815,7 @@
   },
   {
     "coach": "Scott Sanderson",
-    "school": "Lipscomb",
+    "school": "Lipscomb Bisons",
     "espnId": 288,
     "startYear": 2002,
     "endYear": 2013,
@@ -5834,7 +5834,7 @@
   },
   {
     "coach": "Josh Pastner",
-    "school": "Memphis",
+    "school": "Memphis Tigers",
     "espnId": 235,
     "startYear": 2010,
     "endYear": 2016,
@@ -5853,7 +5853,7 @@
   },
   {
     "coach": "Dan Muller",
-    "school": "Illinois State",
+    "school": "Illinois State Redbirds",
     "espnId": 2287,
     "startYear": 2013,
     "endYear": 2022,
@@ -5872,7 +5872,7 @@
   },
   {
     "coach": "Scott Nagy",
-    "school": "Wright State",
+    "school": "Wright State Raiders",
     "espnId": 2750,
     "startYear": 2017,
     "endYear": 2024,
@@ -5891,7 +5891,7 @@
   },
   {
     "coach": "Mike Deane",
-    "school": "Siena",
+    "school": "Siena Saints",
     "espnId": 2561,
     "startYear": 1987,
     "endYear": 1994,
@@ -5910,7 +5910,7 @@
   },
   {
     "coach": "Karl Hobbs",
-    "school": "George Washington",
+    "school": "George Washington Revolutionaries",
     "espnId": 45,
     "startYear": 2002,
     "endYear": 2011,
@@ -5929,7 +5929,7 @@
   },
   {
     "coach": "Brad Stevens",
-    "school": "Butler",
+    "school": "Butler Bulldogs",
     "espnId": 2086,
     "startYear": 2008,
     "endYear": 2013,
@@ -5948,7 +5948,7 @@
   },
   {
     "coach": "Tom Crean",
-    "school": "Indiana",
+    "school": "Indiana Hoosiers",
     "espnId": 84,
     "startYear": 2009,
     "endYear": 2017,
@@ -5967,7 +5967,7 @@
   },
   {
     "coach": "Rob Murphy",
-    "school": "Eastern Michigan",
+    "school": "Eastern Michigan Eagles",
     "espnId": 2199,
     "startYear": 2012,
     "endYear": 2021,
@@ -5986,7 +5986,7 @@
   },
   {
     "coach": "Casey Alexander",
-    "school": "Belmont",
+    "school": "Belmont Bruins",
     "espnId": 2057,
     "startYear": 2020,
     "endYear": 2026,
@@ -6005,7 +6005,7 @@
   },
   {
     "coach": "Bashir Mason",
-    "school": "Wagner",
+    "school": "Wagner Seahawks",
     "espnId": 2681,
     "startYear": 2013,
     "endYear": 2022,
@@ -6024,7 +6024,7 @@
   },
   {
     "coach": "Eldon Miller",
-    "school": "Northern Iowa",
+    "school": "Northern Iowa Panthers",
     "espnId": 2460,
     "startYear": 1987,
     "endYear": 1998,
@@ -6043,8 +6043,8 @@
   },
   {
     "coach": "Steve Steinwedel",
-    "school": "Delaware",
-    "espnId": 48,
+    "school": "Delaware Fightin' Blue Hens",
+    "espnId": 0,
     "startYear": 1986,
     "endYear": 1995,
     "wins": 163,
@@ -6062,7 +6062,7 @@
   },
   {
     "coach": "Emmett Davis",
-    "school": "Colgate",
+    "school": "Colgate Raiders",
     "espnId": 2142,
     "startYear": 1999,
     "endYear": 2011,
@@ -6081,7 +6081,7 @@
   },
   {
     "coach": "Mark Fox",
-    "school": "Georgia",
+    "school": "Georgia Bulldogs",
     "espnId": 61,
     "startYear": 2010,
     "endYear": 2018,
@@ -6100,8 +6100,8 @@
   },
   {
     "coach": "Shaka Smart",
-    "school": "Virginia Commonwealth",
-    "espnId": 2670,
+    "school": "Virginia Commonwealth Rams",
+    "espnId": 0,
     "startYear": 2010,
     "endYear": 2015,
     "wins": 163,
@@ -6119,7 +6119,7 @@
   },
   {
     "coach": "Tom Moore",
-    "school": "Quinnipiac",
+    "school": "Quinnipiac Bobcats",
     "espnId": 2514,
     "startYear": 2008,
     "endYear": 2017,
@@ -6138,7 +6138,7 @@
   },
   {
     "coach": "Steve Masiello",
-    "school": "Manhattan",
+    "school": "Manhattan Jaspers",
     "espnId": 2363,
     "startYear": 2012,
     "endYear": 2022,
@@ -6157,7 +6157,7 @@
   },
   {
     "coach": "Don Corbett",
-    "school": "North Carolina A&T",
+    "school": "North Carolina A&T Aggies",
     "espnId": 2448,
     "startYear": 1985,
     "endYear": 1993,
@@ -6176,7 +6176,7 @@
   },
   {
     "coach": "Nick Macarchuk",
-    "school": "Fordham",
+    "school": "Fordham Rams",
     "espnId": 2230,
     "startYear": 1988,
     "endYear": 1999,
@@ -6195,8 +6195,8 @@
   },
   {
     "coach": "Lon Kruger",
-    "school": "Nevada-Las Vegas",
-    "espnId": 2439,
+    "school": "Nevada-Las Vegas Rebels",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2011,
     "wins": 161,
@@ -6214,7 +6214,7 @@
   },
   {
     "coach": "Steve Pikiell",
-    "school": "Rutgers",
+    "school": "Rutgers Scarlet Knights",
     "espnId": 164,
     "startYear": 2017,
     "endYear": 2026,
@@ -6233,7 +6233,7 @@
   },
   {
     "coach": "Mick Cronin",
-    "school": "UCLA",
+    "school": "UCLA Bruins",
     "espnId": 26,
     "startYear": 2020,
     "endYear": 2026,
@@ -6252,7 +6252,7 @@
   },
   {
     "coach": "Jim Harrick",
-    "school": "UCLA",
+    "school": "UCLA Bruins",
     "espnId": 26,
     "startYear": 1989,
     "endYear": 1996,
@@ -6271,7 +6271,7 @@
   },
   {
     "coach": "Tim Carter",
-    "school": "UTSA",
+    "school": "UTSA Roadrunners",
     "espnId": 2636,
     "startYear": 1996,
     "endYear": 2006,
@@ -6290,7 +6290,7 @@
   },
   {
     "coach": "Tim Welsh",
-    "school": "Providence",
+    "school": "Providence Friars",
     "espnId": 2507,
     "startYear": 1999,
     "endYear": 2008,
@@ -6309,7 +6309,7 @@
   },
   {
     "coach": "Wimp Sanderson",
-    "school": "Alabama",
+    "school": "Alabama Crimson Tide",
     "espnId": 333,
     "startYear": 1985,
     "endYear": 1992,
@@ -6328,7 +6328,7 @@
   },
   {
     "coach": "Lefty Driesell",
-    "school": "James Madison",
+    "school": "James Madison Dukes",
     "espnId": 256,
     "startYear": 1989,
     "endYear": 1997,
@@ -6347,7 +6347,7 @@
   },
   {
     "coach": "Dickey Nutt",
-    "school": "Arkansas State",
+    "school": "Arkansas State Red Wolves",
     "espnId": 2032,
     "startYear": 1996,
     "endYear": 2008,
@@ -6366,7 +6366,7 @@
   },
   {
     "coach": "Herb Sendek",
-    "school": "Arizona State",
+    "school": "Arizona State Sun Devils",
     "espnId": 9,
     "startYear": 2007,
     "endYear": 2015,
@@ -6385,7 +6385,7 @@
   },
   {
     "coach": "John Calipari",
-    "school": "Massachusetts",
+    "school": "Massachusetts Minutemen",
     "espnId": 113,
     "startYear": 1989,
     "endYear": 1995,
@@ -6404,7 +6404,7 @@
   },
   {
     "coach": "Wayne Tinkle",
-    "school": "Montana",
+    "school": "Montana Grizzlies",
     "espnId": 149,
     "startYear": 2007,
     "endYear": 2014,
@@ -6423,7 +6423,7 @@
   },
   {
     "coach": "Jarrett Durham",
-    "school": "Robert Morris",
+    "school": "Robert Morris Colonials",
     "espnId": 2523,
     "startYear": 1985,
     "endYear": 1996,
@@ -6442,7 +6442,7 @@
   },
   {
     "coach": "Jim Larranaga",
-    "school": "Bowling Green",
+    "school": "Bowling Green Falcons",
     "espnId": 189,
     "startYear": 1987,
     "endYear": 1997,
@@ -6461,7 +6461,7 @@
   },
   {
     "coach": "Pat Dennis",
-    "school": "The Citadel",
+    "school": "The Citadel Bulldogs",
     "espnId": 2643,
     "startYear": 1993,
     "endYear": 2006,
@@ -6480,7 +6480,7 @@
   },
   {
     "coach": "Steve McClain",
-    "school": "Wyoming",
+    "school": "Wyoming Cowboys",
     "espnId": 2751,
     "startYear": 1999,
     "endYear": 2007,
@@ -6499,8 +6499,8 @@
   },
   {
     "coach": "Martin Ingelsby",
-    "school": "Delaware",
-    "espnId": 48,
+    "school": "Delaware Fightin' Blue Hens",
+    "espnId": 0,
     "startYear": 2017,
     "endYear": 2026,
     "wins": 157,
@@ -6518,7 +6518,7 @@
   },
   {
     "coach": "Hank Egan",
-    "school": "San Diego",
+    "school": "San Diego Toreros",
     "espnId": 301,
     "startYear": 1985,
     "endYear": 1994,
@@ -6537,7 +6537,7 @@
   },
   {
     "coach": "Dan Dakich",
-    "school": "Bowling Green",
+    "school": "Bowling Green Falcons",
     "espnId": 189,
     "startYear": 1998,
     "endYear": 2007,
@@ -6556,7 +6556,7 @@
   },
   {
     "coach": "Todd Bozeman",
-    "school": "Morgan State",
+    "school": "Morgan State Bears",
     "espnId": 2415,
     "startYear": 2007,
     "endYear": 2019,
@@ -6575,7 +6575,7 @@
   },
   {
     "coach": "Johnny Dawkins",
-    "school": "Stanford",
+    "school": "Stanford Cardinal",
     "espnId": 24,
     "startYear": 2009,
     "endYear": 2016,
@@ -6594,7 +6594,7 @@
   },
   {
     "coach": "Neil McCarthy",
-    "school": "New Mexico State",
+    "school": "New Mexico State Aggies",
     "espnId": 166,
     "startYear": 1986,
     "endYear": 1996,
@@ -6613,7 +6613,7 @@
   },
   {
     "coach": "Oliver Purnell",
-    "school": "Dayton",
+    "school": "Dayton Flyers",
     "espnId": 2168,
     "startYear": 1995,
     "endYear": 2003,
@@ -6632,7 +6632,7 @@
   },
   {
     "coach": "Tom Pecora",
-    "school": "Hofstra",
+    "school": "Hofstra Pride",
     "espnId": 2275,
     "startYear": 2002,
     "endYear": 2010,
@@ -6651,7 +6651,7 @@
   },
   {
     "coach": "Bob Burton",
-    "school": "Cal State Fullerton",
+    "school": "Cal State Fullerton Titans",
     "espnId": 2239,
     "startYear": 2004,
     "endYear": 2012,
@@ -6670,7 +6670,7 @@
   },
   {
     "coach": "Dave Simmons",
-    "school": "McNeese",
+    "school": "McNeese Cowboys",
     "espnId": 2377,
     "startYear": 2007,
     "endYear": 2018,
@@ -6689,7 +6689,7 @@
   },
   {
     "coach": "Steve Alford",
-    "school": "New Mexico",
+    "school": "New Mexico Lobos",
     "espnId": 167,
     "startYear": 2008,
     "endYear": 2013,
@@ -6708,7 +6708,7 @@
   },
   {
     "coach": "Derek Kellogg",
-    "school": "Massachusetts",
+    "school": "Massachusetts Minutemen",
     "espnId": 113,
     "startYear": 2009,
     "endYear": 2017,
@@ -6727,7 +6727,7 @@
   },
   {
     "coach": "Travis Ford",
-    "school": "Oklahoma State",
+    "school": "Oklahoma State Cowboys",
     "espnId": 197,
     "startYear": 2009,
     "endYear": 2016,
@@ -6746,7 +6746,7 @@
   },
   {
     "coach": "George Blaney",
-    "school": "Holy Cross",
+    "school": "Holy Cross Crusaders",
     "espnId": 107,
     "startYear": 1985,
     "endYear": 1994,
@@ -6765,7 +6765,7 @@
   },
   {
     "coach": "Rollie Massimino",
-    "school": "Villanova",
+    "school": "Villanova Wildcats",
     "espnId": 222,
     "startYear": 1985,
     "endYear": 1992,
@@ -6784,7 +6784,7 @@
   },
   {
     "coach": "Dave Bike",
-    "school": "Sacred Heart",
+    "school": "Sacred Heart Pioneers",
     "espnId": 2529,
     "startYear": 2000,
     "endYear": 2013,
@@ -6803,7 +6803,7 @@
   },
   {
     "coach": "Jim Les",
-    "school": "Bradley",
+    "school": "Bradley Braves",
     "espnId": 71,
     "startYear": 2003,
     "endYear": 2011,
@@ -6822,7 +6822,7 @@
   },
   {
     "coach": "Mark Slessinger",
-    "school": "New Orleans",
+    "school": "New Orleans Privateers",
     "espnId": 2443,
     "startYear": 2013,
     "endYear": 2024,
@@ -6841,7 +6841,7 @@
   },
   {
     "coach": "Joe Mihalich",
-    "school": "Hofstra",
+    "school": "Hofstra Pride",
     "espnId": 2275,
     "startYear": 2014,
     "endYear": 2021,
@@ -6860,7 +6860,7 @@
   },
   {
     "coach": "Matt McMahon",
-    "school": "Murray State",
+    "school": "Murray State Racers",
     "espnId": 93,
     "startYear": 2016,
     "endYear": 2022,
@@ -6879,7 +6879,7 @@
   },
   {
     "coach": "Anfernee Hardaway",
-    "school": "Memphis",
+    "school": "Memphis Tigers",
     "espnId": 235,
     "startYear": 2019,
     "endYear": 2026,
@@ -6898,7 +6898,7 @@
   },
   {
     "coach": "Cliff Ellis",
-    "school": "Clemson",
+    "school": "Clemson Tigers",
     "espnId": 228,
     "startYear": 1985,
     "endYear": 1994,
@@ -6917,7 +6917,7 @@
   },
   {
     "coach": "Tom Asbury",
-    "school": "Pepperdine",
+    "school": "Pepperdine Waves",
     "espnId": 2492,
     "startYear": 1989,
     "endYear": 2011,
@@ -6936,7 +6936,7 @@
   },
   {
     "coach": "John Dunne",
-    "school": "Saint Peter's",
+    "school": "Saint Peter's Peacocks",
     "espnId": 2612,
     "startYear": 2007,
     "endYear": 2018,
@@ -6955,7 +6955,7 @@
   },
   {
     "coach": "Ron Cottrell",
-    "school": "Houston Christian",
+    "school": "Houston Christian Huskies",
     "espnId": 2277,
     "startYear": 2009,
     "endYear": 2024,
@@ -6974,7 +6974,7 @@
   },
   {
     "coach": "Eric Konkol",
-    "school": "Louisiana Tech",
+    "school": "Louisiana Tech Bulldogs",
     "espnId": 2348,
     "startYear": 2016,
     "endYear": 2022,
@@ -6993,8 +6993,8 @@
   },
   {
     "coach": "Roger Reid",
-    "school": "Brigham Young",
-    "espnId": 252,
+    "school": "Brigham Young Cougars",
+    "espnId": 0,
     "startYear": 1990,
     "endYear": 1997,
     "wins": 152,
@@ -7012,7 +7012,7 @@
   },
   {
     "coach": "Mike Jarvis",
-    "school": "George Washington",
+    "school": "George Washington Revolutionaries",
     "espnId": 45,
     "startYear": 1991,
     "endYear": 1998,
@@ -7031,7 +7031,7 @@
   },
   {
     "coach": "Steve Alford",
-    "school": "Iowa",
+    "school": "Iowa Hawkeyes",
     "espnId": 2294,
     "startYear": 2000,
     "endYear": 2007,
@@ -7050,13 +7050,13 @@
   },
   {
     "coach": "Richie Riley",
-    "school": "South Alabama",
+    "school": "South Alabama Jaguars",
     "espnId": 6,
     "startYear": 2019,
     "endYear": 2026,
     "wins": 152,
-    "losses": 105,
-    "winPct": 0.591,
+    "losses": 106,
+    "winPct": 0.589,
     "tournamentApps": 0,
     "sweet16": 0,
     "elite8": 0,
@@ -7069,7 +7069,7 @@
   },
   {
     "coach": "James Oliver",
-    "school": "Alabama State",
+    "school": "Alabama State Hornets",
     "espnId": 2011,
     "startYear": 1985,
     "endYear": 1995,
@@ -7088,7 +7088,7 @@
   },
   {
     "coach": "Ted Fiore",
-    "school": "Saint Peter's",
+    "school": "Saint Peter's Peacocks",
     "espnId": 2612,
     "startYear": 1987,
     "endYear": 1995,
@@ -7107,7 +7107,7 @@
   },
   {
     "coach": "Dick Kuchen",
-    "school": "Yale",
+    "school": "Yale Bulldogs",
     "espnId": 43,
     "startYear": 1987,
     "endYear": 1999,
@@ -7126,7 +7126,7 @@
   },
   {
     "coach": "Ron Abegglen",
-    "school": "Weber State",
+    "school": "Weber State Wildcats",
     "espnId": 2692,
     "startYear": 1992,
     "endYear": 1999,
@@ -7145,8 +7145,8 @@
   },
   {
     "coach": "Duggar Baucom",
-    "school": "Virginia Military Institute",
-    "espnId": 2678,
+    "school": "Virginia Military Institute Keydets",
+    "espnId": 0,
     "startYear": 2006,
     "endYear": 2015,
     "wins": 151,
@@ -7164,7 +7164,7 @@
   },
   {
     "coach": "Matt Matheny",
-    "school": "Elon",
+    "school": "Elon Phoenix",
     "espnId": 2210,
     "startYear": 2010,
     "endYear": 2019,
@@ -7183,7 +7183,7 @@
   },
   {
     "coach": "Billy Kennedy",
-    "school": "Texas A&M",
+    "school": "Texas A&M Aggies",
     "espnId": 245,
     "startYear": 2012,
     "endYear": 2019,
@@ -7202,7 +7202,7 @@
   },
   {
     "coach": "Kevin Keatts",
-    "school": "NC State",
+    "school": "NC State Wolfpack",
     "espnId": 152,
     "startYear": 2018,
     "endYear": 2025,
@@ -7221,7 +7221,7 @@
   },
   {
     "coach": "Reggie Minton",
-    "school": "Air Force",
+    "school": "Air Force Falcons",
     "espnId": 2005,
     "startYear": 1985,
     "endYear": 2000,
@@ -7240,8 +7240,8 @@
   },
   {
     "coach": "Rickey Broussard",
-    "school": "Nicholls State",
-    "espnId": 2447,
+    "school": "Nicholls State Colonels",
+    "espnId": 0,
     "startYear": 1991,
     "endYear": 2002,
     "wins": 150,
@@ -7259,7 +7259,7 @@
   },
   {
     "coach": "Keith Richard",
-    "school": "Louisiana Tech",
+    "school": "Louisiana Tech Bulldogs",
     "espnId": 2348,
     "startYear": 1999,
     "endYear": 2007,
@@ -7278,7 +7278,7 @@
   },
   {
     "coach": "Jim Ferry",
-    "school": "Long Island University",
+    "school": "Long Island University Sharks",
     "espnId": 112358,
     "startYear": 2003,
     "endYear": 2012,
@@ -7297,7 +7297,7 @@
   },
   {
     "coach": "Brian Katz",
-    "school": "Sacramento State",
+    "school": "Sacramento State Hornets",
     "espnId": 16,
     "startYear": 2009,
     "endYear": 2021,
@@ -7316,7 +7316,7 @@
   },
   {
     "coach": "Darian DeVries",
-    "school": "Drake",
+    "school": "Drake Bulldogs",
     "espnId": 2181,
     "startYear": 2019,
     "endYear": 2024,
@@ -7335,7 +7335,7 @@
   },
   {
     "coach": "Russ Bergman",
-    "school": "Coastal Carolina",
+    "school": "Coastal Carolina Chanticleers",
     "espnId": 324,
     "startYear": 1986,
     "endYear": 1994,
@@ -7354,7 +7354,7 @@
   },
   {
     "coach": "Mike Sutton",
-    "school": "Tennessee Tech",
+    "school": "Tennessee Tech Golden Eagles",
     "espnId": 2635,
     "startYear": 2003,
     "endYear": 2011,
@@ -7373,7 +7373,7 @@
   },
   {
     "coach": "Tevester Anderson",
-    "school": "Jackson State",
+    "school": "Jackson State Tigers",
     "espnId": 2296,
     "startYear": 2004,
     "endYear": 2013,
@@ -7392,7 +7392,7 @@
   },
   {
     "coach": "Steve Prohm",
-    "school": "Murray State",
+    "school": "Murray State Racers",
     "espnId": 93,
     "startYear": 2012,
     "endYear": 2025,
@@ -7411,7 +7411,7 @@
   },
   {
     "coach": "Skip Prosser",
-    "school": "Xavier",
+    "school": "Xavier Musketeers",
     "espnId": 2752,
     "startYear": 1995,
     "endYear": 2001,
@@ -7430,7 +7430,7 @@
   },
   {
     "coach": "Brian Jones",
-    "school": "North Dakota",
+    "school": "North Dakota Fighting Hawks",
     "espnId": 155,
     "startYear": 2010,
     "endYear": 2019,
@@ -7449,7 +7449,7 @@
   },
   {
     "coach": "Patrick Chambers",
-    "school": "Penn State",
+    "school": "Penn State Nittany Lions",
     "espnId": 213,
     "startYear": 2012,
     "endYear": 2020,
@@ -7468,7 +7468,7 @@
   },
   {
     "coach": "Zach Spiker",
-    "school": "Drexel",
+    "school": "Drexel Dragons",
     "espnId": 2182,
     "startYear": 2017,
     "endYear": 2026,
@@ -7487,7 +7487,7 @@
   },
   {
     "coach": "Paul Evans",
-    "school": "Pittsburgh",
+    "school": "Pittsburgh Panthers",
     "espnId": 221,
     "startYear": 1987,
     "endYear": 1994,
@@ -7506,7 +7506,7 @@
   },
   {
     "coach": "Ralph Underhill",
-    "school": "Wright State",
+    "school": "Wright State Raiders",
     "espnId": 2750,
     "startYear": 1988,
     "endYear": 1996,
@@ -7525,7 +7525,7 @@
   },
   {
     "coach": "Jeff Jones",
-    "school": "Virginia",
+    "school": "Virginia Cavaliers",
     "espnId": 258,
     "startYear": 1991,
     "endYear": 1998,
@@ -7544,7 +7544,7 @@
   },
   {
     "coach": "Steve Donahue",
-    "school": "Cornell",
+    "school": "Cornell Big Red",
     "espnId": 172,
     "startYear": 2001,
     "endYear": 2010,
@@ -7563,7 +7563,7 @@
   },
   {
     "coach": "Joe Scott",
-    "school": "Denver",
+    "school": "Denver Pioneers",
     "espnId": 2172,
     "startYear": 2008,
     "endYear": 2016,
@@ -7582,7 +7582,7 @@
   },
   {
     "coach": "Scott Cherry",
-    "school": "High Point",
+    "school": "High Point Panthers",
     "espnId": 2272,
     "startYear": 2010,
     "endYear": 2018,
@@ -7601,7 +7601,7 @@
   },
   {
     "coach": "Byron Smith",
-    "school": "Prairie View A&M",
+    "school": "Prairie View A&M Panthers",
     "espnId": 2504,
     "startYear": 2016,
     "endYear": 2026,
@@ -7620,7 +7620,7 @@
   },
   {
     "coach": "Travis Ford",
-    "school": "Saint Louis",
+    "school": "Saint Louis Billikens",
     "espnId": 139,
     "startYear": 2017,
     "endYear": 2024,
@@ -7639,7 +7639,7 @@
   },
   {
     "coach": "John Shulman",
-    "school": "Chattanooga",
+    "school": "Chattanooga Mocs",
     "espnId": 236,
     "startYear": 2005,
     "endYear": 2013,
@@ -7658,8 +7658,8 @@
   },
   {
     "coach": "Jimmy Patsos",
-    "school": "Loyola (MD)",
-    "espnId": 2352,
+    "school": "Loyola (MD) Greyhounds",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2013,
     "wins": 145,
@@ -7677,7 +7677,7 @@
   },
   {
     "coach": "Chris Lowery",
-    "school": "Southern Illinois",
+    "school": "Southern Illinois Salukis",
     "espnId": 79,
     "startYear": 2005,
     "endYear": 2012,
@@ -7715,7 +7715,7 @@
   },
   {
     "coach": "Bruce Pearl",
-    "school": "Tennessee",
+    "school": "Tennessee Volunteers",
     "espnId": 2633,
     "startYear": 2006,
     "endYear": 2011,
@@ -7734,7 +7734,7 @@
   },
   {
     "coach": "Andy Kennedy",
-    "school": "UAB",
+    "school": "UAB Blazers",
     "espnId": 5,
     "startYear": 2021,
     "endYear": 2026,
@@ -7753,8 +7753,8 @@
   },
   {
     "coach": "Leonard Hamilton",
-    "school": "Miami (FL)",
-    "espnId": 2390,
+    "school": "Miami (FL) Hurricanes",
+    "espnId": 0,
     "startYear": 1991,
     "endYear": 2000,
     "wins": 144,
@@ -7772,7 +7772,7 @@
   },
   {
     "coach": "Tommy Lloyd",
-    "school": "Arizona",
+    "school": "Arizona Wildcats",
     "espnId": 12,
     "startYear": 2022,
     "endYear": 2026,
@@ -7791,7 +7791,7 @@
   },
   {
     "coach": "Willis Wilson",
-    "school": "Texas A&M-Corpus Christi",
+    "school": "Texas A&M-Corpus Christi Islanders",
     "espnId": 357,
     "startYear": 2012,
     "endYear": 2021,
@@ -7810,7 +7810,7 @@
   },
   {
     "coach": "Rick Croy",
-    "school": "California Baptist",
+    "school": "California Baptist Lancers",
     "espnId": 2856,
     "startYear": 2019,
     "endYear": 2026,
@@ -7829,7 +7829,7 @@
   },
   {
     "coach": "Niko Medved",
-    "school": "Colorado State",
+    "school": "Colorado State Rams",
     "espnId": 36,
     "startYear": 2019,
     "endYear": 2025,
@@ -7848,7 +7848,7 @@
   },
   {
     "coach": "Paul Cormier",
-    "school": "Dartmouth",
+    "school": "Dartmouth Big Green",
     "espnId": 159,
     "startYear": 1985,
     "endYear": 2016,
@@ -7867,7 +7867,7 @@
   },
   {
     "coach": "Rich Grawer",
-    "school": "Saint Louis",
+    "school": "Saint Louis Billikens",
     "espnId": 139,
     "startYear": 1985,
     "endYear": 1992,
@@ -7886,7 +7886,7 @@
   },
   {
     "coach": "Pat Foster",
-    "school": "Houston",
+    "school": "Houston Cougars",
     "espnId": 248,
     "startYear": 1987,
     "endYear": 1993,
@@ -7905,7 +7905,7 @@
   },
   {
     "coach": "Greg Graham",
-    "school": "Boise State",
+    "school": "Boise State Broncos",
     "espnId": 68,
     "startYear": 2003,
     "endYear": 2010,
@@ -7924,8 +7924,8 @@
   },
   {
     "coach": "Larry Eustachy",
-    "school": "Southern Mississippi",
-    "espnId": 2572,
+    "school": "Southern Mississippi Golden Eagles",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2012,
     "wins": 142,
@@ -7943,7 +7943,7 @@
   },
   {
     "coach": "Jerry Slocum",
-    "school": "Youngstown State",
+    "school": "Youngstown State Penguins",
     "espnId": 2754,
     "startYear": 2006,
     "endYear": 2017,
@@ -7962,7 +7962,7 @@
   },
   {
     "coach": "Keno Davis",
-    "school": "Central Michigan",
+    "school": "Central Michigan Chippewas",
     "espnId": 2117,
     "startYear": 2013,
     "endYear": 2021,
@@ -7981,7 +7981,7 @@
   },
   {
     "coach": "Michael White",
-    "school": "Florida",
+    "school": "Florida Gators",
     "espnId": 57,
     "startYear": 2016,
     "endYear": 2022,
@@ -8000,7 +8000,7 @@
   },
   {
     "coach": "Bruce Stewart",
-    "school": "Middle Tennessee",
+    "school": "Middle Tennessee Blue Raiders",
     "espnId": 2393,
     "startYear": 1985,
     "endYear": 1991,
@@ -8019,7 +8019,7 @@
   },
   {
     "coach": "Blaine Taylor",
-    "school": "Montana",
+    "school": "Montana Grizzlies",
     "espnId": 149,
     "startYear": 1992,
     "endYear": 1998,
@@ -8038,8 +8038,8 @@
   },
   {
     "coach": "Rod Barnes",
-    "school": "Mississippi",
-    "espnId": 145,
+    "school": "Mississippi Rebels",
+    "espnId": 0,
     "startYear": 1999,
     "endYear": 2006,
     "wins": 141,
@@ -8057,7 +8057,7 @@
   },
   {
     "coach": "Richard Pitino",
-    "school": "Minnesota",
+    "school": "Minnesota Golden Gophers",
     "espnId": 135,
     "startYear": 2014,
     "endYear": 2021,
@@ -8076,8 +8076,8 @@
   },
   {
     "coach": "Billy Tubbs",
-    "school": "Texas Christian",
-    "espnId": 2628,
+    "school": "Texas Christian Horned Frogs",
+    "espnId": 0,
     "startYear": 1995,
     "endYear": 2002,
     "wins": 140,
@@ -8095,8 +8095,8 @@
   },
   {
     "coach": "Mike Dement",
-    "school": "Southern Methodist",
-    "espnId": 2567,
+    "school": "Southern Methodist Mustangs",
+    "espnId": 0,
     "startYear": 1996,
     "endYear": 2004,
     "wins": 140,
@@ -8114,7 +8114,7 @@
   },
   {
     "coach": "Doug Wojcik",
-    "school": "Tulsa",
+    "school": "Tulsa Golden Hurricane",
     "espnId": 202,
     "startYear": 2006,
     "endYear": 2012,
@@ -8133,7 +8133,7 @@
   },
   {
     "coach": "Eric Reveno",
-    "school": "Portland",
+    "school": "Portland Pilots",
     "espnId": 2501,
     "startYear": 2007,
     "endYear": 2016,
@@ -8152,7 +8152,7 @@
   },
   {
     "coach": "George Ivory",
-    "school": "Arkansas-Pine Bluff",
+    "school": "Arkansas-Pine Bluff Golden Lions",
     "espnId": 2029,
     "startYear": 2009,
     "endYear": 2021,
@@ -8171,7 +8171,7 @@
   },
   {
     "coach": "Preston Spradlin",
-    "school": "Morehead State",
+    "school": "Morehead State Eagles",
     "espnId": 2413,
     "startYear": 2017,
     "endYear": 2024,
@@ -8190,8 +8190,8 @@
   },
   {
     "coach": "Bryce Drew",
-    "school": "Grand Canyon",
-    "espnId": 2253,
+    "school": "Grand Canyon Antelopes",
+    "espnId": 0,
     "startYear": 2021,
     "endYear": 2026,
     "wins": 140,
@@ -8209,8 +8209,8 @@
   },
   {
     "coach": "Tom Apke",
-    "school": "Appalachian State",
-    "espnId": 2026,
+    "school": "Appalachian State Mountaineers",
+    "espnId": 0,
     "startYear": 1987,
     "endYear": 1996,
     "wins": 139,
@@ -8228,7 +8228,7 @@
   },
   {
     "coach": "Jeff Ruland",
-    "school": "Iona",
+    "school": "Iona Gaels",
     "espnId": 314,
     "startYear": 1999,
     "endYear": 2007,
@@ -8247,7 +8247,7 @@
   },
   {
     "coach": "Kerry Keating",
-    "school": "Santa Clara",
+    "school": "Santa Clara Broncos",
     "espnId": 2541,
     "startYear": 2008,
     "endYear": 2016,
@@ -8266,7 +8266,7 @@
   },
   {
     "coach": "Matt Brady",
-    "school": "James Madison",
+    "school": "James Madison Dukes",
     "espnId": 256,
     "startYear": 2009,
     "endYear": 2016,
@@ -8285,7 +8285,7 @@
   },
   {
     "coach": "Buzz Williams",
-    "school": "Marquette",
+    "school": "Marquette Golden Eagles",
     "espnId": 269,
     "startYear": 2009,
     "endYear": 2014,
@@ -8304,7 +8304,7 @@
   },
   {
     "coach": "Archie Miller",
-    "school": "Dayton",
+    "school": "Dayton Flyers",
     "espnId": 2168,
     "startYear": 2012,
     "endYear": 2017,
@@ -8323,7 +8323,7 @@
   },
   {
     "coach": "Rick Stansbury",
-    "school": "Western Kentucky",
+    "school": "Western Kentucky Hilltoppers",
     "espnId": 98,
     "startYear": 2017,
     "endYear": 2023,
@@ -8342,7 +8342,7 @@
   },
   {
     "coach": "Al Skinner",
-    "school": "Rhode Island",
+    "school": "Rhode Island Rams",
     "espnId": 227,
     "startYear": 1989,
     "endYear": 1997,
@@ -8361,8 +8361,8 @@
   },
   {
     "coach": "Steve Cleveland",
-    "school": "Brigham Young",
-    "espnId": 252,
+    "school": "Brigham Young Cougars",
+    "espnId": 0,
     "startYear": 1998,
     "endYear": 2005,
     "wins": 138,
@@ -8380,7 +8380,7 @@
   },
   {
     "coach": "Bob Knight",
-    "school": "Texas Tech",
+    "school": "Texas Tech Red Raiders",
     "espnId": 2641,
     "startYear": 2002,
     "endYear": 2008,
@@ -8399,7 +8399,7 @@
   },
   {
     "coach": "Oliver Purnell",
-    "school": "Clemson",
+    "school": "Clemson Tigers",
     "espnId": 228,
     "startYear": 2004,
     "endYear": 2010,
@@ -8418,7 +8418,7 @@
   },
   {
     "coach": "Tim Floyd",
-    "school": "UTEP",
+    "school": "UTEP Miners",
     "espnId": 2638,
     "startYear": 2011,
     "endYear": 2018,
@@ -8437,7 +8437,7 @@
   },
   {
     "coach": "Frank Haith",
-    "school": "Tulsa",
+    "school": "Tulsa Golden Hurricane",
     "espnId": 202,
     "startYear": 2015,
     "endYear": 2022,
@@ -8456,7 +8456,7 @@
   },
   {
     "coach": "Willie Booker",
-    "school": "Florida A&M",
+    "school": "Florida A&M Rattlers",
     "espnId": 50,
     "startYear": 1985,
     "endYear": 1993,
@@ -8475,7 +8475,7 @@
   },
   {
     "coach": "Digger Phelps",
-    "school": "Notre Dame",
+    "school": "Notre Dame Fighting Irish",
     "espnId": 87,
     "startYear": 1985,
     "endYear": 1991,
@@ -8494,7 +8494,7 @@
   },
   {
     "coach": "Jeff Price",
-    "school": "Georgia Southern",
+    "school": "Georgia Southern Eagles",
     "espnId": 290,
     "startYear": 2000,
     "endYear": 2007,
@@ -8513,8 +8513,8 @@
   },
   {
     "coach": "Houston Fancher",
-    "school": "Appalachian State",
-    "espnId": 2026,
+    "school": "Appalachian State Mountaineers",
+    "espnId": 0,
     "startYear": 2001,
     "endYear": 2009,
     "wins": 137,
@@ -8532,7 +8532,7 @@
   },
   {
     "coach": "Jim Christian",
-    "school": "Kent State",
+    "school": "Kent State Golden Flashes",
     "espnId": 2309,
     "startYear": 2003,
     "endYear": 2008,
@@ -8551,7 +8551,7 @@
   },
   {
     "coach": "Chris Holtmann",
-    "school": "Ohio State",
+    "school": "Ohio State Buckeyes",
     "espnId": 194,
     "startYear": 2018,
     "endYear": 2024,
@@ -8570,8 +8570,8 @@
   },
   {
     "coach": "Sonny Smith",
-    "school": "Virginia Commonwealth",
-    "espnId": 2670,
+    "school": "Virginia Commonwealth Rams",
+    "espnId": 0,
     "startYear": 1990,
     "endYear": 1998,
     "wins": 136,
@@ -8589,7 +8589,7 @@
   },
   {
     "coach": "Bob Donewald",
-    "school": "Western Michigan",
+    "school": "Western Michigan Broncos",
     "espnId": 2711,
     "startYear": 1990,
     "endYear": 2000,
@@ -8608,7 +8608,7 @@
   },
   {
     "coach": "Dave Faucher",
-    "school": "Dartmouth",
+    "school": "Dartmouth Big Green",
     "espnId": 159,
     "startYear": 1992,
     "endYear": 2004,
@@ -8627,7 +8627,7 @@
   },
   {
     "coach": "Jerry Wainwright",
-    "school": "UNC Wilmington",
+    "school": "UNC Wilmington Seahawks",
     "espnId": 350,
     "startYear": 1995,
     "endYear": 2002,
@@ -8646,7 +8646,7 @@
   },
   {
     "coach": "Tod Kowalczyk",
-    "school": "Green Bay",
+    "school": "Green Bay Phoenix",
     "espnId": 2739,
     "startYear": 2003,
     "endYear": 2010,
@@ -8665,8 +8665,8 @@
   },
   {
     "coach": "Dan Majerle",
-    "school": "Grand Canyon",
-    "espnId": 2253,
+    "school": "Grand Canyon Antelopes",
+    "espnId": 0,
     "startYear": 2014,
     "endYear": 2020,
     "wins": 136,
@@ -8684,7 +8684,7 @@
   },
   {
     "coach": "Butch Estes",
-    "school": "Furman",
+    "school": "Furman Paladins",
     "espnId": 231,
     "startYear": 1986,
     "endYear": 1994,
@@ -8703,7 +8703,7 @@
   },
   {
     "coach": "Grant McCasland",
-    "school": "North Texas",
+    "school": "North Texas Mean Green",
     "espnId": 249,
     "startYear": 2018,
     "endYear": 2023,
@@ -8722,7 +8722,7 @@
   },
   {
     "coach": "Steve Alford",
-    "school": "Nevada",
+    "school": "Nevada Wolf Pack",
     "espnId": 2440,
     "startYear": 2020,
     "endYear": 2026,
@@ -8741,7 +8741,7 @@
   },
   {
     "coach": "Jeffrey Meyer",
-    "school": "Liberty",
+    "school": "Liberty Flames",
     "espnId": 2335,
     "startYear": 1989,
     "endYear": 1997,
@@ -8760,7 +8760,7 @@
   },
   {
     "coach": "Jim Kerwin",
-    "school": "Western Illinois",
+    "school": "Western Illinois Leathernecks",
     "espnId": 2710,
     "startYear": 1993,
     "endYear": 2003,
@@ -8779,7 +8779,7 @@
   },
   {
     "coach": "Royce Waltman",
-    "school": "Indiana State",
+    "school": "Indiana State Sycamores",
     "espnId": 282,
     "startYear": 1998,
     "endYear": 2007,
@@ -8798,7 +8798,7 @@
   },
   {
     "coach": "Saul Phillips",
-    "school": "North Dakota State",
+    "school": "North Dakota State Bison",
     "espnId": 2449,
     "startYear": 2008,
     "endYear": 2014,
@@ -8817,7 +8817,7 @@
   },
   {
     "coach": "Eddie Payne",
-    "school": "South Carolina Upstate",
+    "school": "South Carolina Upstate Spartans",
     "espnId": 2908,
     "startYear": 2008,
     "endYear": 2017,
@@ -8836,7 +8836,7 @@
   },
   {
     "coach": "Dave Paulsen",
-    "school": "Bucknell",
+    "school": "Bucknell Bison",
     "espnId": 2083,
     "startYear": 2009,
     "endYear": 2015,
@@ -8855,7 +8855,7 @@
   },
   {
     "coach": "Joe Golding",
-    "school": "Abilene Christian",
+    "school": "Abilene Christian Wildcats",
     "espnId": 2000,
     "startYear": 2014,
     "endYear": 2021,
@@ -8874,7 +8874,7 @@
   },
   {
     "coach": "Darrin Horn",
-    "school": "Northern Kentucky",
+    "school": "Northern Kentucky Norse",
     "espnId": 94,
     "startYear": 2020,
     "endYear": 2026,
@@ -8893,7 +8893,7 @@
   },
   {
     "coach": "Mike Newell",
-    "school": "Little Rock",
+    "school": "Little Rock Trojans",
     "espnId": 2031,
     "startYear": 1985,
     "endYear": 1990,
@@ -8912,8 +8912,8 @@
   },
   {
     "coach": "Jim Yarbrough",
-    "school": "Southeastern Louisiana",
-    "espnId": 2545,
+    "school": "Southeastern Louisiana Lions",
+    "espnId": 0,
     "startYear": 2006,
     "endYear": 2014,
     "wins": 133,
@@ -8931,7 +8931,7 @@
   },
   {
     "coach": "Brooks Thompson",
-    "school": "UTSA",
+    "school": "UTSA Roadrunners",
     "espnId": 2636,
     "startYear": 2007,
     "endYear": 2016,
@@ -8950,7 +8950,7 @@
   },
   {
     "coach": "A.W. Hamilton",
-    "school": "Eastern Kentucky",
+    "school": "Eastern Kentucky Colonels",
     "espnId": 2198,
     "startYear": 2019,
     "endYear": 2026,
@@ -8969,7 +8969,7 @@
   },
   {
     "coach": "Johnny Jones",
-    "school": "Texas Southern",
+    "school": "Texas Southern Tigers",
     "espnId": 2640,
     "startYear": 2019,
     "endYear": 2026,
@@ -8988,8 +8988,8 @@
   },
   {
     "coach": "Dustin Kerns",
-    "school": "Appalachian State",
-    "espnId": 2026,
+    "school": "Appalachian State Mountaineers",
+    "espnId": 0,
     "startYear": 2020,
     "endYear": 2026,
     "wins": 133,
@@ -9006,8 +9006,27 @@
     "years": "2020-2026"
   },
   {
+    "coach": "Takayo Siddle",
+    "school": "UNC Wilmington Seahawks",
+    "espnId": 350,
+    "startYear": 2021,
+    "endYear": 2026,
+    "wins": 133,
+    "losses": 53,
+    "winPct": 0.715,
+    "tournamentApps": 1,
+    "sweet16": 0,
+    "elite8": 0,
+    "finalFour": 0,
+    "champGame": 0,
+    "titles": 0,
+    "confRegularSeason": 2,
+    "confTournament": 1,
+    "years": "2021-2026"
+  },
+  {
     "coach": "Jim Baron",
-    "school": "St. Bonaventure",
+    "school": "St. Bonaventure Bonnies",
     "espnId": 179,
     "startYear": 1993,
     "endYear": 2001,
@@ -9026,8 +9045,8 @@
   },
   {
     "coach": "J.P. Piper",
-    "school": "Nicholls State",
-    "espnId": 2447,
+    "school": "Nicholls State Colonels",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2016,
     "wins": 132,
@@ -9045,8 +9064,8 @@
   },
   {
     "coach": "Bobby Cremins",
-    "school": "College of Charleston",
-    "espnId": 232,
+    "school": "College of Charleston Cougars",
+    "espnId": 0,
     "startYear": 2007,
     "endYear": 2012,
     "wins": 132,
@@ -9064,8 +9083,8 @@
   },
   {
     "coach": "Monte Ross",
-    "school": "Delaware",
-    "espnId": 48,
+    "school": "Delaware Fightin' Blue Hens",
+    "espnId": 0,
     "startYear": 2007,
     "endYear": 2016,
     "wins": 132,
@@ -9083,7 +9102,7 @@
   },
   {
     "coach": "Derrin Hansen",
-    "school": "Omaha",
+    "school": "Omaha Mavericks",
     "espnId": 2437,
     "startYear": 2013,
     "endYear": 2022,
@@ -9102,7 +9121,7 @@
   },
   {
     "coach": "Donte Jackson",
-    "school": "Grambling",
+    "school": "Grambling Tigers",
     "espnId": 2755,
     "startYear": 2018,
     "endYear": 2025,
@@ -9120,27 +9139,8 @@
     "years": "2018-2025"
   },
   {
-    "coach": "Takayo Siddle",
-    "school": "UNC Wilmington",
-    "espnId": 350,
-    "startYear": 2021,
-    "endYear": 2026,
-    "wins": 132,
-    "losses": 53,
-    "winPct": 0.714,
-    "tournamentApps": 1,
-    "sweet16": 0,
-    "elite8": 0,
-    "finalFour": 0,
-    "champGame": 0,
-    "titles": 0,
-    "confRegularSeason": 2,
-    "confTournament": 1,
-    "years": "2021-2026"
-  },
-  {
     "coach": "Joey Meyer",
-    "school": "DePaul",
+    "school": "DePaul Blue Demons",
     "espnId": 305,
     "startYear": 1985,
     "endYear": 1997,
@@ -9159,7 +9159,7 @@
   },
   {
     "coach": "Karl Fogel",
-    "school": "Northeastern",
+    "school": "Northeastern Huskies",
     "espnId": 111,
     "startYear": 1987,
     "endYear": 1994,
@@ -9178,7 +9178,7 @@
   },
   {
     "coach": "Kevin Bannon",
-    "school": "Rider",
+    "school": "Rider Broncs",
     "espnId": 2520,
     "startYear": 1990,
     "endYear": 1997,
@@ -9197,8 +9197,8 @@
   },
   {
     "coach": "Henry Bibby",
-    "school": "Southern California",
-    "espnId": 30,
+    "school": "Southern California Trojans",
+    "espnId": 0,
     "startYear": 1997,
     "endYear": 2005,
     "wins": 131,
@@ -9216,7 +9216,7 @@
   },
   {
     "coach": "Todd Lickliter",
-    "school": "Butler",
+    "school": "Butler Bulldogs",
     "espnId": 2086,
     "startYear": 2002,
     "endYear": 2007,
@@ -9235,7 +9235,7 @@
   },
   {
     "coach": "James Whitford",
-    "school": "Ball State",
+    "school": "Ball State Cardinals",
     "espnId": 2050,
     "startYear": 2014,
     "endYear": 2022,
@@ -9254,7 +9254,7 @@
   },
   {
     "coach": "Mark Byington",
-    "school": "Georgia Southern",
+    "school": "Georgia Southern Eagles",
     "espnId": 290,
     "startYear": 2014,
     "endYear": 2020,
@@ -9273,7 +9273,7 @@
   },
   {
     "coach": "Steve Donahue",
-    "school": "Pennsylvania",
+    "school": "Pennsylvania Quakers",
     "espnId": 219,
     "startYear": 2016,
     "endYear": 2025,
@@ -9292,7 +9292,7 @@
   },
   {
     "coach": "Mike Morrell",
-    "school": "UNC Asheville",
+    "school": "UNC Asheville Bulldogs",
     "espnId": 2427,
     "startYear": 2019,
     "endYear": 2026,
@@ -9311,7 +9311,7 @@
   },
   {
     "coach": "Mike Montgomery",
-    "school": "California",
+    "school": "California Golden Bears",
     "espnId": 25,
     "startYear": 2009,
     "endYear": 2014,
@@ -9330,7 +9330,7 @@
   },
   {
     "coach": "Ray McCallum",
-    "school": "Detroit Mercy",
+    "school": "Detroit Mercy Titans",
     "espnId": 2174,
     "startYear": 2009,
     "endYear": 2016,
@@ -9349,7 +9349,7 @@
   },
   {
     "coach": "Steve Forbes",
-    "school": "East Tennessee State",
+    "school": "East Tennessee State Buccaneers",
     "espnId": 2193,
     "startYear": 2016,
     "endYear": 2020,
@@ -9368,7 +9368,7 @@
   },
   {
     "coach": "Carroll Williams",
-    "school": "Santa Clara",
+    "school": "Santa Clara Broncos",
     "espnId": 2541,
     "startYear": 1985,
     "endYear": 1992,
@@ -9387,7 +9387,7 @@
   },
   {
     "coach": "Rob Spivery",
-    "school": "Alabama State",
+    "school": "Alabama State Hornets",
     "espnId": 2011,
     "startYear": 1997,
     "endYear": 2005,
@@ -9406,7 +9406,7 @@
   },
   {
     "coach": "Bobby Gonzalez",
-    "school": "Manhattan",
+    "school": "Manhattan Jaspers",
     "espnId": 2363,
     "startYear": 2000,
     "endYear": 2006,
@@ -9425,8 +9425,8 @@
   },
   {
     "coach": "Frank Haith",
-    "school": "Miami (FL)",
-    "espnId": 2390,
+    "school": "Miami (FL) Hurricanes",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2011,
     "wins": 129,
@@ -9444,7 +9444,7 @@
   },
   {
     "coach": "Nathan Davis",
-    "school": "Bucknell",
+    "school": "Bucknell Bison",
     "espnId": 2083,
     "startYear": 2016,
     "endYear": 2023,
@@ -9463,8 +9463,8 @@
   },
   {
     "coach": "Mike Rhoades",
-    "school": "Virginia Commonwealth",
-    "espnId": 2670,
+    "school": "Virginia Commonwealth Rams",
+    "espnId": 0,
     "startYear": 2018,
     "endYear": 2023,
     "wins": 129,
@@ -9482,7 +9482,7 @@
   },
   {
     "coach": "Jeff Boals",
-    "school": "Ohio",
+    "school": "Ohio Bobcats",
     "espnId": 195,
     "startYear": 2020,
     "endYear": 2026,
@@ -9501,7 +9501,7 @@
   },
   {
     "coach": "Eric Henderson",
-    "school": "South Dakota State",
+    "school": "South Dakota State Jackrabbits",
     "espnId": 2571,
     "startYear": 2020,
     "endYear": 2025,
@@ -9520,7 +9520,7 @@
   },
   {
     "coach": "Kevin Mackey",
-    "school": "Cleveland State",
+    "school": "Cleveland State Vikings",
     "espnId": 325,
     "startYear": 1985,
     "endYear": 1990,
@@ -9539,7 +9539,7 @@
   },
   {
     "coach": "Clem Haskins",
-    "school": "Minnesota",
+    "school": "Minnesota Golden Gophers",
     "espnId": 135,
     "startYear": 1987,
     "endYear": 1999,
@@ -9558,7 +9558,7 @@
   },
   {
     "coach": "Bob Wenzel",
-    "school": "Rutgers",
+    "school": "Rutgers Scarlet Knights",
     "espnId": 164,
     "startYear": 1989,
     "endYear": 1997,
@@ -9577,7 +9577,7 @@
   },
   {
     "coach": "Frank Harrell",
-    "school": "Tennessee Tech",
+    "school": "Tennessee Tech Golden Eagles",
     "espnId": 2635,
     "startYear": 1989,
     "endYear": 1998,
@@ -9596,7 +9596,7 @@
   },
   {
     "coach": "Mark Slonaker",
-    "school": "Mercer",
+    "school": "Mercer Bears",
     "espnId": 2382,
     "startYear": 1998,
     "endYear": 2008,
@@ -9615,7 +9615,7 @@
   },
   {
     "coach": "Mark Turgeon",
-    "school": "Wichita State",
+    "school": "Wichita State Shockers",
     "espnId": 2724,
     "startYear": 2001,
     "endYear": 2007,
@@ -9634,7 +9634,7 @@
   },
   {
     "coach": "Dave Odom",
-    "school": "South Carolina",
+    "school": "South Carolina Gamecocks",
     "espnId": 2579,
     "startYear": 2002,
     "endYear": 2008,
@@ -9653,7 +9653,7 @@
   },
   {
     "coach": "Steve Wojciechowski",
-    "school": "Marquette",
+    "school": "Marquette Golden Eagles",
     "espnId": 269,
     "startYear": 2015,
     "endYear": 2021,
@@ -9672,7 +9672,7 @@
   },
   {
     "coach": "Bobby Paschal",
-    "school": "South Florida",
+    "school": "South Florida Bulls",
     "espnId": 58,
     "startYear": 1987,
     "endYear": 1996,
@@ -9691,7 +9691,7 @@
   },
   {
     "coach": "Don Harnum",
-    "school": "Rider",
+    "school": "Rider Broncs",
     "espnId": 2520,
     "startYear": 1998,
     "endYear": 2005,
@@ -9710,7 +9710,7 @@
   },
   {
     "coach": "Rex Walters",
-    "school": "San Francisco",
+    "school": "San Francisco Dons",
     "espnId": 2539,
     "startYear": 2009,
     "endYear": 2016,
@@ -9729,8 +9729,8 @@
   },
   {
     "coach": "Earl Grant",
-    "school": "College of Charleston",
-    "espnId": 232,
+    "school": "College of Charleston Cougars",
+    "espnId": 0,
     "startYear": 2015,
     "endYear": 2021,
     "wins": 127,
@@ -9748,7 +9748,7 @@
   },
   {
     "coach": "Griff Aldrich",
-    "school": "Longwood",
+    "school": "Longwood Lancers",
     "espnId": 2344,
     "startYear": 2019,
     "endYear": 2025,
@@ -9767,7 +9767,7 @@
   },
   {
     "coach": "Jeff Capel",
-    "school": "Pittsburgh",
+    "school": "Pittsburgh Panthers",
     "espnId": 221,
     "startYear": 2019,
     "endYear": 2026,
@@ -9786,7 +9786,7 @@
   },
   {
     "coach": "Tim Floyd",
-    "school": "New Orleans",
+    "school": "New Orleans Privateers",
     "espnId": 2443,
     "startYear": 1989,
     "endYear": 1994,
@@ -9805,7 +9805,7 @@
   },
   {
     "coach": "Ray McCallum",
-    "school": "Ball State",
+    "school": "Ball State Cardinals",
     "espnId": 2050,
     "startYear": 1994,
     "endYear": 2000,
@@ -9824,7 +9824,7 @@
   },
   {
     "coach": "Gary Garner",
-    "school": "Southeast Missouri State",
+    "school": "Southeast Missouri State Redhawks",
     "espnId": 2546,
     "startYear": 1998,
     "endYear": 2006,
@@ -9843,7 +9843,7 @@
   },
   {
     "coach": "Quin Snyder",
-    "school": "Missouri",
+    "school": "Missouri Tigers",
     "espnId": 142,
     "startYear": 2000,
     "endYear": 2006,
@@ -9862,7 +9862,7 @@
   },
   {
     "coach": "Skip Prosser",
-    "school": "Wake Forest",
+    "school": "Wake Forest Demon Deacons",
     "espnId": 154,
     "startYear": 2002,
     "endYear": 2007,
@@ -9881,7 +9881,7 @@
   },
   {
     "coach": "Cliff Warren",
-    "school": "Jacksonville",
+    "school": "Jacksonville Dolphins",
     "espnId": 294,
     "startYear": 2006,
     "endYear": 2014,
@@ -9900,7 +9900,7 @@
   },
   {
     "coach": "Mike Lonergan",
-    "school": "Vermont",
+    "school": "Vermont Catamounts",
     "espnId": 261,
     "startYear": 2006,
     "endYear": 2011,
@@ -9919,7 +9919,7 @@
   },
   {
     "coach": "Joe Callero",
-    "school": "Cal Poly",
+    "school": "Cal Poly Mustangs",
     "espnId": 13,
     "startYear": 2010,
     "endYear": 2019,
@@ -9938,7 +9938,7 @@
   },
   {
     "coach": "Rodney Terry",
-    "school": "Fresno State",
+    "school": "Fresno State Bulldogs",
     "espnId": 278,
     "startYear": 2012,
     "endYear": 2018,
@@ -9957,7 +9957,7 @@
   },
   {
     "coach": "Mark Montgomery",
-    "school": "Northern Illinois",
+    "school": "Northern Illinois Huskies",
     "espnId": 2459,
     "startYear": 2012,
     "endYear": 2021,
@@ -9976,7 +9976,7 @@
   },
   {
     "coach": "Michael Huger",
-    "school": "Bowling Green",
+    "school": "Bowling Green Falcons",
     "espnId": 189,
     "startYear": 2016,
     "endYear": 2023,
@@ -9995,7 +9995,7 @@
   },
   {
     "coach": "Jerod Haase",
-    "school": "Stanford",
+    "school": "Stanford Cardinal",
     "espnId": 24,
     "startYear": 2017,
     "endYear": 2024,
@@ -10014,7 +10014,7 @@
   },
   {
     "coach": "Dusty May",
-    "school": "Florida Atlantic",
+    "school": "Florida Atlantic Owls",
     "espnId": 2226,
     "startYear": 2019,
     "endYear": 2024,
@@ -10033,7 +10033,7 @@
   },
   {
     "coach": "John Giannini",
-    "school": "Maine",
+    "school": "Maine Black Bears",
     "espnId": 311,
     "startYear": 1997,
     "endYear": 2004,
@@ -10052,8 +10052,8 @@
   },
   {
     "coach": "Bret Campbell",
-    "school": "Tennessee-Martin",
-    "espnId": 2630,
+    "school": "Tennessee-Martin Skyhawks",
+    "espnId": 0,
     "startYear": 2000,
     "endYear": 2009,
     "wins": 125,
@@ -10071,7 +10071,7 @@
   },
   {
     "coach": "Derek Waugh",
-    "school": "Stetson",
+    "school": "Stetson Hatters",
     "espnId": 56,
     "startYear": 2001,
     "endYear": 2011,
@@ -10090,7 +10090,7 @@
   },
   {
     "coach": "Clifford Reed",
-    "school": "Bethune-Cookman",
+    "school": "Bethune-Cookman Wildcats",
     "espnId": 2065,
     "startYear": 2002,
     "endYear": 2011,
@@ -10109,8 +10109,8 @@
   },
   {
     "coach": "Mike Brennan",
-    "school": "American",
-    "espnId": 44,
+    "school": "American Eagles",
+    "espnId": 0,
     "startYear": 2014,
     "endYear": 2023,
     "wins": 125,
@@ -10128,8 +10128,8 @@
   },
   {
     "coach": "Tim Jankovich",
-    "school": "Southern Methodist",
-    "espnId": 2567,
+    "school": "Southern Methodist Mustangs",
+    "espnId": 0,
     "startYear": 2016,
     "endYear": 2022,
     "wins": 125,
@@ -10147,7 +10147,7 @@
   },
   {
     "coach": "Scott Cross",
-    "school": "Troy",
+    "school": "Troy Trojans",
     "espnId": 2653,
     "startYear": 2020,
     "endYear": 2026,
@@ -10166,7 +10166,7 @@
   },
   {
     "coach": "Hubert Davis",
-    "school": "North Carolina",
+    "school": "North Carolina Tar Heels",
     "espnId": 153,
     "startYear": 2022,
     "endYear": 2026,
@@ -10185,7 +10185,7 @@
   },
   {
     "coach": "Bill Frieder",
-    "school": "Michigan",
+    "school": "Michigan Wolverines",
     "espnId": 130,
     "startYear": 1985,
     "endYear": 1989,
@@ -10204,7 +10204,7 @@
   },
   {
     "coach": "Glenn Wilkes",
-    "school": "Stetson",
+    "school": "Stetson Hatters",
     "espnId": 56,
     "startYear": 1985,
     "endYear": 1993,
@@ -10223,7 +10223,7 @@
   },
   {
     "coach": "Mike Dement",
-    "school": "UNC Greensboro",
+    "school": "UNC Greensboro Spartans",
     "espnId": 2430,
     "startYear": 1992,
     "endYear": 2012,
@@ -10242,7 +10242,7 @@
   },
   {
     "coach": "Larry Davis",
-    "school": "Furman",
+    "school": "Furman Paladins",
     "espnId": 231,
     "startYear": 1998,
     "endYear": 2006,
@@ -10261,7 +10261,7 @@
   },
   {
     "coach": "Tubby Smith",
-    "school": "Minnesota",
+    "school": "Minnesota Golden Gophers",
     "espnId": 135,
     "startYear": 2008,
     "endYear": 2013,
@@ -10280,7 +10280,7 @@
   },
   {
     "coach": "Bryce Drew",
-    "school": "Valparaiso",
+    "school": "Valparaiso Beacons",
     "espnId": 2674,
     "startYear": 2012,
     "endYear": 2016,
@@ -10299,7 +10299,7 @@
   },
   {
     "coach": "Steve Alford",
-    "school": "UCLA",
+    "school": "UCLA Bruins",
     "espnId": 26,
     "startYear": 2014,
     "endYear": 2019,
@@ -10318,7 +10318,7 @@
   },
   {
     "coach": "Mike Young",
-    "school": "Virginia Tech",
+    "school": "Virginia Tech Hokies",
     "espnId": 259,
     "startYear": 2020,
     "endYear": 2026,
@@ -10337,7 +10337,7 @@
   },
   {
     "coach": "Lou Campanelli",
-    "school": "California",
+    "school": "California Golden Bears",
     "espnId": 25,
     "startYear": 1986,
     "endYear": 1993,
@@ -10356,8 +10356,8 @@
   },
   {
     "coach": "Bob Hallberg",
-    "school": "Illinois-Chicago",
-    "espnId": 82,
+    "school": "Illinois-Chicago Flames",
+    "espnId": 0,
     "startYear": 1988,
     "endYear": 1995,
     "wins": 123,
@@ -10375,7 +10375,7 @@
   },
   {
     "coach": "Kevin Stallings",
-    "school": "Illinois State",
+    "school": "Illinois State Redbirds",
     "espnId": 2287,
     "startYear": 1994,
     "endYear": 1999,
@@ -10394,7 +10394,7 @@
   },
   {
     "coach": "Eddie Fogler",
-    "school": "South Carolina",
+    "school": "South Carolina Gamecocks",
     "espnId": 2579,
     "startYear": 1994,
     "endYear": 2001,
@@ -10413,7 +10413,7 @@
   },
   {
     "coach": "Philip Mathews",
-    "school": "San Francisco",
+    "school": "San Francisco Dons",
     "espnId": 2539,
     "startYear": 1997,
     "endYear": 2004,
@@ -10432,8 +10432,8 @@
   },
   {
     "coach": "James Green",
-    "school": "Southern Mississippi",
-    "espnId": 2572,
+    "school": "Southern Mississippi Golden Eagles",
+    "espnId": 0,
     "startYear": 1997,
     "endYear": 2004,
     "wins": 123,
@@ -10451,7 +10451,7 @@
   },
   {
     "coach": "Steve Lavin",
-    "school": "UCLA",
+    "school": "UCLA Bruins",
     "espnId": 26,
     "startYear": 1997,
     "endYear": 2003,
@@ -10470,7 +10470,7 @@
   },
   {
     "coach": "Mark Fox",
-    "school": "Nevada",
+    "school": "Nevada Wolf Pack",
     "espnId": 2440,
     "startYear": 2005,
     "endYear": 2009,
@@ -10489,7 +10489,7 @@
   },
   {
     "coach": "Mark Gottfried",
-    "school": "NC State",
+    "school": "NC State Wolfpack",
     "espnId": 152,
     "startYear": 2012,
     "endYear": 2017,
@@ -10508,7 +10508,7 @@
   },
   {
     "coach": "Joe Gallo",
-    "school": "Merrimack",
+    "school": "Merrimack Warriors",
     "espnId": 2771,
     "startYear": 2020,
     "endYear": 2026,
@@ -10527,7 +10527,7 @@
   },
   {
     "coach": "Charles Spoonhour",
-    "school": "Saint Louis",
+    "school": "Saint Louis Billikens",
     "espnId": 139,
     "startYear": 1993,
     "endYear": 1999,
@@ -10546,7 +10546,7 @@
   },
   {
     "coach": "Jay Wright",
-    "school": "Hofstra",
+    "school": "Hofstra Pride",
     "espnId": 2275,
     "startYear": 1995,
     "endYear": 2001,
@@ -10565,7 +10565,7 @@
   },
   {
     "coach": "Jeff Capel",
-    "school": "Old Dominion",
+    "school": "Old Dominion Monarchs",
     "espnId": 295,
     "startYear": 1995,
     "endYear": 2001,
@@ -10584,7 +10584,7 @@
   },
   {
     "coach": "Mike Davis",
-    "school": "UAB",
+    "school": "UAB Blazers",
     "espnId": 5,
     "startYear": 2007,
     "endYear": 2012,
@@ -10603,7 +10603,7 @@
   },
   {
     "coach": "Chris Jans",
-    "school": "New Mexico State",
+    "school": "New Mexico State Aggies",
     "espnId": 166,
     "startYear": 2018,
     "endYear": 2022,
@@ -10622,7 +10622,7 @@
   },
   {
     "coach": "Nick McDevitt",
-    "school": "Middle Tennessee",
+    "school": "Middle Tennessee Blue Raiders",
     "espnId": 2393,
     "startYear": 2019,
     "endYear": 2026,
@@ -10641,7 +10641,7 @@
   },
   {
     "coach": "T.J. Otzelberger",
-    "school": "Iowa State",
+    "school": "Iowa State Cyclones",
     "espnId": 66,
     "startYear": 2022,
     "endYear": 2026,
@@ -10660,7 +10660,7 @@
   },
   {
     "coach": "Jim Brovelli",
-    "school": "San Francisco",
+    "school": "San Francisco Dons",
     "espnId": 2539,
     "startYear": 1986,
     "endYear": 1994,
@@ -10679,7 +10679,7 @@
   },
   {
     "coach": "Stew Morrill",
-    "school": "Colorado State",
+    "school": "Colorado State Rams",
     "espnId": 36,
     "startYear": 1992,
     "endYear": 1998,
@@ -10698,7 +10698,7 @@
   },
   {
     "coach": "Tommy Penders",
-    "school": "Houston",
+    "school": "Houston Cougars",
     "espnId": 248,
     "startYear": 2005,
     "endYear": 2010,
@@ -10717,7 +10717,7 @@
   },
   {
     "coach": "John Brady",
-    "school": "Arkansas State",
+    "school": "Arkansas State Red Wolves",
     "espnId": 2032,
     "startYear": 2009,
     "endYear": 2016,
@@ -10736,7 +10736,7 @@
   },
   {
     "coach": "Larry Eustachy",
-    "school": "Colorado State",
+    "school": "Colorado State Rams",
     "espnId": 36,
     "startYear": 2013,
     "endYear": 2018,
@@ -10755,7 +10755,7 @@
   },
   {
     "coach": "Jon Scheyer",
-    "school": "Duke",
+    "school": "Duke Blue Devils",
     "espnId": 150,
     "startYear": 2023,
     "endYear": 2026,
@@ -10774,7 +10774,7 @@
   },
   {
     "coach": "Tim O'Shea",
-    "school": "Ohio",
+    "school": "Ohio Bobcats",
     "espnId": 195,
     "startYear": 2002,
     "endYear": 2008,
@@ -10793,7 +10793,7 @@
   },
   {
     "coach": "Buzz Williams",
-    "school": "Texas A&M",
+    "school": "Texas A&M Aggies",
     "espnId": 245,
     "startYear": 2020,
     "endYear": 2025,
@@ -10812,7 +10812,7 @@
   },
   {
     "coach": "Rob Evans",
-    "school": "Arizona State",
+    "school": "Arizona State Sun Devils",
     "espnId": 9,
     "startYear": 1999,
     "endYear": 2006,
@@ -10831,7 +10831,7 @@
   },
   {
     "coach": "Tommy Dempsey",
-    "school": "Rider",
+    "school": "Rider Broncs",
     "espnId": 2520,
     "startYear": 2006,
     "endYear": 2012,
@@ -10850,7 +10850,7 @@
   },
   {
     "coach": "Jay Spoonhour",
-    "school": "Eastern Illinois",
+    "school": "Eastern Illinois Panthers",
     "espnId": 2197,
     "startYear": 2013,
     "endYear": 2021,
@@ -10869,7 +10869,7 @@
   },
   {
     "coach": "Wayne Brent",
-    "school": "Jackson State",
+    "school": "Jackson State Tigers",
     "espnId": 2296,
     "startYear": 2014,
     "endYear": 2022,
@@ -10888,7 +10888,7 @@
   },
   {
     "coach": "Danny Kaspar",
-    "school": "Texas State",
+    "school": "Texas State Bobcats",
     "espnId": 326,
     "startYear": 2014,
     "endYear": 2020,
@@ -10907,7 +10907,7 @@
   },
   {
     "coach": "Michael Boynton",
-    "school": "Oklahoma State",
+    "school": "Oklahoma State Cowboys",
     "espnId": 197,
     "startYear": 2018,
     "endYear": 2024,
@@ -10926,7 +10926,7 @@
   },
   {
     "coach": "Lorenzo Romar",
-    "school": "Pepperdine",
+    "school": "Pepperdine Waves",
     "espnId": 2492,
     "startYear": 1997,
     "endYear": 2024,
@@ -10945,7 +10945,7 @@
   },
   {
     "coach": "Pete Gillen",
-    "school": "Virginia",
+    "school": "Virginia Cavaliers",
     "espnId": 258,
     "startYear": 1999,
     "endYear": 2005,
@@ -10964,7 +10964,7 @@
   },
   {
     "coach": "Dan Monson",
-    "school": "Minnesota",
+    "school": "Minnesota Golden Gophers",
     "espnId": 135,
     "startYear": 2000,
     "endYear": 2007,
@@ -10983,7 +10983,7 @@
   },
   {
     "coach": "Dave Leitao",
-    "school": "DePaul",
+    "school": "DePaul Blue Demons",
     "espnId": 305,
     "startYear": 2003,
     "endYear": 2021,
@@ -11002,7 +11002,7 @@
   },
   {
     "coach": "Steve Payne",
-    "school": "Tennessee Tech",
+    "school": "Tennessee Tech Golden Eagles",
     "espnId": 2635,
     "startYear": 2012,
     "endYear": 2019,
@@ -11021,7 +11021,7 @@
   },
   {
     "coach": "Todd Simon",
-    "school": "Southern Utah",
+    "school": "Southern Utah Thunderbirds",
     "espnId": 253,
     "startYear": 2017,
     "endYear": 2023,
@@ -11040,7 +11040,7 @@
   },
   {
     "coach": "Mike Hopkins",
-    "school": "Washington",
+    "school": "Washington Huskies",
     "espnId": 264,
     "startYear": 2018,
     "endYear": 2024,
@@ -11059,7 +11059,7 @@
   },
   {
     "coach": "Jerrod Calhoun",
-    "school": "Youngstown State",
+    "school": "Youngstown State Penguins",
     "espnId": 2754,
     "startYear": 2018,
     "endYear": 2024,
@@ -11078,7 +11078,7 @@
   },
   {
     "coach": "Tim Capstraw",
-    "school": "Wagner",
+    "school": "Wagner Seahawks",
     "espnId": 2681,
     "startYear": 1990,
     "endYear": 1999,
@@ -11097,7 +11097,7 @@
   },
   {
     "coach": "Brian Hammel",
-    "school": "Northern Illinois",
+    "school": "Northern Illinois Huskies",
     "espnId": 2459,
     "startYear": 1992,
     "endYear": 2001,
@@ -11116,7 +11116,7 @@
   },
   {
     "coach": "James Dickey",
-    "school": "Texas Tech",
+    "school": "Texas Tech Red Raiders",
     "espnId": 2641,
     "startYear": 1992,
     "endYear": 2001,
@@ -11135,7 +11135,7 @@
   },
   {
     "coach": "Jerry Dunn",
-    "school": "Penn State",
+    "school": "Penn State Nittany Lions",
     "espnId": 213,
     "startYear": 1996,
     "endYear": 2003,
@@ -11154,7 +11154,7 @@
   },
   {
     "coach": "Larry Shyatt",
-    "school": "Wyoming",
+    "school": "Wyoming Cowboys",
     "espnId": 2751,
     "startYear": 1998,
     "endYear": 2016,
@@ -11173,7 +11173,7 @@
   },
   {
     "coach": "Ted Woodward",
-    "school": "Maine",
+    "school": "Maine Black Bears",
     "espnId": 311,
     "startYear": 2005,
     "endYear": 2014,
@@ -11192,7 +11192,7 @@
   },
   {
     "coach": "Frank Martin",
-    "school": "Kansas State",
+    "school": "Kansas State Wildcats",
     "espnId": 2306,
     "startYear": 2008,
     "endYear": 2012,
@@ -11211,7 +11211,7 @@
   },
   {
     "coach": "Bill Grier",
-    "school": "San Diego",
+    "school": "San Diego Toreros",
     "espnId": 301,
     "startYear": 2008,
     "endYear": 2015,
@@ -11230,7 +11230,7 @@
   },
   {
     "coach": "Anthony Grant",
-    "school": "Alabama",
+    "school": "Alabama Crimson Tide",
     "espnId": 333,
     "startYear": 2010,
     "endYear": 2015,
@@ -11249,7 +11249,7 @@
   },
   {
     "coach": "Steve Newton",
-    "school": "Murray State",
+    "school": "Murray State Racers",
     "espnId": 93,
     "startYear": 1986,
     "endYear": 1991,
@@ -11268,8 +11268,8 @@
   },
   {
     "coach": "Bart Bellairs",
-    "school": "Virginia Military Institute",
-    "espnId": 2678,
+    "school": "Virginia Military Institute Keydets",
+    "espnId": 0,
     "startYear": 1995,
     "endYear": 2005,
     "wins": 116,
@@ -11287,7 +11287,7 @@
   },
   {
     "coach": "Lou Henson",
-    "school": "New Mexico State",
+    "school": "New Mexico State Aggies",
     "espnId": 166,
     "startYear": 1999,
     "endYear": 2005,
@@ -11306,7 +11306,7 @@
   },
   {
     "coach": "Joe Cravens",
-    "school": "Weber State",
+    "school": "Weber State Wildcats",
     "espnId": 2692,
     "startYear": 2000,
     "endYear": 2006,
@@ -11325,7 +11325,7 @@
   },
   {
     "coach": "Jeff Lebo",
-    "school": "East Carolina",
+    "school": "East Carolina Pirates",
     "espnId": 151,
     "startYear": 2011,
     "endYear": 2018,
@@ -11344,7 +11344,7 @@
   },
   {
     "coach": "Sydney Johnson",
-    "school": "Fairfield",
+    "school": "Fairfield Stags",
     "espnId": 2217,
     "startYear": 2012,
     "endYear": 2019,
@@ -11363,7 +11363,7 @@
   },
   {
     "coach": "Tim Miles",
-    "school": "Nebraska",
+    "school": "Nebraska Cornhuskers",
     "espnId": 158,
     "startYear": 2013,
     "endYear": 2019,
@@ -11382,7 +11382,7 @@
   },
   {
     "coach": "Barry Hinson",
-    "school": "Southern Illinois",
+    "school": "Southern Illinois Salukis",
     "espnId": 79,
     "startYear": 2013,
     "endYear": 2019,
@@ -11401,7 +11401,7 @@
   },
   {
     "coach": "Keith Dambrot",
-    "school": "Duquesne",
+    "school": "Duquesne Dukes",
     "espnId": 2184,
     "startYear": 2018,
     "endYear": 2024,
@@ -11420,8 +11420,8 @@
   },
   {
     "coach": "George Raveling",
-    "school": "Southern California",
-    "espnId": 30,
+    "school": "Southern California Trojans",
+    "espnId": 0,
     "startYear": 1987,
     "endYear": 1994,
     "wins": 115,
@@ -11439,7 +11439,7 @@
   },
   {
     "coach": "Gary Edwards",
-    "school": "Charleston Southern",
+    "school": "Charleston Southern Buccaneers",
     "espnId": 2127,
     "startYear": 1988,
     "endYear": 1996,
@@ -11458,7 +11458,7 @@
   },
   {
     "coach": "Frankie Allen",
-    "school": "Tennessee State",
+    "school": "Tennessee State Tigers",
     "espnId": 2634,
     "startYear": 1992,
     "endYear": 2000,
@@ -11477,7 +11477,7 @@
   },
   {
     "coach": "Greg White",
-    "school": "Marshall",
+    "school": "Marshall Thundering Herd",
     "espnId": 276,
     "startYear": 1997,
     "endYear": 2003,
@@ -11496,7 +11496,7 @@
   },
   {
     "coach": "Mike Davis",
-    "school": "Indiana",
+    "school": "Indiana Hoosiers",
     "espnId": 84,
     "startYear": 2001,
     "endYear": 2006,
@@ -11515,7 +11515,7 @@
   },
   {
     "coach": "Byron Rimm",
-    "school": "Prairie View A&M",
+    "school": "Prairie View A&M Panthers",
     "espnId": 2504,
     "startYear": 2007,
     "endYear": 2016,
@@ -11534,7 +11534,7 @@
   },
   {
     "coach": "Fred Hoiberg",
-    "school": "Iowa State",
+    "school": "Iowa State Cyclones",
     "espnId": 66,
     "startYear": 2011,
     "endYear": 2015,
@@ -11553,7 +11553,7 @@
   },
   {
     "coach": "Mike Davis",
-    "school": "Texas Southern",
+    "school": "Texas Southern Tigers",
     "espnId": 2640,
     "startYear": 2013,
     "endYear": 2018,
@@ -11572,7 +11572,7 @@
   },
   {
     "coach": "John Dunne",
-    "school": "Marist",
+    "school": "Marist Red Foxes",
     "espnId": 2368,
     "startYear": 2019,
     "endYear": 2026,
@@ -11591,7 +11591,7 @@
   },
   {
     "coach": "Randy Ayers",
-    "school": "Ohio State",
+    "school": "Ohio State Buckeyes",
     "espnId": 194,
     "startYear": 1990,
     "endYear": 1997,
@@ -11610,7 +11610,7 @@
   },
   {
     "coach": "Robbie Laing",
-    "school": "Campbell",
+    "school": "Campbell Fighting Camels",
     "espnId": 2097,
     "startYear": 2004,
     "endYear": 2013,
@@ -11629,7 +11629,7 @@
   },
   {
     "coach": "Ed DeChellis",
-    "school": "Penn State",
+    "school": "Penn State Nittany Lions",
     "espnId": 213,
     "startYear": 2004,
     "endYear": 2011,
@@ -11648,7 +11648,7 @@
   },
   {
     "coach": "Donnie Tyndall",
-    "school": "Morehead State",
+    "school": "Morehead State Eagles",
     "espnId": 2413,
     "startYear": 2007,
     "endYear": 2012,
@@ -11667,7 +11667,7 @@
   },
   {
     "coach": "Roman Banks",
-    "school": "Southern",
+    "school": "Southern Jaguars",
     "espnId": 2582,
     "startYear": 2012,
     "endYear": 2017,
@@ -11686,7 +11686,7 @@
   },
   {
     "coach": "Joe Dooley",
-    "school": "Florida Gulf Coast",
+    "school": "Florida Gulf Coast Eagles",
     "espnId": 526,
     "startYear": 2014,
     "endYear": 2018,
@@ -11705,7 +11705,7 @@
   },
   {
     "coach": "Larry Brown",
-    "school": "Kansas",
+    "school": "Kansas Jayhawks",
     "espnId": 2305,
     "startYear": 1985,
     "endYear": 1988,
@@ -11724,7 +11724,7 @@
   },
   {
     "coach": "Dan Hurley",
-    "school": "Rhode Island",
+    "school": "Rhode Island Rams",
     "espnId": 227,
     "startYear": 2013,
     "endYear": 2018,
@@ -11743,7 +11743,7 @@
   },
   {
     "coach": "Casey Alexander",
-    "school": "Lipscomb",
+    "school": "Lipscomb Bisons",
     "espnId": 288,
     "startYear": 2014,
     "endYear": 2019,
@@ -11762,7 +11762,7 @@
   },
   {
     "coach": "Jeremy Ballard",
-    "school": "Florida International",
+    "school": "Florida International Panthers",
     "espnId": 2229,
     "startYear": 2019,
     "endYear": 2026,
@@ -11781,7 +11781,7 @@
   },
   {
     "coach": "Darrell Walker",
-    "school": "Little Rock",
+    "school": "Little Rock Trojans",
     "espnId": 2031,
     "startYear": 2019,
     "endYear": 2026,
@@ -11800,7 +11800,7 @@
   },
   {
     "coach": "Terry Holland",
-    "school": "Virginia",
+    "school": "Virginia Cavaliers",
     "espnId": 258,
     "startYear": 1985,
     "endYear": 1990,
@@ -11819,7 +11819,7 @@
   },
   {
     "coach": "Steve Yoder",
-    "school": "Wisconsin",
+    "school": "Wisconsin Badgers",
     "espnId": 275,
     "startYear": 1985,
     "endYear": 1992,
@@ -11838,7 +11838,7 @@
   },
   {
     "coach": "Dan Hipsher",
-    "school": "Akron",
+    "school": "Akron Zips",
     "espnId": 2006,
     "startYear": 1996,
     "endYear": 2004,
@@ -11857,7 +11857,7 @@
   },
   {
     "coach": "Jessie Evans",
-    "school": "Louisiana",
+    "school": "Louisiana Ragin' Cajuns",
     "espnId": 309,
     "startYear": 1998,
     "endYear": 2003,
@@ -11876,7 +11876,7 @@
   },
   {
     "coach": "Tim O'Toole",
-    "school": "Fairfield",
+    "school": "Fairfield Stags",
     "espnId": 2217,
     "startYear": 1999,
     "endYear": 2006,
@@ -11895,7 +11895,7 @@
   },
   {
     "coach": "Fran McCaffery",
-    "school": "Siena",
+    "school": "Siena Saints",
     "espnId": 2561,
     "startYear": 2006,
     "endYear": 2010,
@@ -11914,7 +11914,7 @@
   },
   {
     "coach": "Tyler Geving",
-    "school": "Portland State",
+    "school": "Portland State Vikings",
     "espnId": 2502,
     "startYear": 2010,
     "endYear": 2017,
@@ -11933,7 +11933,7 @@
   },
   {
     "coach": "Tic Price",
-    "school": "Lamar",
+    "school": "Lamar Cardinals",
     "espnId": 2320,
     "startYear": 2014,
     "endYear": 2021,
@@ -11952,7 +11952,7 @@
   },
   {
     "coach": "Chris Beard",
-    "school": "Texas Tech",
+    "school": "Texas Tech Red Raiders",
     "espnId": 2641,
     "startYear": 2017,
     "endYear": 2021,
@@ -11971,7 +11971,7 @@
   },
   {
     "coach": "Darrin Horn",
-    "school": "Western Kentucky",
+    "school": "Western Kentucky Hilltoppers",
     "espnId": 98,
     "startYear": 2004,
     "endYear": 2008,
@@ -11990,7 +11990,7 @@
   },
   {
     "coach": "Mike Anderson",
-    "school": "Missouri",
+    "school": "Missouri Tigers",
     "espnId": 142,
     "startYear": 2007,
     "endYear": 2011,
@@ -12009,7 +12009,7 @@
   },
   {
     "coach": "Jim Engles",
-    "school": "NJIT",
+    "school": "NJIT Highlanders",
     "espnId": 2885,
     "startYear": 2009,
     "endYear": 2016,
@@ -12028,7 +12028,7 @@
   },
   {
     "coach": "Ben Howland",
-    "school": "Mississippi State",
+    "school": "Mississippi State Bulldogs",
     "espnId": 344,
     "startYear": 2016,
     "endYear": 2022,
@@ -12047,7 +12047,7 @@
   },
   {
     "coach": "Tony Pujol",
-    "school": "North Alabama",
+    "school": "North Alabama Lions",
     "espnId": 2453,
     "startYear": 2019,
     "endYear": 2026,
@@ -12066,7 +12066,7 @@
   },
   {
     "coach": "Eric Musselman",
-    "school": "Arkansas",
+    "school": "Arkansas Razorbacks",
     "espnId": 8,
     "startYear": 2020,
     "endYear": 2024,
@@ -12085,7 +12085,7 @@
   },
   {
     "coach": "Kyle Keller",
-    "school": "Stephen F. Austin",
+    "school": "Stephen F. Austin Lumberjacks",
     "espnId": 2617,
     "startYear": 2020,
     "endYear": 2025,
@@ -12104,7 +12104,7 @@
   },
   {
     "coach": "David Hobbs",
-    "school": "Alabama",
+    "school": "Alabama Crimson Tide",
     "espnId": 333,
     "startYear": 1993,
     "endYear": 1998,
@@ -12123,7 +12123,7 @@
   },
   {
     "coach": "Mike Heideman",
-    "school": "Green Bay",
+    "school": "Green Bay Phoenix",
     "espnId": 2739,
     "startYear": 1996,
     "endYear": 2002,
@@ -12142,7 +12142,7 @@
   },
   {
     "coach": "Dave Pilipovich",
-    "school": "Air Force",
+    "school": "Air Force Falcons",
     "espnId": 2005,
     "startYear": 2012,
     "endYear": 2020,
@@ -12161,7 +12161,7 @@
   },
   {
     "coach": "Eric Musselman",
-    "school": "Nevada",
+    "school": "Nevada Wolf Pack",
     "espnId": 2440,
     "startYear": 2016,
     "endYear": 2019,
@@ -12180,7 +12180,7 @@
   },
   {
     "coach": "Steve Henson",
-    "school": "UTSA",
+    "school": "UTSA Roadrunners",
     "espnId": 2636,
     "startYear": 2017,
     "endYear": 2024,
@@ -12199,8 +12199,8 @@
   },
   {
     "coach": "Mark Pope",
-    "school": "Brigham Young",
-    "espnId": 252,
+    "school": "Brigham Young Cougars",
+    "espnId": 0,
     "startYear": 2020,
     "endYear": 2024,
     "wins": 110,
@@ -12218,7 +12218,7 @@
   },
   {
     "coach": "Lennie Acuff",
-    "school": "Lipscomb",
+    "school": "Lipscomb Bisons",
     "espnId": 288,
     "startYear": 2020,
     "endYear": 2025,
@@ -12237,7 +12237,7 @@
   },
   {
     "coach": "Fred Hoiberg",
-    "school": "Nebraska",
+    "school": "Nebraska Cornhuskers",
     "espnId": 158,
     "startYear": 2020,
     "endYear": 2026,
@@ -12256,7 +12256,7 @@
   },
   {
     "coach": "Shaka Smart",
-    "school": "Marquette",
+    "school": "Marquette Golden Eagles",
     "espnId": 269,
     "startYear": 2022,
     "endYear": 2026,
@@ -12275,7 +12275,7 @@
   },
   {
     "coach": "Paul Lizzo",
-    "school": "Long Island University",
+    "school": "Long Island University Sharks",
     "espnId": 112358,
     "startYear": 1985,
     "endYear": 1995,
@@ -12294,7 +12294,7 @@
   },
   {
     "coach": "Jack Bruen",
-    "school": "Colgate",
+    "school": "Colgate Raiders",
     "espnId": 2142,
     "startYear": 1990,
     "endYear": 1998,
@@ -12313,7 +12313,7 @@
   },
   {
     "coach": "Rod Jensen",
-    "school": "Boise State",
+    "school": "Boise State Broncos",
     "espnId": 68,
     "startYear": 1996,
     "endYear": 2002,
@@ -12332,7 +12332,7 @@
   },
   {
     "coach": "Joe DeSantis",
-    "school": "Quinnipiac",
+    "school": "Quinnipiac Bobcats",
     "espnId": 2514,
     "startYear": 1999,
     "endYear": 2007,
@@ -12351,8 +12351,8 @@
   },
   {
     "coach": "Jim Whitesell",
-    "school": "Loyola (IL)",
-    "espnId": 2350,
+    "school": "Loyola (IL) Ramblers",
+    "espnId": 0,
     "startYear": 2005,
     "endYear": 2011,
     "wins": 109,
@@ -12370,7 +12370,7 @@
   },
   {
     "coach": "Billy Donlon",
-    "school": "Wright State",
+    "school": "Wright State Raiders",
     "espnId": 2750,
     "startYear": 2011,
     "endYear": 2016,
@@ -12389,7 +12389,7 @@
   },
   {
     "coach": "Shaka Smart",
-    "school": "Texas",
+    "school": "Texas Longhorns",
     "espnId": 251,
     "startYear": 2016,
     "endYear": 2021,
@@ -12408,7 +12408,7 @@
   },
   {
     "coach": "Steve Smiley",
-    "school": "Northern Colorado",
+    "school": "Northern Colorado Bears",
     "espnId": 2458,
     "startYear": 2021,
     "endYear": 2026,
@@ -12427,7 +12427,7 @@
   },
   {
     "coach": "Steve Forbes",
-    "school": "Wake Forest",
+    "school": "Wake Forest Demon Deacons",
     "espnId": 154,
     "startYear": 2021,
     "endYear": 2026,
@@ -12446,7 +12446,7 @@
   },
   {
     "coach": "Rick Barnes",
-    "school": "Providence",
+    "school": "Providence Friars",
     "espnId": 2507,
     "startYear": 1989,
     "endYear": 1994,
@@ -12465,7 +12465,7 @@
   },
   {
     "coach": "Alan LeForce",
-    "school": "East Tennessee State",
+    "school": "East Tennessee State Buccaneers",
     "espnId": 2193,
     "startYear": 1991,
     "endYear": 1996,
@@ -12484,7 +12484,7 @@
   },
   {
     "coach": "Seth Greenberg",
-    "school": "South Florida",
+    "school": "South Florida Bulls",
     "espnId": 58,
     "startYear": 1997,
     "endYear": 2003,
@@ -12503,7 +12503,7 @@
   },
   {
     "coach": "Mike MacDonald",
-    "school": "Canisius",
+    "school": "Canisius Golden Griffins",
     "espnId": 2099,
     "startYear": 1998,
     "endYear": 2006,
@@ -12522,7 +12522,7 @@
   },
   {
     "coach": "Tommy Amaker",
-    "school": "Michigan",
+    "school": "Michigan Wolverines",
     "espnId": 130,
     "startYear": 2002,
     "endYear": 2007,
@@ -12541,7 +12541,7 @@
   },
   {
     "coach": "Reggie Witherspoon",
-    "school": "Canisius",
+    "school": "Canisius Golden Griffins",
     "espnId": 2099,
     "startYear": 2017,
     "endYear": 2024,
@@ -12560,7 +12560,7 @@
   },
   {
     "coach": "Matt Lottich",
-    "school": "Valparaiso",
+    "school": "Valparaiso Beacons",
     "espnId": 2674,
     "startYear": 2017,
     "endYear": 2023,
@@ -12579,7 +12579,7 @@
   },
   {
     "coach": "Bob Reinhart",
-    "school": "Georgia State",
+    "school": "Georgia State Panthers",
     "espnId": 2247,
     "startYear": 1986,
     "endYear": 1994,
@@ -12598,7 +12598,7 @@
   },
   {
     "coach": "Brad Huse",
-    "school": "Montana State",
+    "school": "Montana State Bobcats",
     "espnId": 147,
     "startYear": 2007,
     "endYear": 2014,
@@ -12617,7 +12617,7 @@
   },
   {
     "coach": "Billy Kennedy",
-    "school": "Murray State",
+    "school": "Murray State Racers",
     "espnId": 93,
     "startYear": 2007,
     "endYear": 2011,
@@ -12636,8 +12636,8 @@
   },
   {
     "coach": "Cameron Dollar",
-    "school": "Seattle",
-    "espnId": 2547,
+    "school": "Seattle Redhawks",
+    "espnId": 0,
     "startYear": 2010,
     "endYear": 2017,
     "wins": 107,
@@ -12655,7 +12655,7 @@
   },
   {
     "coach": "Ron Hunter",
-    "school": "Tulane",
+    "school": "Tulane Green Wave",
     "espnId": 2655,
     "startYear": 2020,
     "endYear": 2026,
@@ -12674,7 +12674,7 @@
   },
   {
     "coach": "Terrence Johnson",
-    "school": "Texas State",
+    "school": "Texas State Bobcats",
     "espnId": 326,
     "startYear": 2021,
     "endYear": 2026,
@@ -12693,7 +12693,7 @@
   },
   {
     "coach": "J.D. Barnett",
-    "school": "Tulsa",
+    "school": "Tulsa Golden Hurricane",
     "espnId": 202,
     "startYear": 1986,
     "endYear": 1991,
@@ -12712,7 +12712,7 @@
   },
   {
     "coach": "Rudy Keeling",
-    "school": "Maine",
+    "school": "Maine Black Bears",
     "espnId": 311,
     "startYear": 1989,
     "endYear": 1996,
@@ -12731,7 +12731,7 @@
   },
   {
     "coach": "John MacLeod",
-    "school": "Notre Dame",
+    "school": "Notre Dame Fighting Irish",
     "espnId": 87,
     "startYear": 1992,
     "endYear": 1999,
@@ -12750,7 +12750,7 @@
   },
   {
     "coach": "Bob Bender",
-    "school": "Washington",
+    "school": "Washington Huskies",
     "espnId": 264,
     "startYear": 1994,
     "endYear": 2002,
@@ -12769,8 +12769,8 @@
   },
   {
     "coach": "Tom Sullivan",
-    "school": "Maryland-Baltimore County",
-    "espnId": 2378,
+    "school": "Maryland-Baltimore County Retrievers",
+    "espnId": 0,
     "startYear": 1996,
     "endYear": 2004,
     "wins": 106,
@@ -12788,7 +12788,7 @@
   },
   {
     "coach": "Hugh Durham",
-    "school": "Jacksonville",
+    "school": "Jacksonville Dolphins",
     "espnId": 294,
     "startYear": 1998,
     "endYear": 2005,
@@ -12807,7 +12807,7 @@
   },
   {
     "coach": "Kyle Macy",
-    "school": "Morehead State",
+    "school": "Morehead State Eagles",
     "espnId": 2413,
     "startYear": 1998,
     "endYear": 2006,
@@ -12826,7 +12826,7 @@
   },
   {
     "coach": "Jim Hayford",
-    "school": "Eastern Washington",
+    "school": "Eastern Washington Eagles",
     "espnId": 331,
     "startYear": 2012,
     "endYear": 2017,
@@ -12845,7 +12845,7 @@
   },
   {
     "coach": "Paul Lusk",
-    "school": "Missouri State",
+    "school": "Missouri State Bears",
     "espnId": 2623,
     "startYear": 2012,
     "endYear": 2018,
@@ -12864,7 +12864,7 @@
   },
   {
     "coach": "Paul Mills",
-    "school": "Oral Roberts",
+    "school": "Oral Roberts Golden Eagles",
     "espnId": 198,
     "startYear": 2018,
     "endYear": 2023,
@@ -12883,7 +12883,7 @@
   },
   {
     "coach": "Dana Ford",
-    "school": "Missouri State",
+    "school": "Missouri State Bears",
     "espnId": 2623,
     "startYear": 2019,
     "endYear": 2024,
@@ -12902,7 +12902,7 @@
   },
   {
     "coach": "Paul Westhead",
-    "school": "Loyola Marymount",
+    "school": "Loyola Marymount Lions",
     "espnId": 2351,
     "startYear": 1986,
     "endYear": 1990,
@@ -12921,7 +12921,7 @@
   },
   {
     "coach": "Seth Greenberg",
-    "school": "Long Beach State",
+    "school": "Long Beach State Beach",
     "espnId": 299,
     "startYear": 1991,
     "endYear": 1996,
@@ -12940,7 +12940,7 @@
   },
   {
     "coach": "Ed DeChellis",
-    "school": "East Tennessee State",
+    "school": "East Tennessee State Buccaneers",
     "espnId": 2193,
     "startYear": 1997,
     "endYear": 2003,
@@ -12959,8 +12959,8 @@
   },
   {
     "coach": "Greg Herenda",
-    "school": "FDU",
-    "espnId": 161,
+    "school": "FDU Knights",
+    "espnId": 0,
     "startYear": 2014,
     "endYear": 2022,
     "wins": 105,
@@ -12978,8 +12978,8 @@
   },
   {
     "coach": "Will Wade",
-    "school": "Louisiana State",
-    "espnId": 99,
+    "school": "Louisiana State Fighting Tigers",
+    "espnId": 0,
     "startYear": 2018,
     "endYear": 2022,
     "wins": 105,
@@ -12997,8 +12997,8 @@
   },
   {
     "coach": "Brian Barone",
-    "school": "Southern Illinois-Edwardsville",
-    "espnId": 2565,
+    "school": "Southern Illinois-Edwardsville Cougars",
+    "espnId": 0,
     "startYear": 2020,
     "endYear": 2026,
     "wins": 105,
@@ -13016,7 +13016,7 @@
   },
   {
     "coach": "Speedy Claxton",
-    "school": "Hofstra",
+    "school": "Hofstra Pride",
     "espnId": 2275,
     "startYear": 2022,
     "endYear": 2026,
@@ -13035,7 +13035,7 @@
   },
   {
     "coach": "Benny Dees",
-    "school": "Wyoming",
+    "school": "Wyoming Cowboys",
     "espnId": 2751,
     "startYear": 1988,
     "endYear": 1993,
@@ -13073,7 +13073,7 @@
   },
   {
     "coach": "Lon Kruger",
-    "school": "Florida",
+    "school": "Florida Gators",
     "espnId": 57,
     "startYear": 1991,
     "endYear": 1996,
@@ -13092,7 +13092,7 @@
   },
   {
     "coach": "Jan Van Breda Kolff",
-    "school": "Vanderbilt",
+    "school": "Vanderbilt Commodores",
     "espnId": 238,
     "startYear": 1994,
     "endYear": 1999,
@@ -13111,7 +13111,7 @@
   },
   {
     "coach": "John Beilein",
-    "school": "West Virginia",
+    "school": "West Virginia Mountaineers",
     "espnId": 277,
     "startYear": 2003,
     "endYear": 2007,
@@ -13130,7 +13130,7 @@
   },
   {
     "coach": "Tim Jankovich",
-    "school": "Illinois State",
+    "school": "Illinois State Redbirds",
     "espnId": 2287,
     "startYear": 2008,
     "endYear": 2012,
@@ -13149,7 +13149,7 @@
   },
   {
     "coach": "Kelvin Sampson",
-    "school": "Washington State",
+    "school": "Washington State Cougars",
     "espnId": 265,
     "startYear": 1988,
     "endYear": 1994,
@@ -13168,8 +13168,8 @@
   },
   {
     "coach": "Buzz Peterson",
-    "school": "Appalachian State",
-    "espnId": 2026,
+    "school": "Appalachian State Mountaineers",
+    "espnId": 0,
     "startYear": 1997,
     "endYear": 2010,
     "wins": 103,
@@ -13187,7 +13187,7 @@
   },
   {
     "coach": "Murry Bartow",
-    "school": "UAB",
+    "school": "UAB Blazers",
     "espnId": 5,
     "startYear": 1997,
     "endYear": 2002,
@@ -13206,7 +13206,7 @@
   },
   {
     "coach": "Lefty Driesell",
-    "school": "Georgia State",
+    "school": "Georgia State Panthers",
     "espnId": 2247,
     "startYear": 1998,
     "endYear": 2003,
@@ -13225,7 +13225,7 @@
   },
   {
     "coach": "Craig Esherick",
-    "school": "Georgetown",
+    "school": "Georgetown Hoyas",
     "espnId": 46,
     "startYear": 1999,
     "endYear": 2004,
@@ -13244,7 +13244,7 @@
   },
   {
     "coach": "Tevester Anderson",
-    "school": "Murray State",
+    "school": "Murray State Racers",
     "espnId": 93,
     "startYear": 1999,
     "endYear": 2003,
@@ -13263,7 +13263,7 @@
   },
   {
     "coach": "Bruce Weber",
-    "school": "Southern Illinois",
+    "school": "Southern Illinois Salukis",
     "espnId": 79,
     "startYear": 1999,
     "endYear": 2003,
@@ -13282,7 +13282,7 @@
   },
   {
     "coach": "Dale Layer",
-    "school": "Colorado State",
+    "school": "Colorado State Rams",
     "espnId": 36,
     "startYear": 2001,
     "endYear": 2007,
@@ -13301,7 +13301,7 @@
   },
   {
     "coach": "Geno Ford",
-    "school": "Stony Brook",
+    "school": "Stony Brook Seawolves",
     "espnId": 2619,
     "startYear": 2020,
     "endYear": 2026,
@@ -13320,7 +13320,7 @@
   },
   {
     "coach": "Shelby Metcalf",
-    "school": "Texas A&M",
+    "school": "Texas A&M Aggies",
     "espnId": 245,
     "startYear": 1985,
     "endYear": 1990,
@@ -13339,7 +13339,7 @@
   },
   {
     "coach": "Jack Margenthaler",
-    "school": "Western Illinois",
+    "school": "Western Illinois Leathernecks",
     "espnId": 2710,
     "startYear": 1985,
     "endYear": 1992,
@@ -13358,7 +13358,7 @@
   },
   {
     "coach": "Tony Barone",
-    "school": "Creighton",
+    "school": "Creighton Bluejays",
     "espnId": 156,
     "startYear": 1986,
     "endYear": 1991,
@@ -13377,7 +13377,7 @@
   },
   {
     "coach": "Zach Spiker",
-    "school": "Army",
+    "school": "Army Black Knights",
     "espnId": 349,
     "startYear": 2010,
     "endYear": 2016,
@@ -13396,7 +13396,7 @@
   },
   {
     "coach": "Todd Golden",
-    "school": "Florida",
+    "school": "Florida Gators",
     "espnId": 57,
     "startYear": 2023,
     "endYear": 2026,
@@ -13415,7 +13415,7 @@
   },
   {
     "coach": "Mike Jarvis",
-    "school": "Boston University",
+    "school": "Boston University Terriers",
     "espnId": 104,
     "startYear": 1986,
     "endYear": 1990,
@@ -13434,7 +13434,7 @@
   },
   {
     "coach": "Bill C. Foster",
-    "school": "Virginia Tech",
+    "school": "Virginia Tech Hokies",
     "espnId": 259,
     "startYear": 1992,
     "endYear": 1997,
@@ -13453,7 +13453,7 @@
   },
   {
     "coach": "Joe Dooley",
-    "school": "East Carolina",
+    "school": "East Carolina Pirates",
     "espnId": 151,
     "startYear": 1996,
     "endYear": 2022,
@@ -13472,7 +13472,7 @@
   },
   {
     "coach": "Larry Eustachy",
-    "school": "Iowa State",
+    "school": "Iowa State Cyclones",
     "espnId": 66,
     "startYear": 1999,
     "endYear": 2003,
@@ -13491,7 +13491,7 @@
   },
   {
     "coach": "Doc Sadler",
-    "school": "Nebraska",
+    "school": "Nebraska Cornhuskers",
     "espnId": 158,
     "startYear": 2007,
     "endYear": 2012,
@@ -13510,7 +13510,7 @@
   },
   {
     "coach": "Louis Orr",
-    "school": "Bowling Green",
+    "school": "Bowling Green Falcons",
     "espnId": 189,
     "startYear": 2008,
     "endYear": 2014,
@@ -13529,7 +13529,7 @@
   },
   {
     "coach": "Kyle Smith",
-    "school": "Columbia",
+    "school": "Columbia Lions",
     "espnId": 171,
     "startYear": 2011,
     "endYear": 2016,
@@ -13548,7 +13548,7 @@
   },
   {
     "coach": "Michael White",
-    "school": "Louisiana Tech",
+    "school": "Louisiana Tech Bulldogs",
     "espnId": 2348,
     "startYear": 2012,
     "endYear": 2015,
@@ -13567,7 +13567,7 @@
   },
   {
     "coach": "Jamion Christian",
-    "school": "Mount St. Mary's",
+    "school": "Mount St. Mary's Mountaineers",
     "espnId": 116,
     "startYear": 2013,
     "endYear": 2018,
@@ -13585,8 +13585,27 @@
     "years": "2013-2018"
   },
   {
+    "coach": "Chris Victor",
+    "school": "Seattle Redhawks",
+    "espnId": 0,
+    "startYear": 2022,
+    "endYear": 2026,
+    "wins": 101,
+    "losses": 66,
+    "winPct": 0.605,
+    "tournamentApps": 0,
+    "sweet16": 0,
+    "elite8": 0,
+    "finalFour": 0,
+    "champGame": 0,
+    "titles": 0,
+    "confRegularSeason": 1,
+    "confTournament": 0,
+    "years": "2022-2026"
+  },
+  {
     "coach": "Mark Prosser",
-    "school": "Winthrop",
+    "school": "Winthrop Eagles",
     "espnId": 2737,
     "startYear": 2022,
     "endYear": 2026,
@@ -13605,7 +13624,7 @@
   },
   {
     "coach": "Don Monson",
-    "school": "Oregon",
+    "school": "Oregon Ducks",
     "espnId": 2483,
     "startYear": 1985,
     "endYear": 1992,
@@ -13624,7 +13643,7 @@
   },
   {
     "coach": "Jack Armstrong",
-    "school": "Niagara",
+    "school": "Niagara Purple Eagles",
     "espnId": 315,
     "startYear": 1990,
     "endYear": 1998,
@@ -13662,7 +13681,7 @@
   },
   {
     "coach": "Mike Deane",
-    "school": "Marquette",
+    "school": "Marquette Golden Eagles",
     "espnId": 269,
     "startYear": 1995,
     "endYear": 1999,
@@ -13681,7 +13700,7 @@
   },
   {
     "coach": "John Beilein",
-    "school": "Richmond",
+    "school": "Richmond Spiders",
     "espnId": 257,
     "startYear": 1998,
     "endYear": 2002,
@@ -13700,7 +13719,7 @@
   },
   {
     "coach": "Dennis Felton",
-    "school": "Western Kentucky",
+    "school": "Western Kentucky Hilltoppers",
     "espnId": 98,
     "startYear": 1999,
     "endYear": 2003,
@@ -13719,7 +13738,7 @@
   },
   {
     "coach": "Buzz Williams",
-    "school": "Virginia Tech",
+    "school": "Virginia Tech Hokies",
     "espnId": 259,
     "startYear": 2015,
     "endYear": 2019,
@@ -13738,7 +13757,7 @@
   },
   {
     "coach": "Wes Miller",
-    "school": "Cincinnati",
+    "school": "Cincinnati Bearcats",
     "espnId": 2132,
     "startYear": 2022,
     "endYear": 2026,
@@ -13752,25 +13771,6 @@
     "champGame": 0,
     "titles": 0,
     "confRegularSeason": 0,
-    "confTournament": 0,
-    "years": "2022-2026"
-  },
-  {
-    "coach": "Chris Victor",
-    "school": "Seattle",
-    "espnId": 2547,
-    "startYear": 2022,
-    "endYear": 2026,
-    "wins": 100,
-    "losses": 66,
-    "winPct": 0.602,
-    "tournamentApps": 0,
-    "sweet16": 0,
-    "elite8": 0,
-    "finalFour": 0,
-    "champGame": 0,
-    "titles": 0,
-    "confRegularSeason": 1,
     "confTournament": 0,
     "years": "2022-2026"
   }
